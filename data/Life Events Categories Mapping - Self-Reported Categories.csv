@@ -1,0 +1,1075 @@
+SR_LifeEvent,LifeEventFinal,LifeEventFamily,LifeEventFamily2,Anticipation,Intimacy,Scope
+"Became pregnant, birth of a first or later child; adopted a child",AdoptedChild,Personal,HavingChildren,Anticipated,2,2
+Was working on an adoption,AdoptedChild,Personal,HavingChildren,Anticipated,2,2
+Conflict with parents,ArgumentInFamily,Personal,Family,Unanticipated,3,2
+Assaulted,Assaulted,Personal,CrimeAndLegal,Unanticipated,3,3
+assaulted,Assaulted,Personal,CrimeAndLegal,Unanticipated,3,3
+Accepted to Business School,BackToSchool,School,School,Anticipated,1,2
+College Class/Exam,BackToSchool,School,School,Anticipated,1,2
+Graduate level class,BackToSchool,School,School,Anticipated,1,2
+Graduate-level PhD class,BackToSchool,School,School,Anticipated,1,2
+kids back in school,BackToSchool,School,School,Anticipated,1,2
+night classes,BackToSchool,School,School,Anticipated,1,2
+Started Grad School,BackToSchool,School,School,Anticipated,1,2
+Started taking acting classes,BackToSchool,School,School,Anticipated,1,2
+Took a certification exam to further my nursing education,BackToSchool,School,School,Anticipated,1,2
+Wife started grad school,BackToSchool,School,School,Anticipated,1,2
+Daughter left for college,BackToSchool,School,School,Anticipated,1,2
+Oldest child moved out for college,BackToSchool,School,School,Anticipated,1,2
+partner started as full time student,BackToSchool,School,School,Anticipated,1,2
+Began work socializing program,BackToWork,Work,Work,Anticipated,2,3
+first day at new job,BackToWork,Work,Work,Anticipated,2,3
+"maternity leave, return to work",BackToWork,Work,Work,Anticipated,2,3
+New job - freelance,BackToWork,Work,Work,Anticipated,2,3
+Returned to work after a long time,BackToWork,Work,Work,Anticipated,2,3
+2019 Polar Vortex,BadWeather,Local,Local,Unanticipated,1,1
+AC broke - excessive heat,BadWeather,Local,Local,Unanticipated,1,1
+Below 0 temps-polar vortex,BadWeather,Local,Local,Unanticipated,1,1
+bitter cold - pipes in house froze,BadWeather,Local,Local,Unanticipated,1,1
+Bizzard,BadWeather,Local,Local,Unanticipated,1,1
+Blizard - had to work from home for a week.,BadWeather,Local,Local,Unanticipated,1,1
+Blizzard,BadWeather,Local,Local,Unanticipated,1,1
+Blizzard and Artic Blast,BadWeather,Local,Local,Unanticipated,1,1
+Blizzard/bomb cyclone,BadWeather,Local,Local,Unanticipated,1,1
+Blizzard/Ice Storm,BadWeather,Local,Local,Unanticipated,1,1
+Bomb cyclone,BadWeather,Local,Local,Unanticipated,1,1
+chicago polar vortex,BadWeather,Local,Local,Unanticipated,1,1
+Cold Advisory/State closed,BadWeather,Local,Local,Unanticipated,1,1
+cold days,BadWeather,Local,Local,Unanticipated,1,1
+Cold weather,BadWeather,Local,Local,Unanticipated,1,1
+excessive heat and humidity Summer 2018,BadWeather,Local,Local,Unanticipated,1,1
+extreme cold,BadWeather,Local,Local,Unanticipated,1,1
+Extreme Cold,BadWeather,Local,Local,Unanticipated,1,1
+Extreme cold,BadWeather,Local,Local,Unanticipated,1,1
+extreme cold weather,BadWeather,Local,Local,Unanticipated,1,1
+extreme cold1,BadWeather,Local,Local,Unanticipated,1,1
+Fires - Smoke,BadWeather,Local,Local,Unanticipated,1,1
+Flood,BadWeather,Local,Local,Unanticipated,1,1
+Freeze,BadWeather,Local,Local,Unanticipated,1,1
+Heavy snow,BadWeather,Local,Local,Unanticipated,1,1
+Hurricane Michael,BadWeather,Local,Local,Unanticipated,1,1
+"I moved to Washington, DC in August 2018. I hate summer. The heat and humidity have been very high and it restricts the amount of outdoor activity I can do",BadWeather,Local,Local,Unanticipated,1,1
+Ice storm power outage,BadWeather,Local,Local,Unanticipated,1,1
+In January of 2019 we experienced severe cold weather and the university closed.,BadWeather,Local,Local,Unanticipated,1,1
+Lot of snow,BadWeather,Local,Local,Unanticipated,1,1
+Polar Vortex,BadWeather,Local,Local,Unanticipated,1,1
+polar vortex,BadWeather,Local,Local,Unanticipated,1,1
+Polar vortex,BadWeather,Local,Local,Unanticipated,1,1
+Polar Vortex - University closed,BadWeather,Local,Local,Unanticipated,1,1
+Tornado event,BadWeather,Local,Local,Unanticipated,1,1
+Tornado warning,BadWeather,Local,Local,Unanticipated,1,1
+ice storm,BadWeather,Local,Local,Unanticipated,1,1
+Extreme winter weather,BadWeather,Local,Local,Unanticipated,1,1
+Extremely low temps,BadWeather,Local,Local,Unanticipated,1,1
+snow days,BadWeather,Local,Local,Unanticipated,1,1
+blizzard,BadWeather,Local,Local,Unanticipated,1,1
+blizzard,BadWeather,Local,Local,Unanticipated,1,1
+Winter Vortex,BadWeather,Local,Local,Unanticipated,1,1
+Polar Vortex and extreme cold,BadWeather,Local,Local,Unanticipated,1,1
+Blizzard / Work Closure,BadWeather,Local,Local,Unanticipated,1,1
+weather,BadWeather,Local,Local,Unanticipated,1,1
+Began to have doubts about management,BadWorkLife,Work,Work,Unanticipated,3,3
+Change of Admin to shitty leaders,BadWorkLife,Work,Work,Unanticipated,3,3
+Co-worker Conflict,BadWorkLife,Work,Work,Unanticipated,3,3
+Conditions at work deteriorated,BadWorkLife,Work,Work,Unanticipated,3,3
+Conditions at work got much worse,BadWorkLife,Work,Work,Unanticipated,3,3
+Disagreement on feature release,BadWorkLife,Work,Work,Unanticipated,3,3
+Fight with Boss,BadWorkLife,Work,Work,Unanticipated,3,3
+"Given more responsibilities in my job, which made me realize I don't want to work in this job anymore",BadWorkLife,Work,Work,Unanticipated,3,3
+Got in trouble at work,BadWorkLife,Work,Work,Unanticipated,3,3
+Had conflict with a boss or coworker,BadWorkLife,Work,Work,Unanticipated,3,3
+Had conflict with coworkers reporting to me,BadWorkLife,Work,Work,Unanticipated,3,3
+Had to fire somebody,BadWorkLife,Work,Work,Unanticipated,3,3
+I quit my job,BadWorkLife,Work,Work,Unanticipated,3,3
+Important Tech Issue that cause high level stress,BadWorkLife,Work,Work,Unanticipated,3,3
+inadvertently soured relationship with another department and attempts to mend the situation have failed,BadWorkLife,Work,Work,Unanticipated,3,3
+Mentor a difficult person,BadWorkLife,Work,Work,Unanticipated,3,3
+No promotion,BadWorkLife,Work,Work,Unanticipated,3,3
+old manager said i had an attitude problem,BadWorkLife,Work,Work,Unanticipated,3,3
+Other employees were hired at higher position than me that had less knowledge than me.,BadWorkLife,Work,Work,Unanticipated,3,3
+Received borderline poor performance review,BadWorkLife,Work,Work,Unanticipated,3,3
+Stressed about a coworker leaving,BadWorkLife,Work,Work,Unanticipated,3,3
+Boss thought i was constantly lying,BossTrouble,Work,Work,Unanticipated,3,3
+Challenging relationship with boss,BossTrouble,Work,Work,Unanticipated,3,3
+Company founder left the business,BossTrouble,Work,Work,Unanticipated,3,3
+Conflict with boss,BossTrouble,Work,Work,Unanticipated,3,3
+Conflict with Boss,BossTrouble,Work,Work,Unanticipated,3,3
+Conflict with coworker,BossTrouble,Work,Work,Unanticipated,3,3
+conflict with coworker,BossTrouble,Work,Work,Unanticipated,3,3
+Company winter event,BreakFromWork,Work,Work,Anticipated,2,3
+Time Off For Holidays,BreakFromWork,Work,Work,Anticipated,2,3
+Went on FMLA Leave,BreakFromWork,Work,Work,Anticipated,2,3
+went part-time at work,BreakFromWork,Work,Work,Anticipated,2,3
+Break up,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+break up,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Breakup,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Breakup with significant other,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with Boyfriend,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with boyfriend,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with boyfriend (got back together five days later),BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with friends,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with my boyfriend,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Broke up with partner,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Cut off a friend / alcoholic,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+partner got an STD and we broke up,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+"Personal relationship ""breakup""",BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Relationship break up,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+Ended a significant relationship and my dog died,BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2
+"Changed church, moved into a new home with pets, and broke up with some friends",BrokenFriendship,Personal,SocialActivities,Unanticipated,3,2
+Dad died,BrokenFriendship,Personal,SocialActivities,Unanticipated,3,2
+Lost contact of recent BFF,BrokenFriendship,Personal,SocialActivities,Unanticipated,3,2
+"My best friend Jim (he had been helping me remodel my home since 2006) basically dropped out of my life when he found out that I was having Lowes do my kitchen.  I paid my friend (against his wishes but he needed the cash) to work on my home - but I was tired of it taking forever to get done so I went to Lowes to get the kitchen finished in a matter of months rather than years.  He didn't say it hurt his feelings, but he suddenly stopped really being ""present""?  I had to go out of my way to have contact.  His birthday is Jan 14, we arranged to go out to eat on 2/14/19 because his SO was going to a concert in Indy.  I spoke to him about the house and my job situation and he got really animated about how I needed to quit my job and move; along with getting really loud.  The next (and last outside of work - he works in a dept that I was in before OIT) I had with him was 3/31/19 - he came over to help me lift Kye (my 90# dog) into the van so I could take him to the Emergency Vet to have him put to sleep.",BrokenFriendship,Personal,SocialActivities,Unanticipated,3,2
+Started building a house,BuildHome,Personal,Residence,Anticipated,2,2
+Building second home,BuildHome,Personal,Residence,Anticipated,2,2
+Bought a house,BuildHome,Personal,Residence,Anticipated,2,2
+Bought a house,BuildHome,Personal,Residence,Anticipated,2,2
+Purchased new house,BuildHome,Personal,Residence,Anticipated,2,2
+New home purchase,BuildHome,Personal,Residence,Anticipated,2,2
+Purchased / Sold Home,BuildHome,Personal,Residence,Anticipated,2,2
+"Became pregnant, birth of a first or later child; adopted a child",ChildBirth,Personal,HavingChildren,Anticipated,2,2
+birth of a child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of a child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+birth of child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth Of Child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of Child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of Chile,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of first child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+birth of grandchild,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of Granddaughter,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of my daughter,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+birth of niece,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of Son,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Child was in NICU after being born,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Found out I had a nephew on the way,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Off work for new child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+paternity leave,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Pregnancy/ new baby,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Birth of first Child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Parental leave from birth of child,ChildBirth,Personal,HavingChildren,Anticipated,2,2
+Bereavement leave,DeathInFamily,Personal,Family,Unanticipated,2,2
+Death of aunt,DeathInFamily,Personal,Family,Unanticipated,2,2
+death of family member,DeathInFamily,Personal,Family,Unanticipated,2,2
+Death of father,DeathInFamily,Personal,Family,Unanticipated,2,2
+Death of grandma,DeathInFamily,Personal,Family,Unanticipated,2,2
+death of loved one,DeathInFamily,Personal,Family,Unanticipated,2,2
+Doris's Funeral,DeathInFamily,Personal,Family,Unanticipated,2,2
+Family death,DeathInFamily,Personal,Family,Unanticipated,2,2
+Father died,DeathInFamily,Personal,Family,Unanticipated,2,2
+Funeral,DeathInFamily,Personal,Family,Unanticipated,2,2
+"Grandma died   (the previous personal event is wrong date, it should be april 2018 - i messed up and can't go back)",DeathInFamily,Personal,Family,Unanticipated,2,2
+Grandma's funeral,DeathInFamily,Personal,Family,Unanticipated,2,2
+grandpa died,DeathInFamily,Personal,Family,Unanticipated,2,2
+Hospitalizations and Dealth of a family member,DeathInFamily,Personal,Family,Unanticipated,2,2
+loss of family member,DeathInFamily,Personal,Family,Unanticipated,2,2
+loss of father-in-law,DeathInFamily,Personal,Family,Unanticipated,2,2
+Memorial service for mother,DeathInFamily,Personal,Family,Unanticipated,2,2
+Mother passed away,DeathInFamily,Personal,Family,Unanticipated,2,2
+Mother-in-law died,DeathInFamily,Personal,Family,Unanticipated,2,2
+Multiple Deaths in family within 1 week,DeathInFamily,Personal,Family,Unanticipated,2,2
+Sister passed away,DeathInFamily,Personal,Family,Unanticipated,2,2
+vacation / someone died,DeathInFamily,Personal,Family,Unanticipated,2,2
+death of sibling,DeathInFamily,Personal,Family,Unanticipated,2,2
+death of close family member,DeathInFamily,Personal,Family,Unanticipated,2,2
+death,DeathInFamily,Personal,Family,Unanticipated,2,2
+My dad passed away after a lengthy illness with Alzheimers,DeathInFamily,Personal,Family,Unanticipated,2,2
+sickness/death of loved on,DeathInFamily,Personal,Family,Unanticipated,2,2
+Wife's cousin funeral,DeathInFamily,Personal,Family,Unanticipated,2,2
+Divorce,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Divorce Settlement,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Divorce started,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Finalization of divorce,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Parents Divorced,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Separation,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Divorce Filed by spouse,Divorce,Personal,LoveAndMarriage,Anticipated,3,2
+Took a break from photography hobby,DroppedHobby,Personal,SocialActivities,Anticipated,2,3
+Engaged,Engaged,Personal,LoveAndMarriage,Anticipated,2,2
+Engagement,Engaged,Personal,LoveAndMarriage,Anticipated,2,2
+Got engaged,Engaged,Personal,LoveAndMarriage,Anticipated,2,2
+replacement hired,Expansion,Work,Work,Anticipated,1,1
+Hired new team,Expansion,Work,Work,Anticipated,1,1
+New Team at Work,Expansion,Work,Work,Anticipated,1,1
+infertility,FertilityIssue,Personal,HavingChildren,Unanticipated,3,3
+Infertility,FertilityIssue,Personal,HavingChildren,Unanticipated,3,3
+Car died suddenly/emergency need to get a new car,FinancialLoss,Financial,Financial,Unanticipated,3,2
+diverticulitises,FinancialLoss,Financial,Financial,Unanticipated,3,2
+divestiture,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Financial Loss in Stocks,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Forced to sell grandparents home at auction,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Large payment for kids dance classes,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Loan for vet bills,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Owned much larger amount of tax than expected,FinancialLoss,Financial,Financial,Unanticipated,3,2
+struggle with money at end of every month,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Tree Crashed into house,FinancialLoss,Financial,Financial,Unanticipated,3,2
+old truck died (bought new one),FinancialLoss,Financial,Financial,Unanticipated,3,2
+Financial issue,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Struggled with financial bills,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Spouse was unemployed,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Air conditioner stopped working,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Lynne's Surgery Bill,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Paid off 2 vehicles and refinanced one to pay off high interest credit cards,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Heavy rainfall causing roof damages,FinancialLoss,Financial,Financial,Unanticipated,3,2
+rain storm caused flooded basement,FinancialLoss,Financial,Financial,Unanticipated,3,2
+Child to College,FinishedSchool,School,School,Anticipated,1,2
+Child's Graduation,FinishedSchool,School,School,Anticipated,1,2
+HELOC to finish Barn,FinishedSchool,School,School,Anticipated,1,2
+kids out of school,FinishedSchool,School,School,Anticipated,1,2
+Coworker fired,Fired,Work,Work,Unanticipated,3,3
+Doris's Funeral,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+lost a friend/significant other,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+Death of a friend,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+death of Stephen Hawking,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+Death of high school friend,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+death of Alan Bean,FriendDied,Personal,SocialActivities,Unanticipated,2,2
+Regained custody of children,GainedChildCustody,Personal,HavingChildren,Unanticipated,3,2
+changed to working mid shifts rather than nights and only working 2 shifts a week,GoodWorkLife,Work,Work,Anticipated,1,1
+Reduced workload,GoodWorkLife,Work,Work,Anticipated,1,1
+Work Balance,GoodWorkLife,Work,Work,Anticipated,1,1
+bonus,GotBonus,Work,Work,Unanticipated,3,3
+Bonus,GotBonus,Work,Work,Unanticipated,3,3
+Bonus - Stocks,GotBonus,Work,Work,Unanticipated,3,3
+"Bonus, pay raise",GotBonus,Work,Work,Unanticipated,3,3
+Bonus/Raise,GotBonus,Work,Work,Unanticipated,3,3
+bonuses,GotBonus,Work,Work,Unanticipated,3,3
+Bonuses,GotBonus,Work,Work,Unanticipated,3,3
+Bonuses - Stocks,GotBonus,Work,Work,Unanticipated,3,3
+end of year bonus received,GotBonus,Work,Work,Unanticipated,3,3
+given a raise  for my performance,GotBonus,Work,Work,Unanticipated,3,3
+Got a significant salary increase,GotBonus,Work,Work,Unanticipated,3,3
+increase in wage,GotBonus,Work,Work,Unanticipated,3,3
+Pay Increase,GotBonus,Work,Work,Unanticipated,3,3
+Pay Increase and Bonus,GotBonus,Work,Work,Unanticipated,3,3
+Pay Raise,GotBonus,Work,Work,Unanticipated,3,3
+Performance Bonus,GotBonus,Work,Work,Unanticipated,3,3
+Raise & bonus smaller than expected,GotBonus,Work,Work,Unanticipated,3,3
+Raise and Bonus,GotBonus,Work,Work,Unanticipated,3,3
+Raise in salary,GotBonus,Work,Work,Unanticipated,3,3
+Received bonus,GotBonus,Work,Work,Unanticipated,3,3
+received bonus,GotBonus,Work,Work,Unanticipated,3,3
+Stock Bonus,GotBonus,Work,Work,Unanticipated,3,3
+"Wage increase, no promotion",GotBonus,Work,Work,Unanticipated,3,3
+Work Bonus,GotBonus,Work,Work,Unanticipated,3,3
+Received a very nice bonus,GotBonus,Work,Work,Unanticipated,3,3
+Diet,HealthGain,Health,Health,Anticipated,2,3
+health improved,HealthGain,Health,Health,Anticipated,2,3
+Health Improvements,HealthGain,Health,Health,Anticipated,2,3
+lost 20 lbs,HealthGain,Health,Health,Anticipated,2,3
+Lost weight,HealthGain,Health,Health,Anticipated,2,3
+physical health improve,HealthGain,Health,Health,Anticipated,2,3
+physical health improved - increased activity,HealthGain,Health,Health,Anticipated,2,3
+Stopped drinking,HealthGain,Health,Health,Anticipated,2,3
+weight loss,HealthGain,Health,Health,Anticipated,2,3
+Wisdom teeth removed,HealthGain,Health,Health,Anticipated,2,3
+Started the keto diet,HealthGain,Health,Health,Anticipated,2,3
+better health,HealthGain,Health,Health,Anticipated,2,3
+Anxiety,HealthLoss,Health,Health,Unanticipated,2,3
+Back injury,HealthLoss,Health,Health,Unanticipated,2,3
+Back pain,HealthLoss,Health,Health,Unanticipated,2,3
+broken wrist,HealthLoss,Health,Health,Unanticipated,2,3
+Climbed a 14er on my birthday and got extreme altitude sickness (10 hrs of being sick)),HealthLoss,Health,Health,Unanticipated,2,3
+colonoscopy 4 polyps,HealthLoss,Health,Health,Unanticipated,2,3
+Hospitalizations and Dealth of a family member,HealthLoss,Health,Health,Unanticipated,2,3
+Hurt Knee,HealthLoss,Health,Health,Unanticipated,2,3
+injured knee,HealthLoss,Health,Health,Unanticipated,2,3
+Injured my back,HealthLoss,Health,Health,Unanticipated,2,3
+Injury,HealthLoss,Health,Health,Unanticipated,2,3
+Issues after dentist appointment,HealthLoss,Health,Health,Unanticipated,2,3
+Kidney infection,HealthLoss,Health,Health,Unanticipated,2,3
+"left knee injury, mostly immobile for several weeks",HealthLoss,Health,Health,Unanticipated,2,3
+medical issue,HealthLoss,Health,Health,Unanticipated,2,3
+Midfoot Sprain,HealthLoss,Health,Health,Unanticipated,2,3
+MRSA episode 1,HealthLoss,Health,Health,Unanticipated,2,3
+MRSA episode 2,HealthLoss,Health,Health,Unanticipated,2,3
+mystery symptoms,HealthLoss,Health,Health,Unanticipated,2,3
+New diagnosis,HealthLoss,Health,Health,Unanticipated,2,3
+Personal event - stopped dieting entirely,HealthLoss,Health,Health,Unanticipated,2,3
+personal health issue,HealthLoss,Health,Health,Unanticipated,2,3
+Physical injury,HealthLoss,Health,Health,Unanticipated,2,3
+physical injury,HealthLoss,Health,Health,Unanticipated,2,3
+pneumonia bout,HealthLoss,Health,Health,Unanticipated,2,3
+right hip labral tear,HealthLoss,Health,Health,Unanticipated,2,3
+Sick,HealthLoss,Health,Health,Unanticipated,2,3
+Sick - Stomach Flu,HealthLoss,Health,Health,Unanticipated,2,3
+sick with a cold,HealthLoss,Health,Health,Unanticipated,2,3
+Sickness,HealthLoss,Health,Health,Unanticipated,2,3
+Slammed thumb in car door,HealthLoss,Health,Health,Unanticipated,2,3
+Son had collapsed lung,HealthLoss,Health,Health,Unanticipated,2,3
+son mental illness,HealthLoss,Health,Health,Unanticipated,2,3
+Stopped going to crossfit,HealthLoss,Health,Health,Unanticipated,2,3
+Stress fractured shin,HealthLoss,Health,Health,Unanticipated,2,3
+Threw out back and couldn't walk,HealthLoss,Health,Health,Unanticipated,2,3
+Toothache,HealthLoss,Health,Health,Unanticipated,2,3
+Quit working out regulary,HealthLoss,Health,Health,Unanticipated,2,3
+Sister was diagnosed with breast cancer,HealthLoss,Health,Health,Unanticipated,2,3
+New Diagnosis,HealthLoss,Health,Health,Unanticipated,2,3
+lower back pain,HealthLoss,Health,Health,Unanticipated,2,3
+Ongoing carpal tunnel issues,HealthLoss,Health,Health,Unanticipated,2,3
+mcl sprain,HealthLoss,Health,Health,Unanticipated,2,3
+Cluster headaches daily,HealthLoss,Health,Health,Unanticipated,2,3
+flare up of medical condition,HealthLoss,Health,Health,Unanticipated,2,3
+Diagnosed with breast cancer,HealthLoss,Health,Health,Unanticipated,2,3
+developed tennis elbow,HealthLoss,Health,Health,Unanticipated,2,3
+Illness,HealthLoss,Health,Health,Unanticipated,2,3
+Lymphedema,HealthLoss,Health,Health,Unanticipated,2,3
+Feeling lethargic or depressed,HealthLoss,Health,Health,Unanticipated,2,3
+Kidney stoned,HealthLoss,Health,Health,Unanticipated,2,3
+Worrisome chest pain,HealthLoss,Health,Health,Unanticipated,2,3
+Child Health Issue,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Close family member diagnosed with cancer,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Dad had a stroke,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+dad was having mental health issues,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+dad was suicidal,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Disabled  spouse,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Emergency after child birth,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Family illness (cared for father in law after surgery),HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Family medical emergency,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Father had a stroke,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Grandma's health declined,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Mother diagnosed with kidney failure and congestive heart failure,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+mother had stroke,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Move Dad into nursing home,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+partner got an STD and we broke up,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Wife diagnosed with cancer,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+wife had medical issues (blood clots,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Wife suffered from baby blues,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Wife surgery,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Wife's mother diagnosed with cancer,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Father had heart attack,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Mother's illness- started hospice care,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Liz Mental Health,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+2 children mental health complications,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Husband stroke,HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Newborn health issue (NICU),HealthLossFriendRelative,Health,Health,Unanticipated,2,2
+Mole removed,HealthTreatment,Health,Health,Anticipated,2,3
+Tooth filling,HealthTreatment,Health,Health,Anticipated,2,3
+biopsy,HealthTreatment,Health,Health,Anticipated,2,3
+Travel for medical specialist care,HealthTreatment,Health,Health,Anticipated,2,3
+Ended therapy,HealthTreatment,Health,Health,Anticipated,2,3
+shoulder physical therapy,HealthTreatment,Health,Health,Anticipated,2,3
+Background work,HeavyWork,Work,Work,Unanticipated,2,3
+busy season at work,HeavyWork,Work,Work,Unanticipated,2,3
+covered for colleague,HeavyWork,Work,Work,Unanticipated,2,3
+given responsibility for a huge project that was unexpected,HeavyWork,Work,Work,Unanticipated,2,3
+Got a secondary datacenter up and taking customer traffic with failover capability--a project a long time in the making,HeavyWork,Work,Work,Unanticipated,2,3
+greatly increased work load,HeavyWork,Work,Work,Unanticipated,2,3
+Greatly increased workload,HeavyWork,Work,Work,Unanticipated,2,3
+High demand work project,HeavyWork,Work,Work,Unanticipated,2,3
+I traveled for work a lot during the study. Too many times to list individually,HeavyWork,Work,Work,Unanticipated,2,3
+Increase in workload,HeavyWork,Work,Work,Unanticipated,2,3
+Increased Work Load,HeavyWork,Work,Work,Unanticipated,2,3
+Increased workload,HeavyWork,Work,Work,Unanticipated,2,3
+increased workload,HeavyWork,Work,Work,Unanticipated,2,3
+increased workload/ stress,HeavyWork,Work,Work,Unanticipated,2,3
+Increased Workload/hours,HeavyWork,Work,Work,Unanticipated,2,3
+Large meeting,HeavyWork,Work,Work,Unanticipated,2,3
+Large pressure packed project,HeavyWork,Work,Work,Unanticipated,2,3
+Led a major project,HeavyWork,Work,Work,Unanticipated,2,3
+major work assignment,HeavyWork,Work,Work,Unanticipated,2,3
+"New client, new industry end of year busy season cleint",HeavyWork,Work,Work,Unanticipated,2,3
+New Employee to manage,HeavyWork,Work,Work,Unanticipated,2,3
+New Offsite Project,HeavyWork,Work,Work,Unanticipated,2,3
+Put in Charge of Intern,HeavyWork,Work,Work,Unanticipated,2,3
+Searching for replacement (interviews),HeavyWork,Work,Work,Unanticipated,2,3
+Second busy season - after year-end0,HeavyWork,Work,Work,Unanticipated,2,3
+Took on a greatly increased work load,HeavyWork,Work,Work,Unanticipated,2,3
+"Took on a greatly increased work load,",HeavyWork,Work,Work,Unanticipated,2,3
+Took on a lot more work,HeavyWork,Work,Work,Unanticipated,2,3
+Took on additional work load,HeavyWork,Work,Work,Unanticipated,2,3
+Took on even more work,HeavyWork,Work,Work,Unanticipated,2,3
+Took on more work,HeavyWork,Work,Work,Unanticipated,2,3
+Work - All hands meeting,HeavyWork,Work,Work,Unanticipated,2,3
+Work load and responsibilities increase,HeavyWork,Work,Work,Unanticipated,2,3
+Worked over 400 hours in 5 weeks,HeavyWork,Work,Work,Unanticipated,2,3
+Busy Season 2018,HeavyWork,Work,Work,Unanticipated,2,3
+Took on a greatly increased workload,HeavyWork,Work,Work,Unanticipated,2,3
+Took on additional workload,HeavyWork,Work,Work,Unanticipated,2,3
+I documented all of this in the work note section - sorry it was so long :),HeavyWork,Work,Work,Unanticipated,2,3
+Hospital Stay #1,Hospitalization,Health,Health,Anticipated,2,3
+Hospital Stay #2,Hospitalization,Health,Health,Anticipated,2,3
+Concert,IncreasedSocialActivity,Personal,SocialActivities,Anticipated,1,2
+Joined a Bible Study,IncreasedSocialActivity,Personal,SocialActivities,Anticipated,1,2
+Celebrated New Years with best friends,IncreasedSocialActivity,Personal,SocialActivities,Anticipated,1,2
+music concert,IncreasedSocialActivity,Personal,SocialActivities,Anticipated,1,2
+Infidelity,Infidelity,Personal,LoveAndMarriage,Unanticipated,3,2
+knee injury,Injury,Health,Health,Unanticipated,2,3
+Spouse had a serious accident,InjuryAccident,Health,Health,Unanticipated,2,2
+Adoption Loan (Mortgage),InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought a car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+bought a car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+bought a house,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought a House,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+bought car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought first house,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought House,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+bought house,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Bought new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Brought a car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Buying a new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Dutch Oven Cooking Demo,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Had to replace car.,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Husband purchased new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Purchased car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Purchased House,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Purchased new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+purchased new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+purchased new truck,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Purchased solar panels,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Refinanced house,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Rental Property,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Son's room furniture purchased on payment plan,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+tried to buy a house,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+New Car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Purchased a car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Got a new car,InstallmentPurchase,Financial,Financial,Anticipated,2,2
+Involved in lawsuit,LawSuit,Personal,CrimeAndLegal,Unanticipated,3,3
+Lawsuit with neighbor,LawSuit,Personal,CrimeAndLegal,Unanticipated,3,3
+Lost custody of children,LostChildCustody,Personal,HavingChildren,Unanticipated,3,2
+became engaged,Married,Personal,LoveAndMarriage,Anticipated,2,2
+brother marriage,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Got married,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Got Married,Married,Personal,LoveAndMarriage,Anticipated,2,2
+got married,Married,Personal,LoveAndMarriage,Anticipated,2,2
+"Got Married, Had Surgery",Married,Personal,LoveAndMarriage,Anticipated,2,2
+marraige,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Marriage,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Married,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Sibling's wedding,Married,Personal,LoveAndMarriage,Anticipated,2,2
+wedding,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Wedding,Married,Personal,LoveAndMarriage,Anticipated,2,2
+wedding planning,Married,Personal,LoveAndMarriage,Anticipated,2,2
+Weddy,Married,Personal,LoveAndMarriage,Anticipated,2,2
+starting menopause,Menopause,Health,HavingChildren,Anticipated,3,3
+Miscarriage,MiscarriageStillbirth,Health,HavingChildren,Unanticipated,3,3
+Stillbirth,MiscarriageStillbirth,Health,HavingChildren,Unanticipated,3,3
+crisis,MiscCrisis,Personal,Personal,Unanticipated,3,3
+Got stuck on an elevator at work,MiscCrisis,Personal,Personal,Unanticipated,3,3
+Govt shutdown,MiscCrisis,Personal,Personal,Unanticipated,3,3
+how would I remember this?,MiscCrisis,Personal,Personal,Unanticipated,3,3
+Insect infestation,MiscCrisis,Personal,Personal,Unanticipated,3,3
+Multiple unexpected expenses (some were already described elsewhere),MiscCrisis,Personal,Personal,Unanticipated,3,3
+None,MiscCrisis,Personal,Personal,Unanticipated,3,3
+On demand boiler stopped heating radiant floors,MiscCrisis,Personal,Personal,Unanticipated,3,3
+43405,MiscEvent,Personal,SocialActivities,Anticipated,1,3
+43480,MiscEvent,Personal,SocialActivities,Anticipated,1,3
+ND Day Prep,MiscEvent,Personal,SocialActivities,Anticipated,1,3
+trump,MiscEvent,Personal,SocialActivities,Anticipated,1,3
+Presidential election,MiscEvent,Local,SocialActivities,Anticipated,1,3
+election 2018 -  Blue Wave! :),MiscEvent,Local,SocialActivities,Anticipated,1,3
+personal,MiscEvent,Personal,SocialActivities,Unanticipated,1,3
+health,MiscEvent,Health,SocialActivities,Unanticipated,1,3
+societal,MiscEvent,Personal,SocialActivities,Unanticipated,1,3
+work,MiscEvent,Work,SocialActivities,Unanticipated,1,3
+11/01/2018,MiscEvent,Personal,SocialActivities,Unanticipated,1,3
+01/15/2019,MiscEvent,Personal,SocialActivities,Unanticipated,1,3
+tax audit,MiscFinancialChange,Financial,Financial,Unanticipated,3,3
+Tax Season,MiscFinancialChange,Financial,Financial,Unanticipated,3,3
+Year end financial work,MiscFinancialChange,Financial,Financial,Unanticipated,3,3
+Insurance change,MiscFinancialChange,Financial,Financial,Unanticipated,3,3
+financial,MiscFinancialChange,Financial,Financial,Unanticipated,3,3
+Caring for father and brother,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Daugther's visit,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Estrangement from close sibling,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Family out of town,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Family reunion,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Family Visit,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Fight/falling out with in-laws,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Friend visited,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Friend visiting,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Grandmother moved to area,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+In-laws visit,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+In-laws Visit,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+In-laws visted house,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+mother-in-law visits,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Mother-in-law Visits,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Parents moves into my house,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Re-connect with parents after a year,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Relations with all friends and family changed,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Visit from a friend,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Visit to my parents,MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2
+Mortgage,Mortgage,Financial,Financial,Anticipated,3,2
+mortgage,Mortgage,Financial,Financial,Anticipated,3,2
+new mortgage,Mortgage,Financial,Financial,Anticipated,3,2
+Took out a mortgage,Mortgage,Financial,Financial,Anticipated,3,2
+Took out a mortgage in association with new home,Mortgage,Financial,Financial,Anticipated,3,2
+Took out Mortgage,Mortgage,Financial,Financial,Anticipated,3,2
+Parents foreclosure on house,MortgageClosed,Financial,Financial,Anticipated,3,2
+Closed on House,MortgageClosed,Financial,Financial,Anticipated,3,2
+paid off condo mortgage,MortgageClosed,Financial,Financial,Anticipated,3,2
+paid off mortgage,MortgageClosed,Financial,Financial,Anticipated,3,2
+conflict with spouse,NegativeRelationship,Personal,LoveAndMarriage,Unanticipated,3,2
+Worsening of relationship with my wife,NegativeRelationship,Personal,LoveAndMarriage,Unanticipated,3,2
+personal relationship deteriorated,NegativeRelationship,Personal,LoveAndMarriage,Unanticipated,3,2
+Large fight with spouse,NegativeRelationship,Personal,LoveAndMarriage,Unanticipated,3,2
+Second job,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Changed team,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Changed teams,NeutralJobSwitch,Work,Work,Anticipated,2,3
+new boss,NeutralJobSwitch,Work,Work,Anticipated,2,3
+New manager,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Started new job,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Started new role within same team,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Started planning to work remotely,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Started reporting to a new manager.,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Team Change,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Turned down a job offer,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Change of Jobs,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Reorganization,NeutralJobSwitch,Work,Work,Anticipated,2,3
+reorganization,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Changed teams/offices,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Job location changed,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Started Working in Nashville,NeutralJobSwitch,Work,Work,Anticipated,2,3
+New Work Team,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Gotten new job,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Introduced to mentor,NeutralJobSwitch,Work,Work,Anticipated,2,3
+new Boss,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Reorganization at work,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Reorganization 1/,NeutralJobSwitch,Work,Work,Anticipated,2,3
+department reorg,NeutralJobSwitch,Work,Work,Anticipated,2,3
+changed jobs/reorg,NeutralJobSwitch,Work,Work,Anticipated,2,3
+New engineering leader started,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Reorganization work teams,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Got a new boss,NeutralJobSwitch,Work,Work,Anticipated,2,3
+UEE Reorg,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Reorganization announced,NeutralJobSwitch,Work,Work,Anticipated,2,3
+New organization structure,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Wife went part time from full time work,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Struggled with two offers and decision factor,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Changed Job,NeutralJobSwitch,Work,Work,Anticipated,2,3
+Moved,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved Residence,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved residence or neighborhood,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved Residences,NeutralMove,Personal,Residence,Anticipated,2,2
+"Moved to a different state, stayed 1 month with a friend before moving to permanent residence",NeutralMove,Personal,Residence,Anticipated,2,2
+started to plan a move to a new city,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved States,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved to Nashville,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved residents,NeutralMove,Personal,Residence,Anticipated,2,2
+Final Move to Nashville,NeutralMove,Personal,Residence,Anticipated,2,2
+Moved to Indiana from Michigan,NeutralMove,Personal,Residence,Anticipated,2,2
+decided to move and quit job,NeutralMove,Personal,Residence,Anticipated,2,2
+Moving,NeutralMove,Personal,Residence,Anticipated,2,2
+New friend,NewFriends,Personal,SocialActivities,Unanticipated,1,2
+Started talking to a narcissist,NewFriends,Personal,SocialActivities,Unanticipated,1,2
+New Friends,NewFriends,Personal,SocialActivities,Unanticipated,1,2
+Made many new friends,NewFriends,Personal,SocialActivities,Unanticipated,1,2
+Cardio Challenge,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Filming,NewHobby,Personal,SocialActivities,Anticipated,1,3
+My first sprint triathlon,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Started drawing more again,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Took up a hobby,NewHobby,Personal,SocialActivities,Anticipated,1,3
+took up running,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Learn to play guitar,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Started coaching basketball,NewHobby,Personal,SocialActivities,Anticipated,1,3
+Acquired a pet,NewPet,Personal,SocialActivities,Anticipated,2,2
+adopted a cat,NewPet,Personal,SocialActivities,Anticipated,2,2
+Adopted two kittens,NewPet,Personal,SocialActivities,Anticipated,2,2
+Got a dog,NewPet,Personal,SocialActivities,Anticipated,2,2
+got a new dog,NewPet,Personal,SocialActivities,Anticipated,2,2
+Got a puppy,NewPet,Personal,SocialActivities,Anticipated,2,2
+got pet,NewPet,Personal,SocialActivities,Anticipated,2,2
+new pet,NewPet,Personal,SocialActivities,Anticipated,2,2
+"Took a vacation, Acquired a pet",NewPet,Personal,SocialActivities,Anticipated,2,2
+Got a pet,NewPet,Personal,SocialActivities,Anticipated,2,2
+Adoption of two senior dogs; one died 3 months after we adopted her,NewPet,Personal,SocialActivities,Anticipated,2,2
+Got a pet,NewPet,Personal,SocialActivities,Anticipated,2,2
+Adopted Senior Dog #3,NewPet,Personal,SocialActivities,Anticipated,2,2
+Changed project,NewProject,Work,Work,Unanticipated,1,2
+conference,NewProject,Work,Work,Unanticipated,1,2
+Departmental Reorganization,NewProject,Work,Work,Unanticipated,1,2
+job 1-1 meetings,NewProject,Work,Work,Unanticipated,1,2
+Land auction,NewProject,Work,Work,Unanticipated,1,2
+New project,NewProject,Work,Work,Unanticipated,1,2
+plan,NewProject,Work,Work,Unanticipated,1,2
+planned activity for staff,NewProject,Work,Work,Unanticipated,1,2
+prepare for bosse's retirement,NewProject,Work,Work,Unanticipated,1,2
+Project change,NewProject,Work,Work,Unanticipated,1,2
+rolled onto new project,NewProject,Work,Work,Unanticipated,1,2
+started a new project,NewProject,Work,Work,Unanticipated,1,2
+Started mentoring the intern,NewProject,Work,Work,Unanticipated,1,2
+Switched projects,NewProject,Work,Work,Unanticipated,1,2
+Training on site for new job duties and new team,NewProject,Work,Work,Unanticipated,1,2
+vip guest,NewProject,Work,Work,Unanticipated,1,2
+volunteer,NewProject,Work,Work,Unanticipated,1,2
+Written up for major project,NewProject,Work,Work,Unanticipated,1,2
+Started a new project,NewProject,Work,Work,Unanticipated,1,2
+project etc,NewProject,Work,Work,Unanticipated,1,2
+New High Profile Project,NewProject,Work,Work,Unanticipated,1,2
+Prosecute murder trial,NewProject,Work,Work,Unanticipated,1,2
+prosecute murder trial,NewProject,Work,Work,Unanticipated,1,2
+joint project with other department,NewProject,Work,Work,Unanticipated,1,2
+Car accident,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+car crash,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+Car Crash,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+Car crash,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+Got rear ended and had to buy a new car due to total loss (no injury),NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+lost my car when it was hit by another car,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+My car hit a pillar in the parking garage at work,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+Son car crash,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+Son in car crash,NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2
+finished bankruptcy,NonWorkFinancialGain,Financial,Financial,Unanticipated,3,3
+Inherited a substantial sum of money,NonWorkFinancialGain,Financial,Financial,Unanticipated,3,3
+did not get a promotion,NoPromotion,Work,Work,Unanticipated,3,3
+did not get promoted,NoPromotion,Work,Work,Unanticipated,3,3
+Found not going to be promoted,NoPromotion,Work,Work,Unanticipated,3,3
+Did not get a raise,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Did not get an expected wage or salary increase,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Did not get bonus and pay increase i expected,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Did not get expected raise,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Did not get financial increase expected,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+did not receive expected raise,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Not getting expected raise,NoSalaryIncrement,Work,Work,Unanticipated,3,3
+Home Equity Loan,PayingLoans,Financial,Financial,Anticipated,3,3
+Refinanced loans,PayingLoans,Financial,Financial,Anticipated,3,3
+Took out home equity loan,PayingLoans,Financial,Financial,Anticipated,3,3
+Finished paying off all my and spouse's debt,PayingLoans,Financial,Financial,Anticipated,3,3
+Paid of last debt other than house,PayingLoans,Financial,Financial,Anticipated,3,3
+Paid off car loan,PayingLoans,Financial,Financial,Anticipated,3,3
+Paying for college,PayingLoans,Financial,Financial,Anticipated,3,3
+Took out loan,PayingLoans,Financial,Financial,Anticipated,3,3
+Loan,PayingLoans,Financial,Financial,Anticipated,3,3
+I took out a loan out against my 401b to finance a new roof,PayingLoans,Financial,Financial,Anticipated,3,3
+Annual evaluation,PerformanceReview,Work,Work,Unanticipated,3,3
+Annual exam,PerformanceReview,Work,Work,Unanticipated,3,3
+Annual performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+Annual Review,PerformanceReview,Work,Work,Unanticipated,3,3
+annual review,PerformanceReview,Work,Work,Unanticipated,3,3
+Did not get as high of rating on my Year End Performance as I feel I should have.,PerformanceReview,Work,Work,Unanticipated,3,3
+End of Quarter or Year-end,PerformanceReview,Work,Work,Unanticipated,3,3
+End of Quarter or Year-end Performance reviews Bonuses,PerformanceReview,Work,Work,Unanticipated,3,3
+End of the Year Review,PerformanceReview,Work,Work,Unanticipated,3,3
+End of Work Performance Year,PerformanceReview,Work,Work,Unanticipated,3,3
+End of Year Performance,PerformanceReview,Work,Work,Unanticipated,3,3
+End of year review,PerformanceReview,Work,Work,Unanticipated,3,3
+End of Year review,PerformanceReview,Work,Work,Unanticipated,3,3
+evaluation/performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+"Great performance, generally positive comments from boss and others",PerformanceReview,Work,Work,Unanticipated,3,3
+perfermance review,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance Eval,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance evaluation,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance reivew,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance Review,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+performance review is stressful.,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance Review/Bonus,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance Reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance Revue,PerformanceReview,Work,Work,Unanticipated,3,3
+Preformance review,PerformanceReview,Work,Work,Unanticipated,3,3
+"promotion, quarterly reviews, stressful conversations with employees",PerformanceReview,Work,Work,Unanticipated,3,3
+Quarter end,PerformanceReview,Work,Work,Unanticipated,3,3
+Quarterly board meeting 1,PerformanceReview,Work,Work,Unanticipated,3,3
+Quarterly Board Meeting 2,PerformanceReview,Work,Work,Unanticipated,3,3
+review,PerformanceReview,Work,Work,Unanticipated,3,3
+Review,PerformanceReview,Work,Work,Unanticipated,3,3
+Review & Raise,PerformanceReview,Work,Work,Unanticipated,3,3
+Review/Raise,PerformanceReview,Work,Work,Unanticipated,3,3
+Reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+Upward feedback,PerformanceReview,Work,Work,Unanticipated,3,3
+work evaluation/performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+year end and perfroamnce review,PerformanceReview,Work,Work,Unanticipated,3,3
+Year End Appraisal,PerformanceReview,Work,Work,Unanticipated,3,3
+Year end performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+Year End Review,PerformanceReview,Work,Work,Unanticipated,3,3
+Year end review,PerformanceReview,Work,Work,Unanticipated,3,3
+Year-End,PerformanceReview,Work,Work,Unanticipated,3,3
+Year-end,PerformanceReview,Work,Work,Unanticipated,3,3
+Year-end Performance reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+Year-end provision,PerformanceReview,Work,Work,Unanticipated,3,3
+Yearly Performance Evaluation,PerformanceReview,Work,Work,Unanticipated,3,3
+Yearly Performance Reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+Yearly review,PerformanceReview,Work,Work,Unanticipated,3,3
+yearly review,PerformanceReview,Work,Work,Unanticipated,3,3
+job/performance uncertainty,PerformanceReview,Work,Work,Unanticipated,3,3
+Year end- budgeting and reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+EOY performance review,PerformanceReview,Work,Work,Unanticipated,3,3
+Performance eva;,PerformanceReview,Work,Work,Unanticipated,3,3
+Major unit external review,PerformanceReview,Work,Work,Unanticipated,3,3
+Year end,PerformanceReview,Work,Work,Unanticipated,3,3
+year end review,PerformanceReview,Work,Work,Unanticipated,3,3
+reviews,PerformanceReview,Work,Work,Unanticipated,3,3
+end of quarter reports,PerformanceReview,Work,Work,Unanticipated,3,3
+Annual Performance Review,PerformanceReview,Work,Work,Unanticipated,3,3
+Change in household: person moved in or out,PersonMovedOut,Personal,Family,Anticipated,2,2
+Found out a friend would be moving away,PersonMovedOut,Personal,Family,Anticipated,2,2
+Husband deployed to Middle East,PersonMovedOut,Personal,Family,Anticipated,2,2
+Move Dad into nursing home,PersonMovedOut,Personal,Family,Anticipated,2,2
+Moved Daughter and Son In Law into our house from Ohio,PersonMovedOut,Personal,Family,Anticipated,2,2
+My boyfriend deployed overseas,PersonMovedOut,Personal,Family,Anticipated,2,2
+Son went to college,PersonMovedOut,Personal,Family,Anticipated,2,2
+Daughter moved out,PersonMovedOut,Personal,Family,Anticipated,2,2
+Daughter studied out of country,PersonMovedOut,Personal,Family,Anticipated,2,2
+daughter moved out,PersonMovedOut,Personal,Family,Anticipated,2,2
+Change in household: person moved in or out,PersonMoveIn,Personal,Family,Anticipated,2,2
+"my parents had been living with me due to financial pressures, and we were able to move to separate residences",PersonMoveIn,Personal,Family,Anticipated,2,2
+Partner joined me in the USA,PersonMoveIn,Personal,Family,Anticipated,2,2
+Roommate moved in,PersonMoveIn,Personal,Family,Anticipated,2,2
+Step Daughter moved in full time,PersonMoveIn,Personal,Family,Anticipated,2,2
+Stepchild moved into our home full time,PersonMoveIn,Personal,Family,Anticipated,2,2
+My sister and her dog moved in with me,PersonMoveIn,Personal,Family,Anticipated,2,2
+Death of pet,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Dog dies,PetDied,Personal,SocialActivities,Unanticipated,2,2
+had to put first pet down,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Pet died,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Pet Died,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Loss of a pet,PetDied,Personal,SocialActivities,Unanticipated,2,2
+My dog died,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Favorite dog passed away,PetDied,Personal,SocialActivities,Unanticipated,2,2
+My dog Kye passed away 2 days after I came home from a work conference - he and our other dog Paris had been in a kennel for 4 days while I and my sister (she traveled with me) were in Las Vegas,PetDied,Personal,SocialActivities,Unanticipated,2,2
+Critical pet illness,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+Dog became terminally ill,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+Dog diagnosed with Diabetes,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+Dog really sick,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+One of my pets went through major surgery.,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+Had to put pet to sleep,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+pet diagnosed with heart failure,PetIllness,Personal,SocialActivities,Unanticipated,3,2
+new gym,PhysicalActivity,Health,Health,Anticipated,1,3
+received two job offers in one day,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Became school Principal,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+change job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Change job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed companies,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+changed job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed job. Was industrial engineer. Started launch production supervisor.,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed jobs,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+changed jobs,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed jobs within company,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+"Changed jobs, Took a vacation,  Moved to a new home",PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed roles on team,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed Teams,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+first day at new job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Got a job offer,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Got new job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+I moved to a new department,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Job Change,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+job change,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Job change,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Job change to a new job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Job outsourced,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+new job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+new job included management; i had no prior experience with direct reports,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+New job!,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+New position,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Start New Job,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Start new position,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+started a new job in a new city,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+My employer (Bennington) was acquired by Polaris,PositiveJobSwitch,Work,Work,Unanticipated,2,3
+Changed household,PositiveMove,Personal,Residence,Anticipated,2,2
+Changed job location (same occupation),PositiveMove,Personal,Residence,Anticipated,2,2
+"Changed jobs, Took a vacation,  Moved to a new home",PositiveMove,Personal,Residence,Anticipated,2,2
+I moved to tampa florida in APril 2019,PositiveMove,Personal,Residence,Anticipated,2,2
+Move,PositiveMove,Personal,Residence,Anticipated,2,2
+move to new home,PositiveMove,Personal,Residence,Anticipated,2,2
+moved,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved - changed apartments,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved apartments,PositiveMove,Personal,Residence,Anticipated,2,2
+moved home,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved houses,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved Houses,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved into a new home with pets,PositiveMove,Personal,Residence,Anticipated,2,2
+moved into first home,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved into Home,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved into new home permanently,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved into new house,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved to a new house,PositiveMove,Personal,Residence,Anticipated,2,2
+Moved to new house,PositiveMove,Personal,Residence,Anticipated,2,2
+new home,PositiveMove,Personal,Residence,Anticipated,2,2
+Relocated,PositiveMove,Personal,Residence,Anticipated,2,2
+Tampa for 6 month short term project,PositiveMove,Personal,Residence,Anticipated,2,2
+"Sold/Purchased a home, moved",PositiveMove,Personal,Residence,Anticipated,2,2
+Husband became US citizen,PositiveMove,Personal,Residence,Anticipated,2,2
+New relationship,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Relations with significant other changed for the better,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Relationship Started,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Relationship with significant other,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Started a relationship,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+started a relationship,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Wife's 50th Birthday Celebration,PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Became pregnant,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Became pregnant with 3rd child,Pregnant,Personal,HavingChildren,Anticipated,2,3
+"Became pregnant, birth of a first or later child; adopted a child",Pregnant,Personal,HavingChildren,Anticipated,2,3
+Found out wife is pregnant,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Maternity Leave,Pregnant,Personal,HavingChildren,Anticipated,2,3
+pregnancy,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Pregnancy,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Pregnancy related changes,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Pregnancy/ new baby,Pregnant,Personal,HavingChildren,Anticipated,2,3
+pregnant,Pregnant,Personal,HavingChildren,Anticipated,2,3
+pregnant with first child,Pregnant,Personal,HavingChildren,Anticipated,2,3
+We found out we were expecting.,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Pregnant,Pregnant,Personal,HavingChildren,Anticipated,2,3
+Found out I was going to be promoted,Promoted,Work,Work,Unanticipated,2,3
+Got a promotion,Promoted,Work,Work,Unanticipated,2,3
+got promoted,Promoted,Work,Work,Unanticipated,2,3
+Job promotion,Promoted,Work,Work,Unanticipated,2,3
+promoted,Promoted,Work,Work,Unanticipated,2,3
+Promoted,Promoted,Work,Work,Unanticipated,2,3
+Promotion,Promoted,Work,Work,Unanticipated,2,3
+promotion,Promoted,Work,Work,Unanticipated,2,3
+PROMOTION,Promoted,Work,Work,Unanticipated,2,3
+Promotion & Bonus,Promoted,Work,Work,Unanticipated,2,3
+Promotion to team lead,Promoted,Work,Work,Unanticipated,2,3
+random promotion,Promoted,Work,Work,Unanticipated,2,3
+Received promotion and bonus,Promoted,Work,Work,Unanticipated,2,3
+2018 Promotion,Promoted,Work,Work,Unanticipated,2,3
+Promoted to Team Lead,Promoted,Work,Work,Unanticipated,2,3
+Changed job position,Promoted,Work,Work,Unanticipated,2,3
+job promotion,Promoted,Work,Work,Unanticipated,2,3
+End Of Quarter,QuarterEnd,Work,Work,Anticipated,3,3
+Q2 Quarter End,QuarterEnd,Work,Work,Anticipated,3,3
+Q3 End,QuarterEnd,Work,Work,Anticipated,3,3
+Climbed a 14er and fought with my boyfriend,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Crewed for my brother while he did an ultra marathon and fought with my boyfriend,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Emotional roller coaster with my spause,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Marital Issues,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Relations with significant other or close friend changed for the better or worse,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Relationship changed,RelationshipIssues,Personal,LoveAndMarriage,Unanticipated,3,3
+Changed Church,ReligiousEvent,Local,Local,Anticipated,1,1
+Changed churchs,ReligiousEvent,Local,Local,Anticipated,1,1
+changed churches,ReligiousEvent,Local,Local,Anticipated,1,1
+Changed churches,ReligiousEvent,Local,Local,Anticipated,1,1
+Found out I was not being converted immediately,ReligiousEvent,Local,Local,Anticipated,1,1
+Baby room preparations,RemodeledHome,Personal,Residence,Anticipated,2,2
+Found out extreme home renovations needed,RemodeledHome,Personal,Residence,Anticipated,2,2
+House Remodel,RemodeledHome,Personal,Residence,Anticipated,2,2
+HVAC for house stopped working and had to be replaced for $15k,RemodeledHome,Personal,Residence,Anticipated,2,2
+Installed solar panels on house,RemodeledHome,Personal,Residence,Anticipated,2,2
+new window install,RemodeledHome,Personal,Residence,Anticipated,2,2
+Remodeled Basement,RemodeledHome,Personal,Residence,Anticipated,2,2
+"Remodeled home, required temporary move out",RemodeledHome,Personal,Residence,Anticipated,2,2
+remodeling home,RemodeledHome,Personal,Residence,Anticipated,2,2
+Roof Installation,RemodeledHome,Personal,Residence,Anticipated,2,2
+Self installed front porch,RemodeledHome,Personal,Residence,Anticipated,2,2
+Remodeled bathroom,RemodeledHome,Personal,Residence,Anticipated,2,2
+Remodeled my kitchen,RemodeledHome,Personal,Residence,Anticipated,2,2
+identity theft,Robbed,Personal,CrimeAndLegal,Unanticipated,3,3
+Wallet stolen,Robbed,Personal,CrimeAndLegal,Unanticipated,3,3
+new job wage decrease,SalaryCut,Work,Work,Unanticipated,3,3
+Raise,SalaryIncrement,Work,Work,Unanticipated,3,3
+Salary Increase,SalaryIncrement,Work,Work,Unanticipated,3,3
+Salary increase,SalaryIncrement,Work,Work,Unanticipated,3,3
+Compensation change,SalaryIncrement,Work,Work,Unanticipated,3,3
+Got a raise,SalaryIncrement,Work,Work,Unanticipated,3,3
+Pay increase,SalaryIncrement,Work,Work,Unanticipated,3,3
+Received a raise,SalaryIncrement,Work,Work,Unanticipated,3,3
+Separated from my husband,SeparatedInMarriage,Personal,LoveAndMarriage,Anticipated,3,3
+Sold our house,SoldHouse,Financial,Financial,Anticipated,2,2
+sold our house in KS,SoldHouse,Financial,Financial,Anticipated,2,2
+40 mile bike ride,SportsEvent,Local,Local,Anticipated,1,1
+Attended car race at Watkins Glen,SportsEvent,Local,Local,Anticipated,1,1
+Attended car race in Atlanta,SportsEvent,Local,Local,Anticipated,1,1
+Attended car race in Dayton Floriday,SportsEvent,Local,Local,Anticipated,1,1
+Attended car race in Sebring Florida,SportsEvent,Local,Local,Anticipated,1,1
+Attended car race in Virginia,SportsEvent,Local,Local,Anticipated,1,1
+Chiefs lost in Playoffs,SportsEvent,Local,Local,Anticipated,1,1
+Climbed a 14er on my birthday and got extreme altitude sickness (10 hrs of being sick)),SportsEvent,Local,Local,Anticipated,1,1
+climbed a local mountain with new boyfriend (Bear Peak),SportsEvent,Local,Local,Anticipated,1,1
+Climbed two 14ers,SportsEvent,Local,Local,Anticipated,1,1
+Coached Club Volleyball,SportsEvent,Local,Local,Anticipated,1,1
+Coaching,SportsEvent,Local,Local,Anticipated,1,1
+Created Hockey Team,SportsEvent,Local,Local,Anticipated,1,1
+Football games,SportsEvent,Local,Local,Anticipated,1,1
+football national championship,SportsEvent,Local,Local,Anticipated,1,1
+High altitude hike,SportsEvent,Local,Local,Anticipated,1,1
+High school state wrestling tournament,SportsEvent,Local,Local,Anticipated,1,1
+oregon game,SportsEvent,Local,Local,Anticipated,1,1
+playing sport,SportsEvent,Local,Local,Anticipated,1,1
+Ran half marathon,SportsEvent,Local,Local,Anticipated,1,1
+Sport event,SportsEvent,Local,Local,Anticipated,1,1
+Started a sport,SportsEvent,Local,Local,Anticipated,1,1
+Started half ironman training,SportsEvent,Local,Local,Anticipated,1,1
+Started running competitively again,SportsEvent,Local,Local,Anticipated,1,1
+super bowl,SportsEvent,Local,Local,Anticipated,1,1
+Swimming Competition,SportsEvent,Local,Local,Anticipated,1,1
+Trained and Ran First Marathon,SportsEvent,Local,Local,Anticipated,1,1
+Trained for long bike event,SportsEvent,Local,Local,Anticipated,1,1
+training,SportsEvent,Local,Local,Anticipated,1,1
+Training for Duathalon,SportsEvent,Local,Local,Anticipated,1,1
+Ultimate frisbee club team,SportsEvent,Local,Local,Anticipated,1,1
+Vacation - hiking and ran a marathon,SportsEvent,Local,Local,Anticipated,1,1
+Was at a baseball game where my team advanced to National League Championship,SportsEvent,Local,Local,Anticipated,1,1
+WSU Game,SportsEvent,Local,Local,Anticipated,1,1
+Bears Wild Card Game,SportsEvent,Local,Local,Anticipated,1,1
+daughters softball tournament,SportsEvent,Local,Local,Anticipated,1,1
+team,SportsEvent,Local,Local,Anticipated,1,1
+Football playoffs,SportsEvent,Local,Local,Anticipated,1,1
+ND football season,SportsEvent,Local,Local,Anticipated,1,1
+Daughter played in regional high school game her senior game of hs,SportsEvent,Local,Local,Anticipated,1,1
+football tailgate,SportsEvent,Local,Local,Anticipated,1,1
+football game,SportsEvent,Local,Local,Anticipated,1,1
+football game,SportsEvent,Local,Local,Anticipated,1,1
+Becoming the legal guardian of my niece,StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Began dating,StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+"Began dating new (and current boyfriend) on Sept 2, 2018 and stress started reducing early October 2018",StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+dating new partner,StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+New Relationship Stress,StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+started new relationship,StartedRelationship,Personal,LoveAndMarriage,Unanticipated,2,2
+Started a business,StartUp,Work,Work,Anticipated,1,1
+Started new side work,StartUp,Work,Work,Anticipated,1,1
+freelance work,StartUp,Work,Work,Anticipated,1,1
+Back problems and surgery,Surgery,Health,Health,Anticipated,2,3
+Child minor surgery,Surgery,Health,Health,Anticipated,2,3
+dog injured back and was paralyzed requiring expensive emergent surgery,Surgery,Health,Health,Anticipated,2,3
+Foot Surgery,Surgery,Health,Health,Anticipated,2,3
+Gall Bladder issues and surgery,Surgery,Health,Health,Anticipated,2,3
+Got a lot of dental work done,Surgery,Health,Health,Anticipated,2,3
+"Got Married, Had Surgery",Surgery,Health,Health,Anticipated,2,3
+Met with surgeon for knee replacement,Surgery,Health,Health,Anticipated,2,3
+Neck Surgery,Surgery,Health,Health,Anticipated,2,3
+Shoulder Surgery,Surgery,Health,Health,Anticipated,2,3
+Small Surgery,Surgery,Health,Health,Anticipated,2,3
+Surgery (Gall Bladder Removal),Surgery,Health,Health,Anticipated,2,3
+Uterine Surgery,Surgery,Health,Health,Anticipated,2,3
+Wrist surgery,Surgery,Health,Health,Anticipated,2,3
+Knew surgery,Surgery,Health,Health,Anticipated,2,3
+Child surgery,Surgery,Health,Health,Anticipated,2,3
+Lynne Surgery,Surgery,Health,Health,Anticipated,2,3
+Surgery and biopsy #1,Surgery,Health,Health,Anticipated,2,3
+Minor surgery,Surgery,Health,Health,Anticipated,2,3
+recovered from surgery,Surgery,Health,Health,Anticipated,2,3
+Surgery and biopsy #2,Surgery,Health,Health,Anticipated,2,3
+Son's surgery,Surgery,Health,Health,Anticipated,2,3
+Husband surgery,Surgery,Health,Health,Anticipated,2,3
+recover from surgery,Surgery,Health,Health,Anticipated,2,3
+"Catastrophe, e.g. mass shooting",TraumaticEvent,Personal,Personal,Unanticipated,3,3
+Family Trauma,TraumaticEvent,Personal,Personal,Unanticipated,3,3
+Mass Shooting,TraumaticEvent,Personal,Personal,Unanticipated,3,3
+North Korea & U.S. Events,TraumaticEvent,Personal,Personal,Unanticipated,3,3
+Tree of Life Shooting,TraumaticEvent,Personal,Personal,Unanticipated,3,3
+Triggering event,TraumaticEvent,Personal,Personal,Unanticipated,3,3
+Attended a friend's wedding,Trip,Personal,SocialActivities,Anticipated,2,2
+Attended my roommate's wedding,Trip,Personal,SocialActivities,Anticipated,2,2
+attended Purdue basketball with family,Trip,Personal,SocialActivities,Anticipated,2,2
+Attending industrial advisory council meeting for EECS department at University of Missouri,Trip,Personal,SocialActivities,Anticipated,2,2
+Bought a trip at school auction,Trip,Personal,SocialActivities,Anticipated,2,2
+Child field trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Child went on 3 month trip to Africa,Trip,Personal,SocialActivities,Anticipated,2,2
+Cousin's Wedding,Trip,Personal,SocialActivities,Anticipated,2,2
+Day trip to Breckenridge with new boyfriend,Trip,Personal,SocialActivities,Anticipated,2,2
+Exercise boot camp,Trip,Personal,SocialActivities,Anticipated,2,2
+Honeymoon,Trip,Personal,SocialActivities,Anticipated,2,2
+I traveled for work a lot during the study. Too many times to list individually,Trip,Personal,SocialActivities,Anticipated,2,2
+Integration project for company acquisition. Required travel to Italy for 3 weeks,Trip,Personal,SocialActivities,Anticipated,2,2
+New years trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Retreat,Trip,Personal,SocialActivities,Anticipated,2,2
+Sister-in-laws wedding in Bahamas,Trip,Personal,SocialActivities,Anticipated,2,2
+Ski trip to Jackson Hole,Trip,Personal,SocialActivities,Anticipated,2,2
+Snowboarding trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Travel to brother graduation,Trip,Personal,SocialActivities,Anticipated,2,2
+Travel to China,Trip,Personal,SocialActivities,Anticipated,2,2
+Travel to girlfriend graduation,Trip,Personal,SocialActivities,Anticipated,2,2
+Travel to Italy again for 2 weeks for training,Trip,Personal,SocialActivities,Anticipated,2,2
+Travel to wedding,Trip,Personal,SocialActivities,Anticipated,2,2
+"Traveled to Osh Kosh, WI, for work",Trip,Personal,SocialActivities,Anticipated,2,2
+Trip with spouse to Chicago,Trip,Personal,SocialActivities,Anticipated,2,2
+vendor tour,Trip,Personal,SocialActivities,Anticipated,2,2
+visit sick parent,Trip,Personal,SocialActivities,Anticipated,2,2
+Visited college friends at school,Trip,Personal,SocialActivities,Anticipated,2,2
+Went to Disney,Trip,Personal,SocialActivities,Anticipated,2,2
+Went to see Family in Russia,Trip,Personal,SocialActivities,Anticipated,2,2
+Work and fun trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Work trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Work field trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Make-A-Wish trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Work travel overseas,Trip,Personal,SocialActivities,Anticipated,2,2
+work trip,Trip,Personal,SocialActivities,Anticipated,2,2
+Problem with In laws,TroubleInLaws,Personal,LoveAndMarriage,Unanticipated,3,2
+Back Surgery,Vacation,Personal,SocialActivities,Anticipated,2,2
+Back to Tampa NEW Years Eve vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Beach Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Best friend took me on vacation to CABO,Vacation,Personal,SocialActivities,Anticipated,2,2
+"Changed jobs, Took a vacation,  Moved to a new home",Vacation,Personal,SocialActivities,Anticipated,2,2
+Christmas holiday/vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Christmas vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Christmas Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Disney World Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+family vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Family vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Golf vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Italy vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Lake vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Marco Island Beach vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Mazatlan vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Ski Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+take vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Took a family vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Took a vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+took a vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Took a vacation to Florida,Vacation,Personal,SocialActivities,Anticipated,2,2
+"Took a vacation, Acquired a pet",Vacation,Personal,SocialActivities,Anticipated,2,2
+took an international vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Took vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Took Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation - Camping,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation - hiking and ran a marathon,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation - Japan,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation - ski in colorado,Vacation,Personal,SocialActivities,Anticipated,2,2
+vacation / someone died,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation Abroad,Vacation,Personal,SocialActivities,Anticipated,2,2
+vacation christmas,Vacation,Personal,SocialActivities,Anticipated,2,2
+vacation in July,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation March,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation to Portland,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation to San Diego to visit in-laws,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation to Vegas,Vacation,Personal,SocialActivities,Anticipated,2,2
+"Vacation to visit family in Reno, NV",Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation with brother,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation with daughter,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation with Girlfriend,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation/ honeymoon,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacationed to Orlando (solo),Vacation,Personal,SocialActivities,Anticipated,2,2
+Went on vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Summer vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Great Vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+took vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+European trip,Vacation,Personal,SocialActivities,Anticipated,2,2
+Vacation with Family,Vacation,Personal,SocialActivities,Anticipated,2,2
+spring break vacation,Vacation,Personal,SocialActivities,Anticipated,2,2
+Trip to Europe,Vacation,Personal,SocialActivities,Anticipated,2,2
+Triple booked my Christmas celebration,Vacation,Personal,SocialActivities,Anticipated,2,2
+Christmas holiday,Vacation,Personal,SocialActivities,Anticipated,2,2
+did 2 director roles for 16 months,Vacation,Personal,SocialActivities,Anticipated,2,2
+Winter Classic,Vacation,Personal,SocialActivities,Anticipated,2,2
+Winter Classic 2019,Vacation,Personal,SocialActivities,Anticipated,2,2
+Dog got sick and had to fly home from vacation,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Hit a deer on road trip,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Skipped planned vacation,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Terrible vacation,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Vacation went bad,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Did not take a vacation after work,VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2
+Contract ended on a job I had and was no longer full time,WorkLoss,Work,Work,Unanticipated,3,3
+Employer shut down,WorkLoss,Work,Work,Unanticipated,3,3
+failed hire for replacement,WorkLoss,Work,Work,Unanticipated,3,3
+Failed testing and significantly dropped behind in schedule.,WorkLoss,Work,Work,Unanticipated,3,3
+fired,WorkLoss,Work,Work,Unanticipated,3,3
+Found out a coworker was leaving,WorkLoss,Work,Work,Unanticipated,3,3
+"Got laid off, told about it in March",WorkLoss,Work,Work,Unanticipated,3,3
+Loss of employment,WorkLoss,Work,Work,Unanticipated,3,3
+Quit Boy Scout Committee Chair Position,WorkLoss,Work,Work,Unanticipated,3,3
+Quit job,WorkLoss,Work,Work,Unanticipated,3,3
+spouse got laid-off,WorkLoss,Work,Work,Unanticipated,3,3
+Imposter syndrome,WorkLoss,Work,Work,Unanticipated,3,3
+Had a slow start or workload,WorkLoss,Work,Work,Unanticipated,3,3
+Significant success at work,WorkSuccess,Work,Work,Unanticipated,2,3
+Acting showcase,WorkSuccess,Work,Work,Unanticipated,2,3
+Became a licensed IHSAA Basketball Official,WorkSuccess,Work,Work,Unanticipated,2,3
+Big Success,WorkSuccess,Work,Work,Unanticipated,2,3
+City council election for my brother,WorkSuccess,Work,Work,Unanticipated,2,3
+client filing week (long long hours)and End of busy season party with client,WorkSuccess,Work,Work,Unanticipated,2,3
+Company audit completed,WorkSuccess,Work,Work,Unanticipated,2,3
+Finished Year-End Work for Client,WorkSuccess,Work,Work,Unanticipated,2,3
+Given first major project,WorkSuccess,Work,Work,Unanticipated,2,3
+Helped facilitate an event,WorkSuccess,Work,Work,Unanticipated,2,3
+Presented to college class at Univeristy of Missouri,WorkSuccess,Work,Work,Unanticipated,2,3
+Recognition Award,WorkSuccess,Work,Work,Unanticipated,2,3
+Significant Success,WorkSuccess,Work,Work,Unanticipated,2,3
+Training - maximize your professional sucess,WorkSuccess,Work,Work,Unanticipated,2,3
+Resolved murder case,WorkSuccess,Work,Work,Unanticipated,2,3
+Significant program approval,WorkSuccess,Work,Work,Unanticipated,2,3
+Start attending significant standing meeting,WorkSuccess,Work,Work,Unanticipated,2,3
+Success at work,WorkSuccess,Work,Work,Unanticipated,2,3
+My second child was born,YoungerChildBirth,Personal,HavingChildren,Anticipated,2,2

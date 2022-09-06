@@ -1,0 +1,79 @@
+SM_LifeEvent,LifeEventFamily,LifeEventFamily2,Anticipation,Intimacy,Scope,Comments,SignificanceRank
+AdoptedChild,Personal,HavingChildren,Anticipated,2,2,,27
+Assaulted,Personal,CrimeAndLegal,Unanticipated,3,3,,52
+BackToSchool,School,School,Anticipated,1,2,,59.5
+BackToWork,Work,Work,Anticipated,2,3,,54
+BadWeather,Local,Local,Unanticipated,1,1,,103
+BadWorkLife,Work,Work,Unanticipated,3,3,,57
+BreakFromWork,Work,Work,Anticipated,2,3,,48.5
+BreakUp,Personal,LoveAndMarriage,Unanticipated,3,2,,16
+BuildHome,Personal,Residence,Anticipated,2,2,,29
+ChangedSchool,School,School,Anticipated,1,2,,88
+ChildDied,Personal,HavingChildren,Unanticipated,3,2,,1
+CourtCase,Personal,CrimeAndLegal,Unanticipated,3,1,No posts from someone directly involved in a court case- mostly posts about jury duty.,67
+DeathInFamily,Personal,Family,Unanticipated,2,2,"Tragic event, but also common to mention on social media",25
+Divorce,Personal,LoveAndMarriage,Anticipated,3,2,,5
+DroppedHobby,Personal,SocialActivities,Anticipated,2,3,,101
+Engaged,Personal,LoveAndMarriage,Anticipated,2,2,,57
+Expansion,Work,Work,Anticipated,1,1,"posts mostly promoting their business, removed from the self",35
+FamilyEvent,Personal,Family,Anticipated,2,2,,97
+FinancialGain,Financial,Financial,Unanticipated,3,3,,36
+FinancialLoss,Financial,Financial,Unanticipated,3,2,posts usually centered around impact on family,51
+FinishedSchool,School,School,Anticipated,1,2,,68
+Fired,Work,Work,Unanticipated,3,3,,40
+FirstChild,Personal,HavingChildren,Anticipated,2,2,,6
+FirstJob,Work,Work,Anticipated,1,3,,44
+FriendDied,Personal,SocialActivities,Unanticipated,2,2,,23
+GoodWeather,Local,Local,Anticipated,1,1,,103
+GoodWorkLife,Work,Work,Anticipated,1,1,,63.5
+GotBonus,Work,Work,Unanticipated,3,3,usually do not talk about salary on social media,61
+HealthGain,Health,Health,Anticipated,2,3,,28
+HealthLoss,Health,Health,Unanticipated,2,3,,3
+HealthLossFriendRelative,Health,Health,Unanticipated,2,2,,15
+HealthTreatment,Health,Health,Anticipated,2,3,,10
+HeavyWork,Work,Work,Unanticipated,2,3,"posts frame the event as a challenge or accomplishment, not a burden. ",74
+IncreasedSocialActivity,Personal,SocialActivities,Anticipated,1,2,,84
+Injury,Health,Health,Unanticipated,2,3,,12.5
+InstallmentPurchase,Financial,Financial,Anticipated,2,2,,91
+IssueAtSchool,School,School,Unanticipated,3,2,,86
+LawSuit,Personal,CrimeAndLegal,Unanticipated,3,3,,37
+LostHomeInDisaster,Personal,Residence,Unanticipated,2,2,,12.5
+LostLicense,Personal,CrimeAndLegal,Unanticipated,3,3,,96
+Married,Personal,LoveAndMarriage,Anticipated,2,2,,22
+Menopause,Health,HavingChildren,Anticipated,3,3,,48.5
+MiscarriageStillbirth,Health,HavingChildren,Unanticipated,3,3,,19
+MoreLessFamilyMeetups,Personal,Family,Anticipated,1,2,,97
+Mortgage,Financial,Financial,Anticipated,3,2,,77
+NegativeMove,Personal,Residence,Unanticipated,3,2,,39
+NegativeMove,Personal,Residence,Unanticipated,3,2,,39
+NegativeRelationship,Personal,LoveAndMarriage,Unanticipated,3,2,,9.5
+NeutralJobSwitch,Work,Work,Anticipated,2,3,,85
+NeutralMove,Personal,Residence,Anticipated,2,2,,89.5
+NewFriends,Personal,SocialActivities,Unanticipated,1,2,,94
+NewHobby,Personal,SocialActivities,Anticipated,1,3,,99
+NewPet,Personal,SocialActivities,Anticipated,2,2,"Usually a family adopting pet, calling it ""part of our family"" ",102
+NewProject,Work,Work,Unanticipated,1,2,"only one post for, seemingly trying to win contest on social media (family cruise)",55
+NoInjuryAccident,Personal,CrimeAndLegal,Unanticipated,2,2,"Posts mostly worried about another person, seeking help from friends",45
+NonWorkFinancialGain,Financial,Financial,Unanticipated,3,3,,36
+NoSalaryIncrement,Work,Work,Unanticipated,3,3,,62
+PerformanceReview,Work,Work,Unanticipated,3,3,,90
+PersonMovedOut,Personal,Family,Anticipated,2,2,,3
+PersonMoveIn,Personal,Family,Anticipated,2,2,,71.5
+PetDied,Personal,SocialActivities,Unanticipated,2,2,,100
+PositiveJobSwitch,Work,Work,Unanticipated,2,3,,47
+PositiveMove,Personal,Residence,Anticipated,2,2,,46
+PositiveRelationship,Personal,LoveAndMarriage,Unanticipated,2,2,,18
+Pregnant,Personal,HavingChildren,Anticipated,2,3,,32
+Promoted,Work,Work,Unanticipated,2,3,,50
+RemodeledHome,Personal,Residence,Anticipated,2,2,,65.5
+Robbed,Personal,CrimeAndLegal,Unanticipated,3,3,,63.5
+SportsEvent,Local,Local,Anticipated,1,1,,95
+StartUp,Work,Work,Anticipated,1,1,,33
+Trip,Personal,SocialActivities,Anticipated,2,2,posts about trips/vacations mostly involve family or friends,92.5
+Vacation,Personal,SocialActivities,Anticipated,2,2,,82
+VacationEvents,Personal,SocialActivities,Anticipated,2,2,,82
+VacationPlanFail,Personal,SocialActivities,Unanticipated,2,2,,98
+WorkLoss,Work,Work,Unanticipated,3,3,,30
+WorkSuccess,Work,Work,Unanticipated,2,3,,56
+YoungerChildBirth,Personal,HavingChildren,Anticipated,2,2,,26
+Voted,Local,Local,Anticipated,2,3,,70

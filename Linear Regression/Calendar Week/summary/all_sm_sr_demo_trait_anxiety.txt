@@ -1,0 +1,65 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                anxiety   R-squared:                       0.490
+Model:                            OLS   Adj. R-squared:                  0.365
+Method:                 Least Squares   F-statistic:                     3.900
+Date:                Thu, 20 Oct 2022   Prob (F-statistic):           1.80e-09
+Time:                        18:50:21   Log-Likelihood:                -171.65
+No. Observations:                 188   AIC:                             419.3
+Df Residuals:                     150   BIC:                             542.3
+Df Model:                          37                                         
+Covariance Type:            nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                             10.2079      5.060      2.017      0.045       0.210      20.206
+Anticipation_sm[T.Unanticipated]       0.0199      0.162      0.123      0.902      -0.300       0.340
+LifeEventType_sm[T.Health]             0.3424      0.454      0.754      0.452      -0.555       1.239
+LifeEventType_sm[T.Local]           7.011e-15   7.52e-15      0.932      0.353   -7.85e-15    2.19e-14
+LifeEventType_sm[T.Personal]          -0.8904      0.348     -2.562      0.011      -1.577      -0.204
+LifeEventType_sm[T.School]            -0.8339      0.490     -1.703      0.091      -1.801       0.133
+LifeEventType_sm[T.Work]              -0.4921      0.453     -1.087      0.279      -1.387       0.402
+status_sm[T.ended]                     0.5869      0.242      2.425      0.017       0.109       1.065
+Anticipation_sr[T.Unanticipated]      -0.4313      0.311     -1.387      0.168      -1.046       0.183
+LifeEventType_sr[T.Health]            -0.1811      0.781     -0.232      0.817      -1.725       1.363
+LifeEventType_sr[T.Local]             -0.5113      0.840     -0.609      0.544      -2.171       1.148
+LifeEventType_sr[T.Personal]          -0.5159      0.587     -0.879      0.381      -1.676       0.644
+LifeEventType_sr[T.Work]              -0.0765      0.584     -0.131      0.896      -1.231       1.078
+status_sr[T.Ongoing]                   0.7538      0.533      1.416      0.159      -0.298       1.806
+education_level[T.Doctoral Degree] -7.204e-16   1.26e-15     -0.571      0.569   -3.21e-15    1.77e-15
+education_level[T.Graduate Degree]     0.5986      0.342      1.748      0.082      -0.078       1.275
+education_level[T.High School]        -0.8513      0.644     -1.323      0.188      -2.123       0.420
+gender[T.Male]                         0.3736      0.356      1.050      0.295      -0.329       1.077
+valence_sm                            -0.2062      0.112     -1.846      0.067      -0.427       0.015
+recency_sm                             0.0008      0.002      0.372      0.710      -0.003       0.005
+Intimacy_sm                            0.0522      0.162      0.323      0.747      -0.267       0.372
+Scope_sm                              -0.0919      0.222     -0.415      0.679      -0.530       0.346
+significance_sm                        0.8596      0.288      2.981      0.003       0.290       1.429
+valence_sr                            -0.4073      0.186     -2.194      0.030      -0.774      -0.041
+recency_sr                            -0.0002      0.001     -0.239      0.811      -0.002       0.002
+Intimacy_sr                           -0.7061      0.295     -2.397      0.018      -1.288      -0.124
+Scope_sr                               0.5464      0.387      1.413      0.160      -0.218       1.311
+significance_sr                       -0.6044      0.487     -1.242      0.216      -1.566       0.357
+shipley_vocab                         -0.0733      0.055     -1.327      0.186      -0.182       0.036
+shipley_abs                           -0.0571      0.039     -1.464      0.145      -0.134       0.020
+openness                              -0.0619      0.219     -0.282      0.778      -0.495       0.371
+conscientiousness                     -0.0951      0.324     -0.294      0.769      -0.735       0.545
+extraversion                          -0.0759      0.248     -0.305      0.760      -0.567       0.415
+agreeableness                          0.0267      0.374      0.071      0.943      -0.712       0.765
+neuroticism                            0.0683      0.331      0.206      0.837      -0.586       0.723
+pos_affect                            -0.0693      0.053     -1.295      0.197      -0.175       0.036
+neg_affect                             0.0607      0.045      1.362      0.175      -0.027       0.149
+stai_trait                            -0.0181      0.027     -0.666      0.506      -0.072       0.035
+psqi                                  -0.1637      0.070     -2.343      0.020      -0.302      -0.026
+age                                   -0.0114      0.024     -0.483      0.630      -0.058       0.035
+==============================================================================
+Omnibus:                        3.055   Durbin-Watson:                   1.041
+Prob(Omnibus):                  0.217   Jarque-Bera (JB):                3.012
+Skew:                           0.133   Prob(JB):                        0.222
+Kurtosis:                       3.561   Cond. No.                     1.01e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.9e-24. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

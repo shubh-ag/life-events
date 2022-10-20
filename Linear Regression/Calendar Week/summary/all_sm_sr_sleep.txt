@@ -1,0 +1,49 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  sleep   R-squared:                       0.286
+Model:                            OLS   Adj. R-squared:                  0.167
+Method:                 Least Squares   F-statistic:                     2.405
+Date:                Thu, 20 Oct 2022   Prob (F-statistic):            0.00118
+Time:                        18:50:13   Log-Likelihood:                -264.09
+No. Observations:                 155   AIC:                             574.2
+Df Residuals:                     132   BIC:                             644.2
+Df Model:                          22                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+Intercept                            4.7390      3.300      1.436      0.153      -1.789      11.267
+Anticipation_sm[T.Unanticipated]    -0.6990      0.376     -1.861      0.065      -1.442       0.044
+LifeEventType_sm[T.Health]           0.1060      0.894      0.118      0.906      -1.663       1.875
+LifeEventType_sm[T.Local]         1.196e-14   7.99e-15      1.498      0.137   -3.84e-15    2.78e-14
+LifeEventType_sm[T.Personal]        -0.1182      0.720     -0.164      0.870      -1.543       1.307
+LifeEventType_sm[T.School]           0.8909      1.091      0.816      0.416      -1.268       3.050
+LifeEventType_sm[T.Work]             0.2346      0.892      0.263      0.793      -1.531       2.000
+status_sm[T.ended]                   1.3739      0.541      2.542      0.012       0.305       2.443
+Anticipation_sr[T.Unanticipated]     0.4884      0.462      1.058      0.292      -0.425       1.401
+LifeEventType_sr[T.Health]          -1.4548      1.243     -1.170      0.244      -3.914       1.005
+LifeEventType_sr[T.Local]           -1.7339      1.378     -1.259      0.210      -4.459       0.991
+LifeEventType_sr[T.Personal]        -0.2406      0.966     -0.249      0.804      -2.151       1.670
+LifeEventType_sr[T.Work]            -0.2811      0.999     -0.281      0.779      -2.257       1.695
+status_sr[T.Ongoing]                 1.3663      0.426      3.204      0.002       0.523       2.210
+valence_sm                          -0.0100      0.242     -0.041      0.967      -0.489       0.469
+recency_sm                           0.0048      0.004      1.336      0.184      -0.002       0.012
+Intimacy_sm                         -0.3684      0.302     -1.220      0.225      -0.966       0.229
+Scope_sm                             0.2342      0.386      0.607      0.545      -0.529       0.997
+significance_sm                     -0.3788      0.600     -0.631      0.529      -1.565       0.808
+valence_sr                          -0.2318      0.232     -0.998      0.320      -0.691       0.228
+recency_sr                           0.0023      0.001      1.744      0.083      -0.000       0.005
+Intimacy_sr                         -0.4993      0.448     -1.114      0.267      -1.386       0.387
+Scope_sr                            -0.0434      0.545     -0.080      0.937      -1.122       1.035
+significance_sr                     -0.1740      0.747     -0.233      0.816      -1.651       1.303
+==============================================================================
+Omnibus:                        2.472   Durbin-Watson:                   1.073
+Prob(Omnibus):                  0.291   Jarque-Bera (JB):                2.527
+Skew:                          -0.286   Prob(JB):                        0.283
+Kurtosis:                       2.748   Cond. No.                     1.74e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.06e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

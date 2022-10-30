@@ -4,7 +4,7 @@ Dep. Variable:                  sleep   R-squared:                       0.453
 Model:                            OLS   Adj. R-squared:                  0.344
 Method:                 Least Squares   F-statistic:                     4.144
 Date:                Sun, 30 Oct 2022   Prob (F-statistic):           1.81e-08
-Time:                        12:27:01   Log-Likelihood:                -254.51
+Time:                        12:40:40   Log-Likelihood:                -254.51
 No. Observations:                 163   AIC:                             565.0
 Df Residuals:                     135   BIC:                             651.7
 Df Model:                          27                                         

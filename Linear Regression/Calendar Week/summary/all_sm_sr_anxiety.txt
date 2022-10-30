@@ -4,7 +4,7 @@ Dep. Variable:                anxiety   R-squared:                       0.333
 Model:                            OLS   Adj. R-squared:                  0.226
 Method:                 Least Squares   F-statistic:                     3.109
 Date:                Sun, 30 Oct 2022   Prob (F-statistic):           4.26e-06
-Time:                        12:27:03   Log-Likelihood:                -204.32
+Time:                        12:40:41   Log-Likelihood:                -204.32
 No. Observations:                 196   AIC:                             464.6
 Df Residuals:                     168   BIC:                             556.4
 Df Model:                          27                                         

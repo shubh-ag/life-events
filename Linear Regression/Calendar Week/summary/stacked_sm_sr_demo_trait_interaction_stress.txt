@@ -1,0 +1,263 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 stress   R-squared:                       0.410
+Model:                            OLS   Adj. R-squared:                  0.325
+Method:                 Least Squares   F-statistic:                     4.841
+Date:                Sun, 30 Oct 2022   Prob (F-statistic):           2.16e-81
+Time:                        12:27:00   Log-Likelihood:                -1486.9
+No. Observations:                1860   AIC:                             3442.
+Df Residuals:                    1626   BIC:                             4735.
+Df Model:                         233                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================================================
+                                                              coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------
+Intercept                                                  23.2489      9.412      2.470      0.014       4.788      41.710
+Anticipation[T.Unanticipated]                              -0.4937      1.182     -0.418      0.676      -2.812       1.825
+education_level[T.Doctoral]:Anticipation[Anticipated]      -5.2420      3.773     -1.389      0.165     -12.643       2.159
+education_level[T.Graduate]:Anticipation[Anticipated]      -0.6011      0.892     -0.674      0.500      -2.350       1.148
+education_level[T.High]:Anticipation[Anticipated]           7.1431      4.007      1.783      0.075      -0.716      15.002
+education_level[T.Doctoral]:Anticipation[Unanticipated]    -5.7709      3.797     -1.520      0.129     -13.217       1.676
+education_level[T.Graduate]:Anticipation[Unanticipated]    -0.5296      0.907     -0.584      0.559      -2.308       1.249
+education_level[T.High]:Anticipation[Unanticipated]         7.0045      3.947      1.774      0.076      -0.738      14.747
+education_level[College]:LifeEventType[T.Health]           -9.6010      5.245     -1.830      0.067     -19.889       0.687
+education_level[Doctoral]:LifeEventType[T.Health]       -9.536e-10   4.75e-10     -2.007      0.045   -1.89e-09   -2.18e-11
+education_level[Graduate]:LifeEventType[T.Health]          -9.4740      5.500     -1.723      0.085     -20.262       1.314
+education_level[High]:LifeEventType[T.Health]             -11.0839      5.681     -1.951      0.051     -22.226       0.059
+education_level[College]:LifeEventType[T.Local]            -8.7449      5.429     -1.611      0.107     -19.393       1.904
+education_level[Doctoral]:LifeEventType[T.Local]           -1.7323      3.097     -0.559      0.576      -7.807       4.343
+education_level[Graduate]:LifeEventType[T.Local]           -9.0973      5.664     -1.606      0.108     -20.206       2.012
+education_level[High]:LifeEventType[T.Local]             1.022e-10   4.93e-11      2.076      0.038    5.63e-12    1.99e-10
+education_level[College]:LifeEventType[T.Personal]         -9.6059      4.733     -2.029      0.043     -18.890      -0.322
+education_level[Doctoral]:LifeEventType[T.Personal]        -3.4036      1.996     -1.705      0.088      -7.319       0.511
+education_level[Graduate]:LifeEventType[T.Personal]        -9.7993      4.993     -1.963      0.050     -19.593      -0.006
+education_level[High]:LifeEventType[T.Personal]           -10.4741      5.119     -2.046      0.041     -20.515      -0.434
+education_level[College]:LifeEventType[T.School]          -10.1423      6.840     -1.483      0.138     -23.558       3.274
+education_level[Doctoral]:LifeEventType[T.School]          -2.7279      4.441     -0.614      0.539     -11.439       5.983
+education_level[Graduate]:LifeEventType[T.School]         -10.4567      6.887     -1.518      0.129     -23.966       3.053
+education_level[High]:LifeEventType[T.School]            7.403e-11   4.19e-11      1.769      0.077   -8.06e-12    1.56e-10
+education_level[College]:LifeEventType[T.Work]             -9.3462      4.902     -1.907      0.057     -18.960       0.268
+education_level[Doctoral]:LifeEventType[T.Work]            -3.1491      2.697     -1.168      0.243      -8.439       2.141
+education_level[Graduate]:LifeEventType[T.Work]            -9.4717      5.149     -1.839      0.066     -19.572       0.628
+education_level[High]:LifeEventType[T.Work]               -10.3757      5.336     -1.945      0.052     -20.842       0.090
+education_level[College]:status[T.Ongoing]                 -0.2839      1.141     -0.249      0.804      -2.523       1.955
+education_level[Doctoral]:status[T.Ongoing]                -0.3974      1.155     -0.344      0.731      -2.662       1.867
+education_level[Graduate]:status[T.Ongoing]                -0.1418      1.172     -0.121      0.904      -2.440       2.156
+education_level[High]:status[T.Ongoing]                    -0.3714      1.312     -0.283      0.777      -2.944       2.201
+education_level[College]:status[T.ended]                   -0.1977      1.649     -0.120      0.905      -3.433       3.037
+education_level[Doctoral]:status[T.ended]                  -0.3833      1.896     -0.202      0.840      -4.102       3.336
+education_level[Graduate]:status[T.ended]                  -0.0252      1.679     -0.015      0.988      -3.319       3.269
+education_level[High]:status[T.ended]                      -1.2819      1.866     -0.687      0.492      -4.941       2.377
+gender[T.Male]:Anticipation[Anticipated]                   -0.2440      0.936     -0.261      0.794      -2.079       1.591
+gender[T.Male]:Anticipation[Unanticipated]                  0.2034      0.959      0.212      0.832      -1.677       2.083
+gender[T.Male]:LifeEventType[T.Health]                      0.8336      0.516      1.615      0.106      -0.179       1.846
+gender[T.Male]:LifeEventType[T.Local]                       0.4676      0.514      0.910      0.363      -0.540       1.475
+gender[T.Male]:LifeEventType[T.Personal]                    0.6011      0.468      1.283      0.200      -0.318       1.520
+gender[T.Male]:LifeEventType[T.School]                      1.1133      0.733      1.518      0.129      -0.325       2.552
+gender[T.Male]:LifeEventType[T.Work]                        0.4419      0.500      0.884      0.377      -0.539       1.423
+gender[T.Male]:status[T.Ongoing]                            0.3737      0.116      3.219      0.001       0.146       0.601
+gender[T.Male]:status[T.ended]                              0.2670      0.228      1.171      0.242      -0.180       0.714
+shipley_vocab:Anticipation[Anticipated]                    -0.2880      0.215     -1.341      0.180      -0.709       0.133
+shipley_vocab:Anticipation[Unanticipated]                  -0.2498      0.215     -1.161      0.246      -0.672       0.172
+shipley_vocab:LifeEventType[T.Health]                       0.1465      0.182      0.803      0.422      -0.211       0.504
+shipley_vocab:LifeEventType[T.Local]                        0.1517      0.183      0.830      0.407      -0.207       0.510
+shipley_vocab:LifeEventType[T.Personal]                     0.1464      0.179      0.818      0.413      -0.205       0.497
+shipley_vocab:LifeEventType[T.School]                       0.1142      0.211      0.542      0.588      -0.299       0.527
+shipley_vocab:LifeEventType[T.Work]                         0.1391      0.180      0.772      0.440      -0.214       0.492
+shipley_vocab:status[T.Ongoing]                            -0.0329      0.017     -1.970      0.049      -0.066      -0.000
+shipley_vocab:status[T.ended]                               0.0157      0.030      0.519      0.604      -0.044       0.075
+shipley_vocab:valence                                       0.0069      0.010      0.684      0.494      -0.013       0.027
+shipley_vocab:recency                                    7.958e-05      0.000      0.527      0.598      -0.000       0.000
+shipley_vocab:Intimacy                                      0.0108      0.016      0.682      0.495      -0.020       0.042
+shipley_vocab:Scope                                         0.0190      0.021      0.917      0.359      -0.022       0.060
+shipley_vocab:significance                                  0.0406      0.025      1.635      0.102      -0.008       0.089
+shipley_abs:Anticipation[Anticipated]                       0.1574      0.154      1.020      0.308      -0.145       0.460
+shipley_abs:Anticipation[Unanticipated]                     0.1418      0.157      0.906      0.365      -0.165       0.449
+shipley_abs:LifeEventType[T.Health]                        -0.0779      0.069     -1.132      0.258      -0.213       0.057
+shipley_abs:LifeEventType[T.Local]                         -0.0384      0.076     -0.505      0.613      -0.188       0.111
+shipley_abs:LifeEventType[T.Personal]                      -0.0497      0.062     -0.803      0.422      -0.171       0.072
+shipley_abs:LifeEventType[T.School]                        -0.1216      0.089     -1.373      0.170      -0.295       0.052
+shipley_abs:LifeEventType[T.Work]                          -0.0316      0.064     -0.492      0.623      -0.157       0.094
+shipley_abs:status[T.Ongoing]                               0.0041      0.020      0.205      0.838      -0.035       0.044
+shipley_abs:status[T.ended]                                -0.0002      0.042     -0.005      0.996      -0.083       0.082
+shipley_abs:valence                                        -0.0013      0.010     -0.137      0.891      -0.020       0.018
+shipley_abs:recency                                     -1.221e-05      0.000     -0.082      0.935      -0.000       0.000
+shipley_abs:Intimacy                                        0.0072      0.016      0.446      0.656      -0.025       0.039
+shipley_abs:Scope                                          -0.0292      0.022     -1.312      0.190      -0.073       0.014
+shipley_abs:significance                                   -0.0486      0.028     -1.707      0.088      -0.104       0.007
+openness:Anticipation[Anticipated]                         -0.8129      1.095     -0.742      0.458      -2.962       1.336
+openness:Anticipation[Unanticipated]                       -1.0732      1.098     -0.977      0.329      -3.227       1.081
+openness:LifeEventType[T.Health]                            0.5772      0.885      0.653      0.514      -1.158       2.312
+openness:LifeEventType[T.Local]                            -0.2579      0.879     -0.293      0.769      -1.983       1.467
+openness:LifeEventType[T.Personal]                          0.2961      0.863      0.343      0.731      -1.396       1.988
+openness:LifeEventType[T.School]                            0.3900      0.965      0.404      0.686      -1.504       2.284
+openness:LifeEventType[T.Work]                              0.2715      0.878      0.309      0.757      -1.451       1.994
+openness:status[T.Ongoing]                                  0.1479      0.101      1.471      0.142      -0.049       0.345
+openness:status[T.ended]                                    0.0489      0.175      0.279      0.781      -0.295       0.393
+openness:valence                                           -0.0674      0.053     -1.275      0.202      -0.171       0.036
+openness:recency                                            0.0016      0.001      2.189      0.029       0.000       0.003
+openness:Intimacy                                          -0.1188      0.087     -1.371      0.171      -0.289       0.051
+openness:Scope                                             -0.1870      0.115     -1.631      0.103      -0.412       0.038
+openness:significance                                      -0.2192      0.152     -1.445      0.149      -0.517       0.078
+conscientiousness:Anticipation[Anticipated]                -0.4280      0.885     -0.484      0.629      -2.163       1.307
+conscientiousness:Anticipation[Unanticipated]              -0.1618      0.906     -0.179      0.858      -1.939       1.616
+conscientiousness:LifeEventType[T.Health]                   0.3850      0.543      0.710      0.478      -0.679       1.449
+conscientiousness:LifeEventType[T.Local]                    0.5533      0.509      1.087      0.277      -0.445       1.552
+conscientiousness:LifeEventType[T.Personal]                 0.6107      0.466      1.310      0.191      -0.304       1.525
+conscientiousness:LifeEventType[T.School]                   1.0459      0.566      1.849      0.065      -0.064       2.155
+conscientiousness:LifeEventType[T.Work]                     0.4214      0.489      0.861      0.389      -0.539       1.381
+conscientiousness:status[T.Ongoing]                        -0.0423      0.108     -0.392      0.695      -0.254       0.169
+conscientiousness:status[T.ended]                           0.0637      0.200      0.318      0.750      -0.329       0.456
+conscientiousness:valence                                   0.2020      0.057      3.545      0.000       0.090       0.314
+conscientiousness:recency                                  -0.0009      0.001     -1.200      0.230      -0.002       0.001
+conscientiousness:Intimacy                                 -0.0260      0.091     -0.286      0.775      -0.205       0.153
+conscientiousness:Scope                                     0.2576      0.142      1.817      0.069      -0.020       0.536
+conscientiousness:significance                             -0.0285      0.140     -0.203      0.839      -0.303       0.246
+extraversion:Anticipation[Anticipated]                     -0.2715      0.724     -0.375      0.708      -1.691       1.148
+extraversion:Anticipation[Unanticipated]                   -0.2562      0.731     -0.351      0.726      -1.689       1.177
+extraversion:LifeEventType[T.Health]                        0.1611      0.428      0.376      0.707      -0.679       1.002
+extraversion:LifeEventType[T.Local]                         0.5219      0.364      1.433      0.152      -0.192       1.236
+extraversion:LifeEventType[T.Personal]                     -0.0829      0.300     -0.277      0.782      -0.671       0.505
+extraversion:LifeEventType[T.School]                        0.2031      0.457      0.445      0.656      -0.692       1.099
+extraversion:LifeEventType[T.Work]                         -0.2337      0.323     -0.724      0.469      -0.867       0.400
+extraversion:status[T.Ongoing]                             -0.0575      0.097     -0.595      0.552      -0.247       0.132
+extraversion:status[T.ended]                               -0.0044      0.205     -0.022      0.983      -0.406       0.397
+extraversion:valence                                       -0.0441      0.053     -0.827      0.408      -0.149       0.061
+extraversion:recency                                     2.066e-05      0.001      0.028      0.978      -0.001       0.001
+extraversion:Intimacy                                      -0.0778      0.085     -0.918      0.359      -0.244       0.088
+extraversion:Scope                                          0.3594      0.121      2.976      0.003       0.123       0.596
+extraversion:significance                                  -0.4322      0.128     -3.386      0.001      -0.683      -0.182
+agreeableness:Anticipation[Anticipated]                    -0.2351      0.897     -0.262      0.793      -1.994       1.523
+agreeableness:Anticipation[Unanticipated]                  -0.1776      0.930     -0.191      0.849      -2.003       1.647
+agreeableness:LifeEventType[T.Health]                      -0.4501      0.462     -0.974      0.330      -1.356       0.456
+agreeableness:LifeEventType[T.Local]                       -1.4872      0.493     -3.018      0.003      -2.454      -0.521
+agreeableness:LifeEventType[T.Personal]                    -0.9482      0.421     -2.252      0.024      -1.774      -0.122
+agreeableness:LifeEventType[T.School]                      -0.8381      0.655     -1.279      0.201      -2.124       0.447
+agreeableness:LifeEventType[T.Work]                        -0.6429      0.439     -1.463      0.144      -1.505       0.219
+agreeableness:status[T.Ongoing]                             0.1477      0.113      1.312      0.190      -0.073       0.368
+agreeableness:status[T.ended]                              -0.0697      0.201     -0.346      0.729      -0.464       0.325
+agreeableness:valence                                      -0.0960      0.064     -1.496      0.135      -0.222       0.030
+agreeableness:recency                                       0.0020      0.001      2.586      0.010       0.000       0.004
+agreeableness:Intimacy                                     -0.2256      0.102     -2.212      0.027      -0.426      -0.026
+agreeableness:Scope                                        -0.1176      0.146     -0.803      0.422      -0.405       0.170
+agreeableness:significance                                  0.0481      0.145      0.332      0.740      -0.236       0.333
+neuroticism:Anticipation[Anticipated]                       0.4124      1.009      0.409      0.683      -1.566       2.391
+neuroticism:Anticipation[Unanticipated]                     0.3208      1.024      0.313      0.754      -1.689       2.330
+neuroticism:LifeEventType[T.Health]                         0.6338      0.632      1.002      0.316      -0.607       1.874
+neuroticism:LifeEventType[T.Local]                          0.9730      0.680      1.431      0.153      -0.361       2.307
+neuroticism:LifeEventType[T.Personal]                       0.5867      0.600      0.978      0.328      -0.590       1.764
+neuroticism:LifeEventType[T.School]                        -0.5885      1.045     -0.563      0.573      -2.637       1.460
+neuroticism:LifeEventType[T.Work]                           0.5402      0.606      0.892      0.373      -0.648       1.728
+neuroticism:status[T.Ongoing]                               0.2732      0.136      2.010      0.045       0.007       0.540
+neuroticism:status[T.ended]                                 0.4723      0.227      2.081      0.038       0.027       0.917
+neuroticism:valence                                        -0.1404      0.061     -2.318      0.021      -0.259      -0.022
+neuroticism:recency                                        -0.0017      0.001     -1.923      0.055      -0.004    3.44e-05
+neuroticism:Intimacy                                        0.0546      0.097      0.564      0.573      -0.135       0.244
+neuroticism:Scope                                           0.0138      0.167      0.083      0.934      -0.315       0.342
+neuroticism:significance                                    0.2385      0.163      1.467      0.142      -0.080       0.557
+pos_affect:Anticipation[Anticipated]                       -0.1616      0.172     -0.941      0.347      -0.498       0.175
+pos_affect:Anticipation[Unanticipated]                     -0.1817      0.172     -1.054      0.292      -0.520       0.157
+pos_affect:LifeEventType[T.Health]                          0.1170      0.142      0.823      0.411      -0.162       0.396
+pos_affect:LifeEventType[T.Local]                           0.1717      0.142      1.209      0.227      -0.107       0.450
+pos_affect:LifeEventType[T.Personal]                        0.1685      0.139      1.213      0.225      -0.104       0.441
+pos_affect:LifeEventType[T.School]                          0.0925      0.158      0.586      0.558      -0.217       0.402
+pos_affect:LifeEventType[T.Work]                            0.1636      0.139      1.178      0.239      -0.109       0.436
+pos_affect:status[T.Ongoing]                                0.0113      0.014      0.777      0.437      -0.017       0.040
+pos_affect:status[T.ended]                                 -0.0040      0.024     -0.166      0.868      -0.052       0.044
+pos_affect:valence                                          0.0209      0.007      2.892      0.004       0.007       0.035
+pos_affect:recency                                       3.108e-05      0.000      0.308      0.758      -0.000       0.000
+pos_affect:Intimacy                                         0.0068      0.012      0.545      0.586      -0.018       0.031
+pos_affect:Scope                                           -0.0168      0.016     -1.056      0.291      -0.048       0.014
+pos_affect:significance                                    -0.0103      0.018     -0.570      0.569      -0.046       0.025
+neg_affect:Anticipation[Anticipated]                        0.4644      0.200      2.323      0.020       0.072       0.856
+neg_affect:Anticipation[Unanticipated]                      0.4658      0.200      2.329      0.020       0.074       0.858
+neg_affect:LifeEventType[T.Health]                         -0.2716      0.178     -1.527      0.127      -0.620       0.077
+neg_affect:LifeEventType[T.Local]                          -0.2069      0.172     -1.204      0.229      -0.544       0.130
+neg_affect:LifeEventType[T.Personal]                       -0.2666      0.171     -1.555      0.120      -0.603       0.070
+neg_affect:LifeEventType[T.School]                         -0.2294      0.185     -1.238      0.216      -0.593       0.134
+neg_affect:LifeEventType[T.Work]                           -0.2821      0.175     -1.614      0.107      -0.625       0.061
+neg_affect:status[T.Ongoing]                               -0.0035      0.015     -0.228      0.820      -0.034       0.027
+neg_affect:status[T.ended]                                  0.0138      0.029      0.481      0.630      -0.042       0.070
+neg_affect:valence                                         -0.0068      0.009     -0.747      0.455      -0.025       0.011
+neg_affect:recency                                         -0.0002      0.000     -1.806      0.071      -0.000    1.82e-05
+neg_affect:Intimacy                                        -0.0121      0.017     -0.712      0.477      -0.045       0.021
+neg_affect:Scope                                            0.0255      0.019      1.323      0.186      -0.012       0.063
+neg_affect:significance                                    -0.0780      0.019     -4.041      0.000      -0.116      -0.040
+stai_trait:Anticipation[Anticipated]                       -0.1644      0.099     -1.656      0.098      -0.359       0.030
+stai_trait:Anticipation[Unanticipated]                     -0.1687      0.100     -1.694      0.090      -0.364       0.027
+stai_trait:LifeEventType[T.Health]                          0.0449      0.044      1.018      0.309      -0.042       0.131
+stai_trait:LifeEventType[T.Local]                          -0.0137      0.050     -0.274      0.784      -0.111       0.084
+stai_trait:LifeEventType[T.Personal]                        0.0473      0.039      1.223      0.222      -0.029       0.123
+stai_trait:LifeEventType[T.School]                          0.1867      0.102      1.833      0.067      -0.013       0.386
+stai_trait:LifeEventType[T.Work]                            0.0698      0.042      1.671      0.095      -0.012       0.152
+stai_trait:status[T.Ongoing]                               -0.0072      0.012     -0.591      0.555      -0.031       0.017
+stai_trait:status[T.ended]                                 -0.0498      0.024     -2.117      0.034      -0.096      -0.004
+stai_trait:valence                                          0.0131      0.006      2.099      0.036       0.001       0.025
+stai_trait:recency                                          0.0002   9.83e-05      2.054      0.040    9.06e-06       0.000
+stai_trait:Intimacy                                        -0.0100      0.011     -0.903      0.367      -0.032       0.012
+stai_trait:Scope                                           -0.0037      0.017     -0.223      0.823      -0.037       0.029
+stai_trait:significance                                     0.0115      0.015      0.777      0.437      -0.018       0.040
+education_level[College]:valence                           -1.4366      0.658     -2.185      0.029      -2.727      -0.147
+education_level[Doctoral]:valence                          -1.7063      0.726     -2.349      0.019      -3.131      -0.282
+education_level[Graduate]:valence                          -1.4266      0.673     -2.120      0.034      -2.746      -0.107
+education_level[High]:valence                              -1.1717      0.743     -1.577      0.115      -2.629       0.285
+gender[T.Male]:valence                                      0.0876      0.060      1.464      0.143      -0.030       0.205
+education_level[College]:recency                           -0.0149      0.008     -1.757      0.079      -0.032       0.002
+education_level[Doctoral]:recency                          -0.0166      0.009     -1.888      0.059      -0.034       0.001
+education_level[Graduate]:recency                          -0.0142      0.009     -1.646      0.100      -0.031       0.003
+education_level[High]:recency                              -0.0215      0.010     -2.199      0.028      -0.041      -0.002
+gender[T.Male]:recency                                     -0.0010      0.001     -1.118      0.264      -0.003       0.001
+education_level[College]:Intimacy                           1.2184      0.963      1.266      0.206      -0.670       3.107
+education_level[Doctoral]:Intimacy                          1.0631      1.015      1.047      0.295      -0.928       3.054
+education_level[Graduate]:Intimacy                          1.2642      0.986      1.282      0.200      -0.669       3.198
+education_level[High]:Intimacy                              0.6791      1.074      0.632      0.527      -1.428       2.786
+gender[T.Male]:Intimacy                                    -0.0428      0.102     -0.420      0.674      -0.243       0.157
+education_level[College]:Scope                             -1.8891      1.676     -1.127      0.260      -5.176       1.398
+education_level[Doctoral]:Scope                            -0.9637      1.867     -0.516      0.606      -4.626       2.699
+education_level[Graduate]:Scope                            -1.9085      1.704     -1.120      0.263      -5.251       1.434
+education_level[High]:Scope                                -1.6302      1.867     -0.873      0.383      -5.293       2.032
+gender[T.Male]:Scope                                       -0.0061      0.146     -0.042      0.967      -0.292       0.280
+education_level[College]:significance                       1.9483      1.597      1.220      0.223      -1.184       5.080
+education_level[Doctoral]:significance                      0.9089      2.014      0.451      0.652      -3.041       4.859
+education_level[Graduate]:significance                      2.4169      1.650      1.465      0.143      -0.820       5.653
+education_level[High]:significance                          1.4834      1.737      0.854      0.393      -1.924       4.891
+gender[T.Male]:significance                                 0.3206      0.154      2.082      0.038       0.019       0.623
+psqi:Anticipation[Anticipated]                             -0.2937      0.191     -1.537      0.125      -0.669       0.081
+psqi:Anticipation[Unanticipated]                           -0.2729      0.198     -1.379      0.168      -0.661       0.115
+psqi:LifeEventType[T.Health]                                0.0815      0.084      0.971      0.332      -0.083       0.246
+psqi:LifeEventType[T.Local]                                 0.1617      0.098      1.655      0.098      -0.030       0.353
+psqi:LifeEventType[T.Personal]                              0.0594      0.076      0.782      0.434      -0.090       0.208
+psqi:LifeEventType[T.School]                               -0.0619      0.116     -0.534      0.594      -0.289       0.166
+psqi:LifeEventType[T.Work]                                  0.0005      0.080      0.006      0.995      -0.156       0.157
+psqi:status[T.Ongoing]                                     -0.0202      0.023     -0.894      0.371      -0.065       0.024
+psqi:status[T.ended]                                        0.0729      0.043      1.708      0.088      -0.011       0.157
+psqi:valence                                                0.0549      0.013      4.189      0.000       0.029       0.081
+psqi:recency                                                0.0002      0.000      0.933      0.351      -0.000       0.000
+psqi:Intimacy                                               0.0262      0.021      1.234      0.217      -0.015       0.068
+psqi:Scope                                                  0.0316      0.033      0.970      0.332      -0.032       0.095
+psqi:significance                                          -0.0247      0.031     -0.807      0.420      -0.085       0.035
+age:Anticipation[Anticipated]                              -0.0724      0.057     -1.272      0.204      -0.184       0.039
+age:Anticipation[Unanticipated]                            -0.0772      0.057     -1.345      0.179      -0.190       0.035
+age:LifeEventType[T.Health]                                -0.0168      0.034     -0.500      0.617      -0.083       0.049
+age:LifeEventType[T.Local]                                  0.0425      0.034      1.233      0.218      -0.025       0.110
+age:LifeEventType[T.Personal]                               0.0171      0.031      0.559      0.576      -0.043       0.077
+age:LifeEventType[T.School]                                 0.0083      0.043      0.196      0.845      -0.075       0.092
+age:LifeEventType[T.Work]                                   0.0164      0.032      0.505      0.614      -0.047       0.080
+age:status[T.Ongoing]                                      -0.0114      0.006     -1.912      0.056      -0.023       0.000
+age:status[T.ended]                                        -0.0176      0.010     -1.711      0.087      -0.038       0.003
+age:valence                                                -0.0007      0.003     -0.209      0.834      -0.007       0.006
+age:recency                                              2.913e-05   5.04e-05      0.578      0.564   -6.98e-05       0.000
+age:Intimacy                                                0.0018      0.005      0.336      0.737      -0.009       0.012
+age:Scope                                                   0.0200      0.011      1.877      0.061      -0.001       0.041
+age:significance                                            0.0012      0.008      0.153      0.879      -0.014       0.017
+==============================================================================
+Omnibus:                       35.705   Durbin-Watson:                   1.162
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               60.392
+Skew:                           0.147   Prob(JB):                     7.69e-14
+Kurtosis:                       3.833   Cond. No.                     1.01e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 7.02e-20. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

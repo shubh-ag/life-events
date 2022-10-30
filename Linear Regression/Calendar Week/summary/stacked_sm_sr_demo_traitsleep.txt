@@ -1,0 +1,55 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  sleep   R-squared:                       0.093
+Model:                            OLS   Adj. R-squared:                  0.078
+Method:                 Least Squares   F-statistic:                     6.172
+Date:                Sun, 30 Oct 2022   Prob (F-statistic):           3.43e-22
+Time:                        12:27:02   Log-Likelihood:                -2824.7
+No. Observations:                1767   AIC:                             5709.
+Df Residuals:                    1737   BIC:                             5874.
+Df Model:                          29                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                         4.1252      0.999      4.129      0.000       2.166       6.085
+education_level[T.Doctoral]       0.2042      0.179      1.144      0.253      -0.146       0.554
+education_level[T.Graduate]       0.0221      0.068      0.326      0.745      -0.111       0.155
+education_level[T.High]          -0.0695      0.191     -0.365      0.715      -0.443       0.304
+gender[T.Male]                   -0.3777      0.068     -5.535      0.000      -0.512      -0.244
+Anticipation[T.Unanticipated]    -0.0198      0.081     -0.244      0.807      -0.178       0.139
+LifeEventType[T.Health]          -0.1096      0.196     -0.560      0.575      -0.493       0.274
+LifeEventType[T.Local]            0.0030      0.216      0.014      0.989      -0.421       0.427
+LifeEventType[T.Personal]        -0.1171      0.147     -0.797      0.425      -0.405       0.171
+LifeEventType[T.School]          -0.0378      0.242     -0.156      0.876      -0.513       0.437
+LifeEventType[T.Work]            -0.1395      0.167     -0.834      0.404      -0.467       0.188
+status[T.Ongoing]                -0.2002      0.078     -2.554      0.011      -0.354      -0.046
+status[T.ended]                   0.1399      0.158      0.884      0.377      -0.171       0.450
+shipley_vocab                     0.0572      0.010      5.630      0.000       0.037       0.077
+shipley_abs                      -0.0232      0.011     -2.094      0.036      -0.045      -0.001
+openness                          0.1603      0.055      2.891      0.004       0.052       0.269
+conscientiousness                 0.0268      0.058      0.465      0.642      -0.086       0.140
+extraversion                     -0.0796      0.055     -1.441      0.150      -0.188       0.029
+agreeableness                     0.2261      0.061      3.677      0.000       0.105       0.347
+neuroticism                       0.0371      0.067      0.557      0.578      -0.094       0.168
+pos_affect                       -0.0090      0.007     -1.249      0.212      -0.023       0.005
+neg_affect                       -0.0154      0.009     -1.667      0.096      -0.033       0.003
+stai_trait                        0.0073      0.007      1.089      0.276      -0.006       0.021
+psqi                             -0.0823      0.013     -6.232      0.000      -0.108      -0.056
+age                              -0.0047      0.004     -1.288      0.198      -0.012       0.002
+valence                           0.0723      0.041      1.755      0.079      -0.008       0.153
+recency                           0.0022      0.001      3.302      0.001       0.001       0.004
+Intimacy                         -0.0839      0.071     -1.189      0.235      -0.222       0.054
+Scope                             0.1962      0.086      2.277      0.023       0.027       0.365
+significance                      0.0963      0.099      0.972      0.331      -0.098       0.291
+==============================================================================
+Omnibus:                      222.113   Durbin-Watson:                   1.062
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              547.713
+Skew:                          -0.706   Prob(JB):                    1.16e-119
+Kurtosis:                       5.333   Cond. No.                     2.84e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.84e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

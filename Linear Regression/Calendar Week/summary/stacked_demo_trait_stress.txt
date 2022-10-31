@@ -3,8 +3,8 @@
 Dep. Variable:                 stress   R-squared:                       0.139
 Model:                            OLS   Adj. R-squared:                  0.132
 Method:                 Least Squares   F-statistic:                     18.64
-Date:                Sun, 30 Oct 2022   Prob (F-statistic):           1.17e-49
-Time:                        12:39:37   Log-Likelihood:                -1837.5
+Date:                Mon, 31 Oct 2022   Prob (F-statistic):           1.17e-49
+Time:                        13:16:44   Log-Likelihood:                -1837.5
 No. Observations:                1860   AIC:                             3709.
 Df Residuals:                    1843   BIC:                             3803.
 Df Model:                          16                                         

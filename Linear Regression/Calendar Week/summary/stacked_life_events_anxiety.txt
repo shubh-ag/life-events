@@ -1,0 +1,39 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                anxiety   R-squared:                       0.068
+Model:                            OLS   Adj. R-squared:                  0.061
+Method:                 Least Squares   F-statistic:                     10.37
+Date:                Mon, 31 Oct 2022   Prob (F-statistic):           1.69e-21
+Time:                        13:16:46   Log-Likelihood:                -1754.3
+No. Observations:                1860   AIC:                             3537.
+Df Residuals:                    1846   BIC:                             3614.
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                         2.4819      0.287      8.651      0.000       1.919       3.045
+Anticipation[T.Unanticipated]     0.1112      0.039      2.830      0.005       0.034       0.188
+LifeEventType[T.Health]          -0.2020      0.095     -2.120      0.034      -0.389      -0.015
+LifeEventType[T.Local]           -0.4221      0.107     -3.960      0.000      -0.631      -0.213
+LifeEventType[T.Personal]        -0.3612      0.071     -5.052      0.000      -0.501      -0.221
+LifeEventType[T.School]          -0.2503      0.120     -2.083      0.037      -0.486      -0.015
+LifeEventType[T.Work]            -0.2289      0.082     -2.807      0.005      -0.389      -0.069
+status[T.Ongoing]                -0.1013      0.035     -2.864      0.004      -0.171      -0.032
+status[T.ended]                  -0.1744      0.078     -2.230      0.026      -0.328      -0.021
+valence                          -0.0399      0.020     -2.025      0.043      -0.079      -0.001
+recency                          -0.0003      0.000     -1.004      0.316      -0.001       0.000
+Intimacy                          0.0664      0.035      1.914      0.056      -0.002       0.135
+Scope                            -0.0911      0.042     -2.182      0.029      -0.173      -0.009
+significance                     -0.0473      0.048     -0.980      0.327      -0.142       0.047
+==============================================================================
+Omnibus:                      154.760   Durbin-Watson:                   0.671
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              194.941
+Skew:                           0.742   Prob(JB):                     4.67e-43
+Kurtosis:                       3.561   Cond. No.                     1.66e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.66e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,53 +1,49 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                  sleep   R-squared:                       0.453
-Model:                            OLS   Adj. R-squared:                  0.344
-Method:                 Least Squares   F-statistic:                     4.144
-Date:                Sun, 30 Oct 2022   Prob (F-statistic):           1.81e-08
-Time:                        12:40:40   Log-Likelihood:                -254.51
-No. Observations:                 163   AIC:                             565.0
-Df Residuals:                     135   BIC:                             651.7
-Df Model:                          27                                         
+Dep. Variable:                  sleep   R-squared:                       0.265
+Model:                            OLS   Adj. R-squared:                  0.144
+Method:                 Least Squares   F-statistic:                     2.181
+Date:                Mon, 31 Oct 2022   Prob (F-statistic):            0.00304
+Time:                        13:16:44   Log-Likelihood:                -278.59
+No. Observations:                 163   AIC:                             605.2
+Df Residuals:                     139   BIC:                             679.4
+Df Model:                          23                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================================
                                        coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------------------
-Intercept                            5.7712      7.456      0.774      0.440      -8.974      20.516
-education_level[T.Doctoral]          2.6605      1.249      2.130      0.035       0.190       5.131
-education_level[T.Graduate]          0.7804      0.570      1.370      0.173      -0.346       1.907
-education_level[T.High]             -1.1227      1.009     -1.113      0.268      -3.118       0.872
-gender[T.Male]                      -0.8689      0.614     -1.414      0.160      -2.084       0.346
-Anticipation_sr[T.Unanticipated]     0.3417      0.588      0.581      0.562      -0.822       1.505
-LifeEventType_sr[T.Health]           0.2837      1.429      0.199      0.843      -2.542       3.110
-LifeEventType_sr[T.Local]           -0.4693      1.438     -0.326      0.745      -3.313       2.374
-LifeEventType_sr[T.Personal]         0.1237      1.046      0.118      0.906      -1.945       2.193
-LifeEventType_sr[T.Work]            -0.0289      1.090     -0.027      0.979      -2.185       2.127
-status_sr[T.Ongoing]                 1.6533      0.970      1.704      0.091      -0.266       3.572
-shipley_vocab                        0.1159      0.093      1.248      0.214      -0.068       0.300
-shipley_abs                         -0.0994      0.063     -1.578      0.117      -0.224       0.025
-openness                            -0.5510      0.375     -1.468      0.144      -1.293       0.191
-conscientiousness                   -0.0823      0.454     -0.181      0.856      -0.981       0.816
-extraversion                        -0.5245      0.405     -1.297      0.197      -1.325       0.276
-agreeableness                        0.0695      0.625      0.111      0.912      -1.167       1.306
-neuroticism                          0.4712      0.586      0.803      0.423      -0.689       1.631
-pos_affect                           0.1457      0.094      1.556      0.122      -0.040       0.331
-neg_affect                          -0.1582      0.079     -2.011      0.046      -0.314      -0.003
-stai_trait                           0.0745      0.049      1.529      0.129      -0.022       0.171
-psqi                                -0.2123      0.114     -1.856      0.066      -0.438       0.014
-age                                 -0.0162      0.041     -0.396      0.692      -0.097       0.064
-valence_sr                           0.0138      0.342      0.040      0.968      -0.663       0.691
-recency_sr                           0.6423      2.201      0.292      0.771      -3.710       4.995
-Intimacy_sr                         -0.5830      0.491     -1.186      0.238      -1.555       0.389
-Scope_sr                             0.1474      0.667      0.221      0.825      -1.171       1.466
-significance_sr                     -0.8080      0.740     -1.092      0.277      -2.271       0.655
+Intercept                            8.7049      2.181      3.991      0.000       4.392      13.018
+Anticipation_sm[T.Unanticipated]    -0.7248      0.364     -1.992      0.048      -1.444      -0.005
+LifeEventType_sm[T.Health]          -0.0565      0.903     -0.063      0.950      -1.841       1.728
+LifeEventType_sm[T.Local]            0.2074      1.086      0.191      0.849      -1.940       2.355
+LifeEventType_sm[T.Personal]        -0.2460      0.724     -0.340      0.734      -1.677       1.185
+LifeEventType_sm[T.School]           0.6260      1.093      0.573      0.568      -1.536       2.788
+LifeEventType_sm[T.Work]             0.1107      0.897      0.123      0.902      -1.662       1.884
+status_sm[T.ended]                   1.3019      0.518      2.515      0.013       0.278       2.326
+Anticipation_sr[T.Unanticipated]     0.2957      0.450      0.657      0.512      -0.594       1.185
+LifeEventType_sr[T.Health]          -1.9793      1.231     -1.607      0.110      -4.414       0.455
+LifeEventType_sr[T.Local]           -2.1915      1.327     -1.652      0.101      -4.814       0.432
+LifeEventType_sr[T.Personal]        -0.5945      0.956     -0.622      0.535      -2.484       1.295
+LifeEventType_sr[T.Work]            -0.6436      0.990     -0.650      0.517      -2.602       1.315
+status_sr[T.Ongoing]                 1.2140      0.432      2.810      0.006       0.360       2.068
+valence_sm                          -0.0769      0.239     -0.322      0.748      -0.549       0.395
+recency_sm                          -0.7994     21.575     -0.037      0.970     -43.456      41.858
+Intimacy_sm                         -0.4573      0.302     -1.514      0.132      -1.054       0.140
+Scope_sm                             0.2752      0.388      0.710      0.479      -0.491       1.042
+significance_sm                     -0.4850      0.600     -0.809      0.420      -1.670       0.701
+valence_sr                          -0.2939      0.225     -1.304      0.194      -0.739       0.152
+recency_sr                           4.0998     24.518      0.167      0.867     -44.377      52.576
+Intimacy_sr                         -0.5447      0.428     -1.274      0.205      -1.390       0.301
+Scope_sr                             0.0096      0.535      0.018      0.986      -1.049       1.068
+significance_sr                      0.5050      0.608      0.831      0.407      -0.696       1.706
 ==============================================================================
-Omnibus:                        6.884   Durbin-Watson:                   1.132
-Prob(Omnibus):                  0.032   Jarque-Bera (JB):                6.536
-Skew:                          -0.465   Prob(JB):                       0.0381
-Kurtosis:                       3.314   Cond. No.                     5.99e+03
+Omnibus:                        3.393   Durbin-Watson:                   1.036
+Prob(Omnibus):                  0.183   Jarque-Bera (JB):                3.449
+Skew:                          -0.337   Prob(JB):                        0.178
+Kurtosis:                       2.768   Cond. No.                     1.34e+03
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 5.99e+03. This might indicate that there are
+[2] The condition number is large, 1.34e+03. This might indicate that there are
 strong multicollinearity or other numerical problems.

@@ -1,39 +1,34 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                  sleep   R-squared:                       0.017
-Model:                            OLS   Adj. R-squared:                  0.010
-Method:                 Least Squares   F-statistic:                     2.373
-Date:                Mon, 31 Oct 2022   Prob (F-statistic):            0.00376
-Time:                        13:16:45   Log-Likelihood:                -2895.9
-No. Observations:                1767   AIC:                             5820.
-Df Residuals:                    1753   BIC:                             5897.
-Df Model:                          13                                         
-Covariance Type:            nonrobust                                         
-=================================================================================================
-                                    coef    std err          t      P>|t|      [0.025      0.975]
--------------------------------------------------------------------------------------------------
-Intercept                         7.0840      0.593     11.954      0.000       5.922       8.246
-Anticipation[T.Unanticipated]     0.0885      0.081      1.094      0.274      -0.070       0.247
-LifeEventType[T.Health]          -0.2935      0.196     -1.495      0.135      -0.678       0.091
-LifeEventType[T.Local]           -0.2619      0.217     -1.205      0.228      -0.688       0.165
-LifeEventType[T.Personal]        -0.2486      0.146     -1.705      0.088      -0.535       0.037
-LifeEventType[T.School]          -0.0172      0.247     -0.069      0.945      -0.502       0.468
-LifeEventType[T.Work]            -0.2733      0.166     -1.645      0.100      -0.599       0.053
-status[T.Ongoing]                -0.1413      0.074     -1.923      0.055      -0.286       0.003
-status[T.ended]                   0.2037      0.160      1.273      0.203      -0.110       0.518
-valence                           0.0636      0.041      1.566      0.118      -0.016       0.143
-recency                           0.0010      0.001      1.666      0.096      -0.000       0.002
-Intimacy                         -0.1236      0.072     -1.727      0.084      -0.264       0.017
-Scope                             0.1769      0.085      2.076      0.038       0.010       0.344
-significance                      0.0717      0.100      0.717      0.474      -0.124       0.268
-==============================================================================
-Omnibus:                      237.675   Durbin-Watson:                   0.999
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              629.177
-Skew:                          -0.729   Prob(JB):                    2.38e-137
-Kurtosis:                       5.534   Cond. No.                     1.66e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.66e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.
+                             Results: Ordinary least squares
+=========================================================================================
+Model:                       OLS                     Adj. R-squared:            0.010    
+Dependent Variable:          sleep                   AIC:                       5819.8615
+Date:                        2022-11-07 17:32        BIC:                       5896.5400
+No. Observations:            1767                    Log-Likelihood:            -2895.9  
+Df Model:                    13                      F-statistic:               2.373    
+Df Residuals:                1753                    Prob (F-statistic):        0.00376  
+R-squared:                   0.017                   Scale:                     1.5650   
+-----------------------------------------------------------------------------------------
+                               Coef.  Std.Err.    t    P>|t|   [0.025 0.975] significance
+-----------------------------------------------------------------------------------------
+Intercept                      7.0840   0.5926 11.9537 0.0000  5.9217 8.2463          ***
+Scope                          0.1769   0.0852  2.0763 0.0380  0.0098 0.3439            *
+status[T.Ongoing]             -0.1413   0.0735 -1.9225 0.0547 -0.2855 0.0029            .
+Intimacy                      -0.1236   0.0716 -1.7271 0.0843 -0.2639 0.0168            .
+LifeEventType[T.Personal]     -0.2486   0.1458 -1.7051 0.0884 -0.5346 0.0374            .
+recency                        0.0010   0.0006  1.6658 0.0959 -0.0002 0.0023            .
+LifeEventType[T.Work]         -0.2733   0.1662 -1.6446 0.1002 -0.5992 0.0526            .
+valence                        0.0636   0.0406  1.5656 0.1176 -0.0161 0.1433            .
+LifeEventType[T.Health]       -0.2935   0.1963 -1.4952 0.1350 -0.6784 0.0915            .
+status[T.ended]                0.2037   0.1600  1.2726 0.2033 -0.1102 0.5175            .
+LifeEventType[T.Local]        -0.2619   0.2174 -1.2047 0.2285 -0.6884 0.1645            .
+Anticipation[T.Unanticipated]  0.0885   0.0809  1.0937 0.2742 -0.0702 0.2471            .
+significance                   0.0717   0.1000  0.7169 0.4735 -0.1244 0.2678            .
+LifeEventType[T.School]       -0.0172   0.2472 -0.0695 0.9446 -0.5020 0.4677            .
+-----------------------------------------------------------------------------------------
+Omnibus:                      237.675              Durbin-Watson:                 0.999  
+Prob(Omnibus):                0.000                Jarque-Bera (JB):              629.177
+Skew:                         -0.729               Prob(JB):                      0.000  
+Kurtosis:                     5.534                Condition No.:                 16648  
+=========================================================================================
+* The condition number is large (2e+04). This might indicate             strong
+multicollinearity or other numerical problems.

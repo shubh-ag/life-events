@@ -1,263 +1,272 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                anxiety   R-squared:                       0.436
-Model:                            OLS   Adj. R-squared:                  0.355
-Method:                 Least Squares   F-statistic:                     5.399
-Date:                Mon, 31 Oct 2022   Prob (F-statistic):           1.53e-94
-Time:                        13:16:47   Log-Likelihood:                -1286.9
-No. Observations:                1860   AIC:                             3042.
-Df Residuals:                    1626   BIC:                             4335.
-Df Model:                         233                                         
-Covariance Type:            nonrobust                                         
-=============================================================================================================================
-                                                                coef    std err          t      P>|t|      [0.025      0.975]
------------------------------------------------------------------------------------------------------------------------------
-Intercept                                                    28.4467      8.452      3.366      0.001      11.868      45.025
-education_level[T.Doctoral]                                   0.1856      1.902      0.098      0.922      -3.545       3.916
-education_level[T.Graduate]                                   1.3736      0.801      1.715      0.086      -0.197       2.944
-education_level[T.High]                                       0.2999      3.598      0.083      0.934      -6.758       7.358
-gender[T.Male]                                               -0.0273      0.840     -0.033      0.974      -1.675       1.621
-Anticipation[T.Unanticipated]                                 0.3492      1.062      0.329      0.742      -1.733       2.431
-LifeEventType[T.Health]                                      -7.3663      4.710     -1.564      0.118     -16.605       1.872
-LifeEventType[T.Local]                                       -9.9746      4.875     -2.046      0.041     -19.537      -0.412
-LifeEventType[T.Personal]                                    -9.1880      4.251     -2.162      0.031     -17.525      -0.851
-LifeEventType[T.School]                                      -8.7849      6.142     -1.430      0.153     -20.833       3.263
-LifeEventType[T.Work]                                       -10.2366      4.402     -2.326      0.020     -18.870      -1.603
-status[T.Ongoing]                                            -0.4613      1.025     -0.450      0.653      -2.472       1.549
-status[T.ended]                                              -0.6643      1.481     -0.448      0.654      -3.570       2.241
-education_level[T.Doctoral]:Anticipation[T.Unanticipated]    -1.0029      0.537     -1.869      0.062      -2.055       0.049
-education_level[T.Graduate]:Anticipation[T.Unanticipated]    -0.0179      0.109     -0.165      0.869      -0.231       0.195
-education_level[T.High]:Anticipation[T.Unanticipated]         0.0730      0.305      0.239      0.811      -0.526       0.672
-education_level[T.Doctoral]:LifeEventType[T.Health]       -1.181e-10   6.06e-11     -1.948      0.052   -2.37e-10    8.43e-13
-education_level[T.Graduate]:LifeEventType[T.Health]          -0.5945      0.471     -1.263      0.207      -1.518       0.329
-education_level[T.High]:LifeEventType[T.Health]              -0.2878      1.165     -0.247      0.805      -2.574       1.998
-education_level[T.Doctoral]:LifeEventType[T.Local]            0.8530      0.869      0.982      0.326      -0.851       2.557
-education_level[T.Graduate]:LifeEventType[T.Local]           -1.2155      0.457     -2.661      0.008      -2.111      -0.320
-education_level[T.High]:LifeEventType[T.Local]               5.8e-12   5.93e-12      0.978      0.328   -5.83e-12    1.74e-11
-education_level[T.Doctoral]:LifeEventType[T.Personal]        -0.6444      0.547     -1.178      0.239      -1.718       0.429
-education_level[T.Graduate]:LifeEventType[T.Personal]        -0.9532      0.405     -2.352      0.019      -1.748      -0.158
-education_level[T.High]:LifeEventType[T.Personal]            -0.3450      0.763     -0.452      0.651      -1.842       1.153
-education_level[T.Doctoral]:LifeEventType[T.School]           0.9362      0.943      0.993      0.321      -0.913       2.785
-education_level[T.Graduate]:LifeEventType[T.School]          -1.0614      0.515     -2.059      0.040      -2.073      -0.050
-education_level[T.High]:LifeEventType[T.School]            1.919e-11    1.2e-11      1.601      0.110   -4.32e-12    4.27e-11
-education_level[T.Doctoral]:LifeEventType[T.Work]            -0.9592      0.718     -1.336      0.182      -2.367       0.449
-education_level[T.Graduate]:LifeEventType[T.Work]            -0.7888      0.432     -1.827      0.068      -1.636       0.058
-education_level[T.High]:LifeEventType[T.Work]                -0.0648      1.066     -0.061      0.951      -2.155       2.026
-education_level[T.Doctoral]:status[T.Ongoing]                -0.3961      0.278     -1.425      0.154      -0.941       0.149
-education_level[T.Graduate]:status[T.Ongoing]                -0.0650      0.101     -0.645      0.519      -0.263       0.133
-education_level[T.High]:status[T.Ongoing]                     0.6079      0.590      1.030      0.303      -0.550       1.766
-education_level[T.Doctoral]:status[T.ended]                   0.8143      0.764      1.066      0.287      -0.685       2.313
-education_level[T.Graduate]:status[T.ended]                  -0.1881      0.207     -0.906      0.365      -0.595       0.219
-education_level[T.High]:status[T.ended]                       0.0190      0.729      0.026      0.979      -1.411       1.449
-gender[T.Male]:Anticipation[T.Unanticipated]                  0.6517      0.106      6.131      0.000       0.443       0.860
-gender[T.Male]:LifeEventType[T.Health]                        0.9641      0.464      2.080      0.038       0.055       1.873
-gender[T.Male]:LifeEventType[T.Local]                         0.1970      0.461      0.427      0.670      -0.708       1.102
-gender[T.Male]:LifeEventType[T.Personal]                      0.8598      0.421      2.044      0.041       0.035       1.685
-gender[T.Male]:LifeEventType[T.School]                        1.2580      0.659      1.910      0.056      -0.034       2.550
-gender[T.Male]:LifeEventType[T.Work]                          0.8880      0.449      1.977      0.048       0.007       1.769
-gender[T.Male]:status[T.Ongoing]                              0.0464      0.104      0.445      0.656      -0.158       0.251
-gender[T.Male]:status[T.ended]                                0.1020      0.205      0.498      0.618      -0.299       0.503
-shipley_vocab                                                -0.2696      0.193     -1.398      0.162      -0.648       0.109
-shipley_vocab:Anticipation[T.Unanticipated]                   0.0278      0.018      1.551      0.121      -0.007       0.063
-shipley_vocab:LifeEventType[T.Health]                         0.2367      0.164      1.446      0.148      -0.084       0.558
-shipley_vocab:LifeEventType[T.Local]                          0.1534      0.164      0.935      0.350      -0.169       0.475
-shipley_vocab:LifeEventType[T.Personal]                       0.2141      0.161      1.333      0.183      -0.101       0.529
-shipley_vocab:LifeEventType[T.School]                         0.1897      0.189      1.003      0.316      -0.181       0.561
-shipley_vocab:LifeEventType[T.Work]                           0.2438      0.162      1.507      0.132      -0.073       0.561
-shipley_vocab:status[T.Ongoing]                              -0.0481      0.015     -3.213      0.001      -0.077      -0.019
-shipley_vocab:status[T.ended]                                 0.0046      0.027      0.171      0.864      -0.049       0.058
-shipley_vocab:valence                                         0.0154      0.009      1.702      0.089      -0.002       0.033
-shipley_vocab:recency                                      6.164e-05      0.000      0.454      0.650      -0.000       0.000
-shipley_vocab:Intimacy                                       -0.0178      0.014     -1.251      0.211      -0.046       0.010
-shipley_vocab:Scope                                          -0.0004      0.019     -0.019      0.985      -0.037       0.036
-shipley_vocab:significance                                    0.0641      0.022      2.872      0.004       0.020       0.108
-shipley_abs                                                  -0.0069      0.139     -0.050      0.960      -0.279       0.265
-shipley_abs:Anticipation[T.Unanticipated]                    -0.0121      0.018     -0.682      0.495      -0.047       0.023
-shipley_abs:LifeEventType[T.Health]                          -0.1481      0.062     -2.397      0.017      -0.269      -0.027
-shipley_abs:LifeEventType[T.Local]                           -0.0583      0.068     -0.854      0.393      -0.192       0.076
-shipley_abs:LifeEventType[T.Personal]                        -0.1246      0.056     -2.242      0.025      -0.234      -0.016
-shipley_abs:LifeEventType[T.School]                          -0.1243      0.080     -1.563      0.118      -0.280       0.032
-shipley_abs:LifeEventType[T.Work]                            -0.1059      0.058     -1.838      0.066      -0.219       0.007
-shipley_abs:status[T.Ongoing]                                 0.0322      0.018      1.778      0.076      -0.003       0.068
-shipley_abs:status[T.ended]                                   0.0448      0.038      1.189      0.235      -0.029       0.119
-shipley_abs:valence                                          -0.0181      0.009     -2.080      0.038      -0.035      -0.001
-shipley_abs:recency                                           0.0002      0.000      1.370      0.171   -7.95e-05       0.000
-shipley_abs:Intimacy                                      -8.512e-05      0.015     -0.006      0.995      -0.029       0.028
-shipley_abs:Scope                                             0.0014      0.020      0.070      0.944      -0.038       0.041
-shipley_abs:significance                                     -0.0640      0.026     -2.506      0.012      -0.114      -0.014
-openness                                                     -0.6400      0.984     -0.651      0.515      -2.569       1.290
-openness:Anticipation[T.Unanticipated]                       -0.1141      0.099     -1.150      0.250      -0.309       0.080
-openness:LifeEventType[T.Health]                              0.0094      0.794      0.012      0.991      -1.549       1.567
-openness:LifeEventType[T.Local]                              -0.2861      0.790     -0.362      0.717      -1.835       1.263
-openness:LifeEventType[T.Personal]                           -0.1035      0.775     -0.134      0.894      -1.623       1.416
-openness:LifeEventType[T.School]                              0.2848      0.867      0.329      0.743      -1.416       1.985
-openness:LifeEventType[T.Work]                               -0.2039      0.789     -0.259      0.796      -1.751       1.343
-openness:status[T.Ongoing]                                    0.2269      0.090      2.513      0.012       0.050       0.404
-openness:status[T.ended]                                      0.0892      0.158      0.566      0.571      -0.220       0.398
-openness:valence                                             -0.0277      0.047     -0.584      0.559      -0.121       0.065
-openness:recency                                              0.0011      0.001      1.702      0.089      -0.000       0.002
-openness:Intimacy                                            -0.0008      0.078     -0.010      0.992      -0.153       0.152
-openness:Scope                                               -0.0494      0.103     -0.479      0.632      -0.251       0.153
-openness:significance                                        -0.2725      0.136     -2.001      0.046      -0.540      -0.005
-conscientiousness                                            -1.3662      0.795     -1.719      0.086      -2.925       0.192
-conscientiousness:Anticipation[T.Unanticipated]               0.2079      0.096      2.162      0.031       0.019       0.397
-conscientiousness:LifeEventType[T.Health]                    -0.1061      0.487     -0.218      0.828      -1.062       0.850
-conscientiousness:LifeEventType[T.Local]                      0.3767      0.457      0.824      0.410      -0.520       1.273
-conscientiousness:LifeEventType[T.Personal]                   0.2549      0.419      0.609      0.543      -0.567       1.076
-conscientiousness:LifeEventType[T.School]                     0.7317      0.508      1.440      0.150      -0.265       1.728
-conscientiousness:LifeEventType[T.Work]                      -0.0445      0.440     -0.101      0.919      -0.907       0.818
-conscientiousness:status[T.Ongoing]                          -0.0744      0.097     -0.767      0.443      -0.264       0.116
-conscientiousness:status[T.ended]                             0.0084      0.180      0.046      0.963      -0.344       0.361
-conscientiousness:valence                                    -0.0130      0.051     -0.255      0.799      -0.113       0.087
-conscientiousness:recency                                     0.0008      0.001      1.144      0.253      -0.001       0.002
-conscientiousness:Intimacy                                   -0.0743      0.082     -0.907      0.364      -0.235       0.086
-conscientiousness:Scope                                       0.2946      0.127      2.315      0.021       0.045       0.544
-conscientiousness:significance                                0.1076      0.126      0.855      0.393      -0.139       0.354
-extraversion                                                 -0.7348      0.650     -1.131      0.258      -2.010       0.540
-extraversion:Anticipation[T.Unanticipated]                    0.0507      0.091      0.558      0.577      -0.127       0.229
-extraversion:LifeEventType[T.Health]                         -0.6431      0.385     -1.671      0.095      -1.398       0.112
-extraversion:LifeEventType[T.Local]                           0.3399      0.327      1.039      0.299      -0.301       0.981
-extraversion:LifeEventType[T.Personal]                       -0.3938      0.269     -1.463      0.144      -0.922       0.134
-extraversion:LifeEventType[T.School]                         -0.6345      0.410     -1.548      0.122      -1.439       0.170
-extraversion:LifeEventType[T.Work]                           -0.6981      0.290     -2.407      0.016      -1.267      -0.129
-extraversion:status[T.Ongoing]                               -0.1384      0.087     -1.594      0.111      -0.309       0.032
-extraversion:status[T.ended]                                 -0.2829      0.184     -1.537      0.124      -0.644       0.078
-extraversion:valence                                          0.0185      0.048      0.387      0.699      -0.075       0.113
-extraversion:recency                                          0.0010      0.001      1.467      0.142      -0.000       0.002
-extraversion:Intimacy                                        -0.1032      0.076     -1.355      0.175      -0.252       0.046
-extraversion:Scope                                            0.4008      0.108      3.695      0.000       0.188       0.613
-extraversion:significance                                    -0.2868      0.115     -2.502      0.012      -0.512      -0.062
-agreeableness                                                 0.1230      0.805      0.153      0.879      -1.456       1.702
-agreeableness:Anticipation[T.Unanticipated]                   0.0279      0.113      0.248      0.804      -0.193       0.249
-agreeableness:LifeEventType[T.Health]                        -0.7175      0.415     -1.729      0.084      -1.531       0.096
-agreeableness:LifeEventType[T.Local]                         -1.4312      0.443     -3.234      0.001      -2.299      -0.563
-agreeableness:LifeEventType[T.Personal]                      -1.0638      0.378     -2.814      0.005      -1.805      -0.322
-agreeableness:LifeEventType[T.School]                        -0.6834      0.589     -1.161      0.246      -1.838       0.471
-agreeableness:LifeEventType[T.Work]                          -0.6767      0.394     -1.715      0.086      -1.450       0.097
-agreeableness:status[T.Ongoing]                              -0.0239      0.101     -0.236      0.813      -0.222       0.174
-agreeableness:status[T.ended]                                -0.2107      0.181     -1.166      0.244      -0.565       0.144
-agreeableness:valence                                        -0.1530      0.058     -2.657      0.008      -0.266      -0.040
-agreeableness:recency                                         0.0017      0.001      2.388      0.017       0.000       0.003
-agreeableness:Intimacy                                       -0.0368      0.092     -0.402      0.688      -0.216       0.143
-agreeableness:Scope                                          -0.2273      0.132     -1.728      0.084      -0.485       0.031
-agreeableness:significance                                    0.1020      0.130      0.783      0.434      -0.153       0.357
-neuroticism                                                  -0.5340      0.906     -0.589      0.556      -2.311       1.243
-neuroticism:Anticipation[T.Unanticipated]                     0.1252      0.109      1.154      0.249      -0.088       0.338
-neuroticism:LifeEventType[T.Health]                           1.4407      0.568      2.537      0.011       0.327       2.555
-neuroticism:LifeEventType[T.Local]                            1.2600      0.611      2.063      0.039       0.062       2.458
-neuroticism:LifeEventType[T.Personal]                         1.4147      0.539      2.626      0.009       0.358       2.472
-neuroticism:LifeEventType[T.School]                           0.4755      0.938      0.507      0.612      -1.364       2.315
-neuroticism:LifeEventType[T.Work]                             1.4659      0.544      2.695      0.007       0.399       2.533
-neuroticism:status[T.Ongoing]                                -0.0129      0.122     -0.106      0.916      -0.252       0.226
-neuroticism:status[T.ended]                                   0.2381      0.204      1.169      0.243      -0.162       0.638
-neuroticism:valence                                          -0.1287      0.054     -2.367      0.018      -0.235      -0.022
-neuroticism:recency                                          -0.0007      0.001     -0.817      0.414      -0.002       0.001
-neuroticism:Intimacy                                          0.0157      0.087      0.180      0.857      -0.155       0.186
-neuroticism:Scope                                            -0.1720      0.150     -1.144      0.253      -0.467       0.123
-neuroticism:significance                                      0.0690      0.146      0.473      0.636      -0.217       0.355
-pos_affect                                                   -0.0996      0.154     -0.646      0.519      -0.402       0.203
-pos_affect:Anticipation[T.Unanticipated]                     -0.0451      0.014     -3.184      0.001      -0.073      -0.017
-pos_affect:LifeEventType[T.Health]                            0.2695      0.128      2.110      0.035       0.019       0.520
-pos_affect:LifeEventType[T.Local]                             0.2765      0.128      2.168      0.030       0.026       0.527
-pos_affect:LifeEventType[T.Personal]                          0.2986      0.125      2.395      0.017       0.054       0.543
-pos_affect:LifeEventType[T.School]                            0.2523      0.142      1.779      0.075      -0.026       0.531
-pos_affect:LifeEventType[T.Work]                              0.3353      0.125      2.689      0.007       0.091       0.580
-pos_affect:status[T.Ongoing]                                  0.0261      0.013      2.009      0.045       0.001       0.052
-pos_affect:status[T.ended]                                    0.0286      0.022      1.304      0.192      -0.014       0.072
-pos_affect:valence                                            0.0070      0.007      1.078      0.281      -0.006       0.020
-pos_affect:recency                                           -0.0002   9.05e-05     -2.356      0.019      -0.000   -3.58e-05
-pos_affect:Intimacy                                           0.0159      0.011      1.428      0.153      -0.006       0.038
-pos_affect:Scope                                             -0.0291      0.014     -2.035      0.042      -0.057      -0.001
-pos_affect:significance                                      -0.0105      0.016     -0.650      0.516      -0.042       0.021
-neg_affect                                                    0.4333      0.179      2.414      0.016       0.081       0.785
-neg_affect:Anticipation[T.Unanticipated]                      0.0121      0.017      0.715      0.475      -0.021       0.045
-neg_affect:LifeEventType[T.Health]                           -0.5407      0.160     -3.386      0.001      -0.854      -0.227
-neg_affect:LifeEventType[T.Local]                            -0.4745      0.154     -3.075      0.002      -0.777      -0.172
-neg_affect:LifeEventType[T.Personal]                         -0.5402      0.154     -3.509      0.000      -0.842      -0.238
-neg_affect:LifeEventType[T.School]                           -0.5379      0.166     -3.233      0.001      -0.864      -0.212
-neg_affect:LifeEventType[T.Work]                             -0.5558      0.157     -3.540      0.000      -0.864      -0.248
-neg_affect:status[T.Ongoing]                                 -0.0001      0.014     -0.008      0.994      -0.027       0.027
-neg_affect:status[T.ended]                                    0.0160      0.026      0.623      0.533      -0.034       0.066
-neg_affect:valence                                            0.0139      0.008      1.709      0.088      -0.002       0.030
-neg_affect:recency                                            0.0001      0.000      1.258      0.209   -7.41e-05       0.000
-neg_affect:Intimacy                                          -0.0060      0.015     -0.394      0.693      -0.036       0.024
-neg_affect:Scope                                              0.0166      0.017      0.959      0.338      -0.017       0.050
-neg_affect:significance                                      -0.0456      0.017     -2.629      0.009      -0.080      -0.012
-stai_trait                                                   -0.1580      0.089     -1.773      0.076      -0.333       0.017
-stai_trait:Anticipation[T.Unanticipated]                     -0.0186      0.012     -1.531      0.126      -0.042       0.005
-stai_trait:LifeEventType[T.Health]                            0.0711      0.040      1.795      0.073      -0.007       0.149
-stai_trait:LifeEventType[T.Local]                             0.0710      0.045      1.586      0.113      -0.017       0.159
-stai_trait:LifeEventType[T.Personal]                          0.0898      0.035      2.583      0.010       0.022       0.158
-stai_trait:LifeEventType[T.School]                            0.1610      0.091      1.760      0.079      -0.018       0.340
-stai_trait:LifeEventType[T.Work]                              0.0974      0.038      2.596      0.010       0.024       0.171
-stai_trait:status[T.Ongoing]                                  0.0107      0.011      0.974      0.330      -0.011       0.032
-stai_trait:status[T.ended]                                   -0.0291      0.021     -1.377      0.169      -0.070       0.012
-stai_trait:valence                                           -0.0002      0.006     -0.033      0.974      -0.011       0.011
-stai_trait:recency                                            0.0001   8.82e-05      1.156      0.248    -7.1e-05       0.000
-stai_trait:Intimacy                                          -0.0054      0.010     -0.544      0.586      -0.025       0.014
-stai_trait:Scope                                              0.0078      0.015      0.519      0.604      -0.022       0.037
-stai_trait:significance                                       0.0081      0.013      0.612      0.541      -0.018       0.034
-valence                                                       0.2203      0.591      0.373      0.709      -0.938       1.379
-education_level[T.Doctoral]:valence                          -0.4043      0.283     -1.430      0.153      -0.959       0.150
-education_level[T.Graduate]:valence                          -0.0161      0.056     -0.289      0.772      -0.125       0.093
-education_level[T.High]:valence                               0.1185      0.320      0.371      0.711      -0.509       0.746
-gender[T.Male]:valence                                       -0.1057      0.054     -1.967      0.049      -0.211      -0.000
-recency                                                      -0.0214      0.008     -2.798      0.005      -0.036      -0.006
-education_level[T.Doctoral]:recency                          -0.0009      0.003     -0.321      0.748      -0.006       0.004
-education_level[T.Graduate]:recency                          -0.0007      0.001     -0.888      0.375      -0.002       0.001
-education_level[T.High]:recency                              -0.0002      0.004     -0.034      0.973      -0.009       0.008
-gender[T.Male]:recency                                       -0.0006      0.001     -0.739      0.460      -0.002       0.001
-Intimacy                                                      1.1820      0.865      1.367      0.172      -0.514       2.878
-education_level[T.Doctoral]:Intimacy                          0.0163      0.378      0.043      0.966      -0.725       0.757
-education_level[T.Graduate]:Intimacy                          0.1065      0.095      1.121      0.263      -0.080       0.293
-education_level[T.High]:Intimacy                              0.0333      0.403      0.083      0.934      -0.757       0.823
-gender[T.Male]:Intimacy                                      -0.1000      0.092     -1.093      0.275      -0.279       0.079
-Scope                                                        -1.4891      1.505     -0.990      0.323      -4.441       1.463
-education_level[T.Doctoral]:Scope                             1.0818      0.581      1.861      0.063      -0.059       2.222
-education_level[T.Graduate]:Scope                            -0.0591      0.142     -0.416      0.677      -0.338       0.219
-education_level[T.High]:Scope                                -0.2490      0.704     -0.354      0.723      -1.629       1.131
-gender[T.Male]:Scope                                         -0.3077      0.131     -2.348      0.019      -0.565      -0.051
-significance                                                  0.7661      1.434      0.534      0.593      -2.047       3.579
-education_level[T.Doctoral]:significance                     -1.0538      1.065     -0.990      0.323      -3.142       1.035
-education_level[T.Graduate]:significance                      0.4386      0.132      3.321      0.001       0.180       0.698
-education_level[T.High]:significance                         -0.2802      0.706     -0.397      0.691      -1.664       1.104
-gender[T.Male]:significance                                   0.5921      0.138      4.281      0.000       0.321       0.863
-psqi                                                         -0.0348      0.172     -0.203      0.839      -0.371       0.302
-psqi:Anticipation[T.Unanticipated]                           -0.0001      0.022     -0.005      0.996      -0.043       0.043
-psqi:LifeEventType[T.Health]                                  0.0675      0.075      0.896      0.371      -0.080       0.215
-psqi:LifeEventType[T.Local]                                   0.1215      0.088      1.386      0.166      -0.051       0.294
-psqi:LifeEventType[T.Personal]                                0.0444      0.068      0.652      0.515      -0.089       0.178
-psqi:LifeEventType[T.School]                                 -0.0603      0.104     -0.579      0.563      -0.265       0.144
-psqi:LifeEventType[T.Work]                                   -0.0109      0.072     -0.153      0.879      -0.152       0.130
-psqi:status[T.Ongoing]                                        0.0173      0.020      0.852      0.394      -0.023       0.057
-psqi:status[T.ended]                                          0.0724      0.038      1.889      0.059      -0.003       0.148
-psqi:valence                                                  0.0155      0.012      1.314      0.189      -0.008       0.039
-psqi:recency                                                 -0.0002      0.000     -1.061      0.289      -0.000       0.000
-psqi:Intimacy                                                 0.0079      0.019      0.416      0.678      -0.030       0.045
-psqi:Scope                                                    0.0396      0.029      1.356      0.175      -0.018       0.097
-psqi:significance                                            -0.0093      0.027     -0.340      0.734      -0.063       0.045
-age                                                          -0.1123      0.051     -2.196      0.028      -0.213      -0.012
-age:Anticipation[T.Unanticipated]                            -0.0093      0.006     -1.648      0.100      -0.020       0.002
-age:LifeEventType[T.Health]                                  -0.0165      0.030     -0.548      0.584      -0.076       0.043
-age:LifeEventType[T.Local]                                    0.0424      0.031      1.372      0.170      -0.018       0.103
-age:LifeEventType[T.Personal]                                 0.0007      0.028      0.024      0.981      -0.053       0.055
-age:LifeEventType[T.School]                                  -0.0494      0.038     -1.292      0.197      -0.124       0.026
-age:LifeEventType[T.Work]                                    -0.0061      0.029     -0.210      0.834      -0.063       0.051
-age:status[T.Ongoing]                                         0.0019      0.005      0.357      0.721      -0.009       0.012
-age:status[T.ended]                                          -0.0023      0.009     -0.248      0.804      -0.020       0.016
-age:valence                                                  -0.0003      0.003     -0.086      0.931      -0.006       0.005
-age:recency                                                9.535e-05   4.53e-05      2.105      0.035    6.51e-06       0.000
-age:Intimacy                                                 -0.0025      0.005     -0.509      0.611      -0.012       0.007
-age:Scope                                                     0.0236      0.010      2.470      0.014       0.005       0.042
-age:significance                                             -0.0138      0.007     -1.933      0.053      -0.028       0.000
-==============================================================================
-Omnibus:                       95.756   Durbin-Watson:                   1.091
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              142.454
-Skew:                           0.447   Prob(JB):                     1.17e-31
-Kurtosis:                       4.019   Cond. No.                     1.01e+16
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The smallest eigenvalue is 7.02e-20. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.
+                                            Results: Ordinary least squares
+=======================================================================================================================
+Model:                                 OLS                               Adj. R-squared:                      0.358    
+Dependent Variable:                    anxiety                           AIC:                                 3044.8028
+Date:                                  2022-11-07 17:32                  BIC:                                 4404.7724
+No. Observations:                      1860                              Log-Likelihood:                      -1276.4  
+Df Model:                              245                               F-statistic:                         5.229    
+Df Residuals:                          1614                              Prob (F-statistic):                  2.17e-93 
+R-squared:                             0.443                             Scale:                               0.26619  
+-----------------------------------------------------------------------------------------------------------------------
+                                                           Coef.  Std.Err.    t    P>|t|   [0.025   0.975] significance
+-----------------------------------------------------------------------------------------------------------------------
+gender[T.Male]:Anticipation[T.Unanticipated]               0.6341   0.1072  5.9129 0.0000   0.4237  0.8444          ***
+gender[T.Male]:significance                                0.5357   0.1426  3.7574 0.0002   0.2560  0.8153          ***
+neg_affect:LifeEventType[T.Work]                          -0.5997   0.1635 -3.6674 0.0003  -0.9205 -0.2790          ***
+neg_affect:LifeEventType[T.Personal]                      -0.5697   0.1602 -3.5553 0.0004  -0.8841 -0.2554          ***
+type[T.Survey]                                             6.4907   1.8431  3.5217 0.0004   2.8756 10.1057          ***
+pos_affect:Anticipation[T.Unanticipated]                  -0.0501   0.0143 -3.5050 0.0005  -0.0782 -0.0221          ***
+neg_affect:LifeEventType[T.Health]                        -0.5728   0.1656 -3.4589 0.0006  -0.8976 -0.2480          ***
+extraversion:Scope                                         0.3907   0.1133  3.4492 0.0006   0.1685  0.6128          ***
+education_level[T.Graduate]:significance                   0.4568   0.1339  3.4107 0.0007   0.1941  0.7195          ***
+agreeableness:LifeEventType[T.Local]                      -1.5422   0.4673 -3.3002 0.0010  -2.4588 -0.6256          ***
+agreeableness:valence                                     -0.1949   0.0592 -3.2908 0.0010  -0.3110 -0.0787           **
+neg_affect:LifeEventType[T.Local]                         -0.5068   0.1608 -3.1517 0.0017  -0.8221 -0.1914           **
+education_level[T.High]:LifeEventType[T.Local]            -0.0000   0.0000 -3.1453 0.0017  -0.0000 -0.0000           **
+Intercept                                                 20.7934   6.8995  3.0137 0.0026   7.2605 34.3264           **
+shipley_vocab:status[T.Ongoing]                           -0.0446   0.0153 -2.9227 0.0035  -0.0745 -0.0147           **
+neuroticism:LifeEventType[T.Health]                        1.7226   0.5919  2.9104 0.0037   0.5617  2.8834           **
+neuroticism:LifeEventType[T.Personal]                      1.6142   0.5583  2.8910 0.0039   0.5190  2.7094           **
+neuroticism:LifeEventType[T.Work]                          1.6152   0.5603  2.8827 0.0040   0.5162  2.7141           **
+neg_affect:LifeEventType[T.School]                        -0.4990   0.1795 -2.7795 0.0055  -0.8512 -0.1469           **
+shipley_vocab:significance                                 0.0630   0.0227  2.7777 0.0055   0.0185  0.1075           **
+status[T.Ongoing]:type[T.Survey]                          -4.9278   1.7763 -2.7742 0.0056  -8.4119 -1.4437           **
+agreeableness:LifeEventType[T.Personal]                   -1.0869   0.4038 -2.6918 0.0072  -1.8789 -0.2949           **
+pos_affect:recency                                        -0.0002   0.0001 -2.5704 0.0102  -0.0004 -0.0001            *
+recency                                                   -0.0202   0.0079 -2.5701 0.0103  -0.0357 -0.0048            *
+neg_affect                                                 0.4695   0.1864  2.5183 0.0119   0.1038  0.8351            *
+shipley_abs:significance                                  -0.0658   0.0263 -2.4967 0.0126  -0.1174 -0.0141            *
+education_level[T.Graduate]:LifeEventType[T.Local]        -1.2563   0.5047 -2.4891 0.0129  -2.2462 -0.2663            *
+stai_trait:LifeEventType[T.Work]                           0.0951   0.0382  2.4890 0.0129   0.0202  0.1700            *
+status[T.Ongoing]                                          4.7993   1.9293  2.4876 0.0130   1.0151  8.5835            *
+neuroticism:valence                                       -0.1339   0.0555 -2.4110 0.0160  -0.2428 -0.0250            *
+age:Scope                                                  0.0242   0.0101  2.3853 0.0172   0.0043  0.0440            *
+extraversion:significance                                 -0.2817   0.1184 -2.3791 0.0175  -0.5140 -0.0495            *
+pos_affect:LifeEventType[T.Work]                           0.3255   0.1391  2.3406 0.0194   0.0527  0.5983            *
+conscientiousness:Scope                                    0.2991   0.1305  2.2922 0.0220   0.0432  0.5551            *
+extraversion:LifeEventType[T.Work]                        -0.6823   0.2980 -2.2900 0.0221  -1.2668 -0.0979            *
+education_level[T.Graduate]:LifeEventType[T.School]       -1.4193   0.6295 -2.2547 0.0243  -2.6541 -0.1846            *
+stai_trait:LifeEventType[T.Personal]                       0.0795   0.0354  2.2449 0.0249   0.0100  0.1490            *
+gender[T.Male]:Scope                                      -0.3031   0.1359 -2.2303 0.0259  -0.5697 -0.0365            *
+neuroticism:LifeEventType[T.Local]                         1.3910   0.6336  2.1953 0.0283   0.1482  2.6338            *
+status[T.ended]                                            4.5757   2.1014  2.1775 0.0296   0.4540  8.6974            *
+neg_affect:valence                                         0.0183   0.0084  2.1767 0.0296   0.0018  0.0348            *
+neg_affect:significance                                   -0.0379   0.0177 -2.1387 0.0326  -0.0726 -0.0031            *
+LifeEventType[T.Work]                                     -9.5297   4.4635 -2.1350 0.0329 -18.2845 -0.7749            *
+agreeableness:recency                                      0.0015   0.0007  2.1240 0.0338   0.0001  0.0029            *
+age                                                       -0.1186   0.0565 -2.0991 0.0360  -0.2294 -0.0078            *
+education_level[T.Graduate]:LifeEventType[T.Personal]     -0.9488   0.4521 -2.0986 0.0360  -1.8356 -0.0620            *
+agreeableness:Scope                                       -0.2803   0.1339 -2.0929 0.0365  -0.5430 -0.0176            *
+stai_trait:Anticipation[T.Unanticipated]                  -0.0261   0.0125 -2.0861 0.0371  -0.0507 -0.0016            *
+pos_affect:LifeEventType[T.Personal]                       0.2900   0.1390  2.0856 0.0372   0.0173  0.5627            *
+openness:recency                                           0.0014   0.0007  2.0703 0.0386   0.0001  0.0028            *
+conscientiousness                                         -1.7191   0.8354 -2.0579 0.0398  -3.3576 -0.0806            *
+conscientiousness:Anticipation[T.Unanticipated]            0.2016   0.0986  2.0438 0.0411   0.0081  0.3950            *
+pos_affect:status[T.Ongoing]                               0.0270   0.0133  2.0317 0.0423   0.0009  0.0531            *
+pos_affect:LifeEventType[T.Local]                          0.2862   0.1411  2.0281 0.0427   0.0094  0.5630            *
+openness:status[T.Ongoing]                                 0.1873   0.0924  2.0274 0.0428   0.0061  0.3684            *
+LifeEventType[T.Personal]                                 -8.5504   4.3319 -1.9738 0.0486 -17.0472 -0.0537            *
+gender[T.Male]:valence                                    -0.1071   0.0544 -1.9681 0.0492  -0.2138 -0.0004            *
+recency:type[T.Survey]                                    -0.0017   0.0009 -1.9447 0.0520  -0.0033  0.0000            .
+extraversion:LifeEventType[T.Health]                      -0.7420   0.3930 -1.8882 0.0592  -1.5128  0.0288            .
+psqi:status[T.ended]                                       0.0708   0.0384  1.8452 0.0652  -0.0045  0.1460            .
+pos_affect:LifeEventType[T.Health]                         0.2587   0.1424  1.8167 0.0695  -0.0206  0.5380            .
+age:recency                                                0.0001   0.0000  1.8164 0.0695  -0.0000  0.0002            .
+agreeableness:LifeEventType[T.Health]                     -0.8065   0.4496 -1.7941 0.0730  -1.6883  0.0752            .
+gender[T.Male]:LifeEventType[T.Health]                     0.8718   0.4898  1.7801 0.0752  -0.0888  1.8325            .
+education_level[T.Doctoral]:Anticipation[T.Unanticipated] -0.9573   0.5408 -1.7703 0.0769  -2.0181  0.1034            .
+LifeEventType[T.Local]                                    -8.7334   4.9714 -1.7567 0.0792 -18.4845  1.0177            .
+openness:significance                                     -0.2449   0.1396 -1.7538 0.0797  -0.5187  0.0290            .
+stai_trait                                                -0.1545   0.0906 -1.7062 0.0882  -0.3322  0.0231            .
+neuroticism:Anticipation[T.Unanticipated]                  0.1907   0.1118  1.7051 0.0884  -0.0287  0.4100            .
+gender[T.Male]:LifeEventType[T.Personal]                   0.7609   0.4479  1.6986 0.0896  -0.1177  1.6395            .
+education_level[T.Doctoral]:LifeEventType[T.Health]       -0.0000   0.0000 -1.6972 0.0898  -0.0000  0.0000            .
+agreeableness:LifeEventType[T.Work]                       -0.7088   0.4194 -1.6901 0.0912  -1.5315  0.1138            .
+gender[T.Male]:LifeEventType[T.Work]                       0.7980   0.4765  1.6747 0.0942  -0.1366  1.7326            .
+conscientiousness:recency                                  0.0012   0.0007  1.6543 0.0983  -0.0002  0.0025            .
+education_level[T.Graduate]:LifeEventType[T.Work]         -0.7805   0.4720 -1.6536 0.0984  -1.7062  0.1453            .
+Intimacy                                                   1.4167   0.8741  1.6208 0.1053  -0.2977  3.1312            .
+shipley_abs:valence                                       -0.0145   0.0089 -1.6174 0.1060  -0.0320  0.0031            .
+shipley_abs:status[T.Ongoing]                              0.0304   0.0188  1.6154 0.1064  -0.0065  0.0674            .
+shipley_abs:LifeEventType[T.Personal]                     -0.1014   0.0632 -1.6034 0.1090  -0.2254  0.0226            .
+education_level[T.Doctoral]:valence                       -0.4553   0.2851 -1.5974 0.1104  -1.0145  0.1038            .
+extraversion:status[T.Ongoing]                            -0.1364   0.0880 -1.5492 0.1215  -0.3091  0.0363            .
+shipley_abs:LifeEventType[T.Health]                       -0.1073   0.0695 -1.5442 0.1227  -0.2437  0.0290            .
+extraversion:status[T.ended]                              -0.2830   0.1856 -1.5252 0.1274  -0.6470  0.0809            .
+education_level[T.Doctoral]:Scope                          0.9038   0.6095  1.4829 0.1383  -0.2916  2.0992            .
+neuroticism:LifeEventType[T.School]                        2.3517   1.6040  1.4661 0.1428  -0.7945  5.4978            .
+age:LifeEventType[T.Local]                                 0.0546   0.0372  1.4657 0.1429  -0.0185  0.1276            .
+age:significance                                          -0.0106   0.0073 -1.4518 0.1467  -0.0248  0.0037            .
+pos_affect:status[T.ended]                                 0.0318   0.0221  1.4349 0.1515  -0.0117  0.0752            .
+LifeEventType[T.Health]:type[T.Survey]                    -0.6543   0.4615 -1.4176 0.1565  -1.5596  0.2510            .
+stai_trait:LifeEventType[T.Local]                          0.0647   0.0457  1.4155 0.1571  -0.0249  0.1543            .
+Scope:type[T.Survey]                                       0.1967   0.1410  1.3955 0.1631  -0.0798  0.4732            .
+LifeEventType[T.School]:type[T.Survey]                    -1.1809   0.8493 -1.3904 0.1646  -2.8467  0.4849            .
+shipley_abs:recency                                        0.0002   0.0001  1.3884 0.1652  -0.0001  0.0005            .
+neuroticism:Scope                                         -0.2169   0.1563 -1.3875 0.1655  -0.5234  0.0897            .
+extraversion:LifeEventType[T.Personal]                    -0.3842   0.2770 -1.3871 0.1656  -0.9275  0.1591            .
+education_level[T.Graduate]                                1.1696   0.8433  1.3869 0.1657  -0.4845  2.8237            .
+psqi:valence                                               0.0168   0.0121  1.3849 0.1663  -0.0070  0.0406            .
+extraversion:Intimacy                                     -0.1063   0.0782 -1.3590 0.1743  -0.2597  0.0471            .
+extraversion:LifeEventType[T.School]                      -0.5683   0.4207 -1.3508 0.1769  -1.3935  0.2569            .
+valence:type[T.Survey]                                    -0.0825   0.0613 -1.3446 0.1789  -0.2027  0.0378            .
+gender[T.Male]:Intimacy                                   -0.1233   0.0932 -1.3225 0.1862  -0.3062  0.0596            .
+stai_trait:recency                                         0.0001   0.0001  1.2943 0.1958  -0.0001  0.0003            .
+stai_trait:status[T.Ongoing]                               0.0147   0.0114  1.2843 0.1992  -0.0077  0.0371            .
+stai_trait:status[T.ended]                                -0.0273   0.0214 -1.2794 0.2009  -0.0692  0.0146            .
+education_level[T.Doctoral]:status[T.Ongoing]             -0.3612   0.2847 -1.2688 0.2047  -0.9197  0.1972            .
+LifeEventType[T.Health]                                   -6.1160   4.8377 -1.2642 0.2063 -15.6048  3.3728            .
+shipley_abs:LifeEventType[T.Work]                         -0.0831   0.0667 -1.2467 0.2127  -0.2139  0.0477            .
+neg_affect:Anticipation[T.Unanticipated]                   0.0212   0.0172  1.2356 0.2168  -0.0124  0.0548            .
+stai_trait:LifeEventType[T.Health]                         0.0506   0.0415  1.2201 0.2226  -0.0307  0.1319            .
+shipley_vocab:LifeEventType[T.Work]                        0.2190   0.1817  1.2048 0.2284  -0.1375  0.5754            .
+pos_affect:Scope                                          -0.0180   0.0150 -1.2046 0.2285  -0.0474  0.0113            .
+shipley_vocab:valence                                      0.0113   0.0095  1.1927 0.2332  -0.0073  0.0299            .
+shipley_vocab:Intimacy                                    -0.0168   0.0144 -1.1671 0.2433  -0.0452  0.0115            .
+shipley_vocab:LifeEventType[T.Health]                      0.2132   0.1836  1.1612 0.2457  -0.1470  0.5734            .
+extraversion:recency                                       0.0008   0.0007  1.1601 0.2462  -0.0006  0.0021            .
+agreeableness:status[T.ended]                             -0.2106   0.1832 -1.1494 0.2505  -0.5700  0.1488            .
+pos_affect:Intimacy                                        0.0129   0.0113  1.1443 0.2527  -0.0092  0.0351            .
+psqi:LifeEventType[T.Local]                                0.1101   0.0971  1.1343 0.2569  -0.0803  0.3005            .
+psqi:Scope                                                 0.0344   0.0305  1.1255 0.2606  -0.0255  0.0943            .
+stai_trait:Intimacy                                       -0.0115   0.0102 -1.1206 0.2626  -0.0316  0.0086            .
+pos_affect:LifeEventType[T.School]                         0.1806   0.1614  1.1185 0.2635  -0.1361  0.4972            .
+neuroticism:status[T.ended]                                0.2320   0.2087  1.1118 0.2664  -0.1773  0.6414            .
+education_level[T.Graduate]:LifeEventType[T.Health]       -0.5628   0.5135 -1.0960 0.2732  -1.5700  0.4444            .
+shipley_abs:status[T.ended]                                0.0416   0.0388  1.0717 0.2840  -0.0345  0.1176            .
+pos_affect:significance                                   -0.0176   0.0164 -1.0706 0.2845  -0.0498  0.0146            .
+shipley_vocab:LifeEventType[T.Personal]                    0.1908   0.1807  1.0561 0.2911  -0.1636  0.5453            .
+openness:Scope                                            -0.1138   0.1084 -1.0501 0.2938  -0.3263  0.0988            .
+shipley_vocab                                             -0.2208   0.2118 -1.0424 0.2974  -0.6363  0.1947            .
+shipley_vocab:Anticipation[T.Unanticipated]                0.0189   0.0182  1.0392 0.2989  -0.0168  0.0545            .
+education_level[T.Doctoral]:significance                  -1.1200   1.0778 -1.0391 0.2989  -3.2340  0.9940            .
+education_level[T.Doctoral]:LifeEventType[T.Local]         0.9068   0.9034  1.0037 0.3157  -0.8652  2.6788            .
+age:Anticipation[T.Unanticipated]                         -0.0059   0.0059 -1.0031 0.3159  -0.0175  0.0057            .
+education_level[T.Doctoral]:status[T.ended]                0.7542   0.7686  0.9812 0.3266  -0.7534  2.2618            .
+age:LifeEventType[T.School]                               -0.0428   0.0439 -0.9745 0.3299  -0.1288  0.0433            .
+Scope                                                     -1.4617   1.5172 -0.9634 0.3355  -4.4376  1.5142            .
+conscientiousness:significance                             0.1230   0.1285  0.9575 0.3385  -0.1290  0.3749            .
+education_level[T.Graduate]:status[T.ended]               -0.2008   0.2100 -0.9559 0.3393  -0.6127  0.2112            .
+neg_affect:recency                                         0.0001   0.0001  0.9535 0.3405  -0.0001  0.0003            .
+openness:Anticipation[T.Unanticipated]                    -0.0950   0.1003 -0.9476 0.3435  -0.2917  0.1017            .
+gender[T.Male]:LifeEventType[T.School]                     0.7224   0.7623  0.9476 0.3435  -0.7729  2.2176            .
+education_level[T.High]:status[T.Ongoing]                  0.5689   0.6063  0.9383 0.3482  -0.6203  1.7580            .
+valence                                                    0.5765   0.6183  0.9324 0.3512  -0.6362  1.7892            .
+education_level[T.Graduate]:status[T.Ongoing]             -0.0972   0.1053 -0.9226 0.3563  -0.3038  0.1094            .
+stai_trait:Scope                                           0.0143   0.0155  0.9208 0.3573  -0.0162  0.0448            .
+neg_affect:Scope                                           0.0160   0.0175  0.9162 0.3597  -0.0183  0.0503            .
+education_level[T.High]:LifeEventType[T.School]           -0.0000   0.0000 -0.8998 0.3684  -0.0000  0.0000            .
+conscientiousness:Intimacy                                -0.0740   0.0829 -0.8924 0.3723  -0.2367  0.0887            .
+psqi:recency                                              -0.0001   0.0002 -0.8579 0.3911  -0.0004  0.0002            .
+neuroticism:recency                                       -0.0007   0.0008 -0.8488 0.3961  -0.0023  0.0009            .
+LifeEventType[T.Work]:type[T.Survey]                      -0.3555   0.4262 -0.8342 0.4043  -1.1915  0.4805            .
+pos_affect:valence                                         0.0055   0.0067  0.8178 0.4136  -0.0076  0.0185            .
+psqi:LifeEventType[T.Health]                               0.0686   0.0846  0.8109 0.4175  -0.0974  0.2346            .
+education_level[T.Graduate]:Intimacy                       0.0767   0.0962  0.7967 0.4258  -0.1121  0.2654            .
+neuroticism:significance                                   0.1209   0.1519  0.7959 0.4262  -0.1771  0.4189            .
+extraversion                                              -0.5367   0.6776 -0.7921 0.4284  -1.8659  0.7924            .
+status[T.ended]:type[T.Survey]                             0.0000   0.0000  0.7815 0.4346  -0.0000  0.0000            .
+conscientiousness:status[T.Ongoing]                       -0.0766   0.0983 -0.7794 0.4359  -0.2694  0.1162            .
+agreeableness:significance                                 0.1016   0.1339  0.7585 0.4483  -0.1611  0.3643            .
+shipley_vocab:LifeEventType[T.Local]                       0.1384   0.1839  0.7526 0.4518  -0.2223  0.4991            .
+openness                                                  -0.7969   1.0638 -0.7491 0.4539  -2.8834  1.2896            .
+neuroticism                                               -0.6873   0.9286 -0.7402 0.4593  -2.5086  1.1340            .
+openness:LifeEventType[T.School]                           0.7183   0.9732  0.7381 0.4606  -1.1906  2.6272            .
+extraversion:LifeEventType[T.Local]                        0.2444   0.3403  0.7180 0.4728  -0.4232  0.9119            .
+neg_affect:status[T.ended]                                 0.0175   0.0260  0.6746 0.5000  -0.0334  0.0685            .
+conscientiousness:LifeEventType[T.Local]                   0.3558   0.5342  0.6661 0.5055  -0.6919  1.4035            .
+Intimacy:type[T.Survey]                                   -0.0591   0.0892 -0.6625 0.5077  -0.2341  0.1159            .
+shipley_abs:LifeEventType[T.Local]                        -0.0483   0.0752 -0.6427 0.5205  -0.1957  0.0991            .
+education_level[T.Graduate]:Scope                         -0.0918   0.1454 -0.6316 0.5277  -0.3770  0.1933            .
+stai_trait:valence                                        -0.0037   0.0058 -0.6279 0.5302  -0.0151  0.0078            .
+agreeableness:Intimacy                                    -0.0582   0.0939 -0.6197 0.5356  -0.2424  0.1260            .
+gender[T.Male]:status[T.Ongoing]                           0.0668   0.1081  0.6181 0.5366  -0.1452  0.2788            .
+significance                                               0.8973   1.4685  0.6110 0.5413  -1.9832  3.7778            .
+psqi:LifeEventType[T.Personal]                             0.0451   0.0780  0.5781 0.5633  -0.1079  0.1980            .
+education_level[T.Doctoral]:LifeEventType[T.Work]         -0.4214   0.7578 -0.5562 0.5782  -1.9077  1.0649            .
+education_level[T.High]:significance                      -0.3928   0.7139 -0.5501 0.5823  -1.7931  1.0076            .
+conscientiousness:LifeEventType[T.Personal]                0.2661   0.4945  0.5381 0.5906  -0.7038  1.2360            .
+psqi:Intimacy                                              0.0107   0.0200  0.5356 0.5923  -0.0285  0.0499            .
+agreeableness                                              0.4411   0.8368  0.5272 0.5981  -1.2002  2.0824            .
+psqi:status[T.Ongoing]                                     0.0108   0.0207  0.5229 0.6011  -0.0298  0.0514            .
+pos_affect                                                -0.0868   0.1668 -0.5206 0.6027  -0.4141  0.2404            .
+psqi:LifeEventType[T.School]                              -0.0579   0.1114 -0.5200 0.6032  -0.2765  0.1606            .
+education_level[T.High]:LifeEventType[T.Health]           -0.6139   1.1975 -0.5126 0.6083  -2.9628  1.7350            .
+neuroticism:Intimacy                                       0.0456   0.0893  0.5100 0.6101  -0.1296  0.2207            .
+age:Intimacy                                              -0.0025   0.0050 -0.5100 0.6101  -0.0124  0.0073            .
+agreeableness:Anticipation[T.Unanticipated]                0.0559   0.1135  0.4926 0.6223  -0.1668  0.2786            .
+education_level[T.Doctoral]:LifeEventType[T.Personal]     -0.2741   0.5743 -0.4773 0.6332  -1.4006  0.8524            .
+education_level[T.High]:LifeEventType[T.Personal]         -0.3632   0.7930 -0.4580 0.6470  -1.9186  1.1922            .
+shipley_abs:Anticipation[T.Unanticipated]                 -0.0082   0.0183 -0.4455 0.6560  -0.0441  0.0278            .
+age:status[T.ended]                                       -0.0041   0.0093 -0.4436 0.6574  -0.0223  0.0141            .
+Anticipation[T.Unanticipated]                              0.4741   1.0753  0.4409 0.6594  -1.6350  2.5832            .
+openness:valence                                          -0.0205   0.0485 -0.4234 0.6721  -0.1156  0.0745            .
+gender[T.Male]:status[T.ended]                             0.0878   0.2093  0.4194 0.6750  -0.3227  0.4983            .
+age:LifeEventType[T.Personal]                              0.0131   0.0344  0.3809 0.7033  -0.0543  0.0805            .
+gender[T.Male]:recency                                    -0.0003   0.0008 -0.3767 0.7065  -0.0019  0.0013            .
+LifeEventType[T.Personal]:type[T.Survey]                  -0.1453   0.3938 -0.3689 0.7123  -0.9177  0.6272            .
+education_level[T.Graduate]:recency                       -0.0003   0.0008 -0.3574 0.7208  -0.0019  0.0013            .
+age:valence                                                0.0011   0.0030  0.3557 0.7221  -0.0048  0.0069            .
+LifeEventType[T.School]                                   -2.5741   7.3453 -0.3504 0.7261 -16.9814 11.8333            .
+extraversion:Anticipation[T.Unanticipated]                 0.0324   0.0929  0.3489 0.7272  -0.1499  0.2147            .
+shipley_vocab:status[T.ended]                              0.0096   0.0274  0.3482 0.7278  -0.0443  0.0634            .
+openness:LifeEventType[T.Local]                           -0.3026   0.8753 -0.3457 0.7296  -2.0195  1.4143            .
+psqi                                                      -0.0605   0.1803 -0.3355 0.7373  -0.4142  0.2932            .
+education_level[T.High]:Anticipation[T.Unanticipated]      0.1001   0.3102  0.3226 0.7471  -0.5084  0.7086            .
+shipley_abs:Scope                                         -0.0070   0.0218 -0.3194 0.7494  -0.0497  0.0357            .
+education_level[T.Doctoral]:recency                       -0.0009   0.0027 -0.3179 0.7506  -0.0061  0.0044            .
+education_level[T.Graduate]:Anticipation[T.Unanticipated] -0.0351   0.1112 -0.3155 0.7524  -0.2532  0.1830            .
+education_level[T.High]:Scope                             -0.2219   0.7047 -0.3149 0.7529  -1.6041  1.1603            .
+LifeEventType[T.Local]:type[T.Survey]                     -0.1438   0.4611 -0.3118 0.7552  -1.0482  0.7607            .
+Anticipation[T.Unanticipated]:type[T.Survey]               0.0334   0.1126  0.2963 0.7671  -0.1875  0.2543            .
+openness:status[T.ended]                                   0.0457   0.1590  0.2873 0.7739  -0.2662  0.3576            .
+neuroticism:status[T.Ongoing]                             -0.0339   0.1275 -0.2660 0.7903  -0.2841  0.2162            .
+education_level[T.Graduate]:valence                       -0.0144   0.0567 -0.2545 0.7991  -0.1256  0.0968            .
+agreeableness:status[T.Ongoing]                           -0.0255   0.1027 -0.2479 0.8042  -0.2269  0.1760            .
+age:status[T.Ongoing]                                     -0.0013   0.0055 -0.2417 0.8090  -0.0121  0.0094            .
+education_level[T.High]                                    0.8477   3.6135  0.2346 0.8146  -6.2400  7.9353            .
+shipley_abs:LifeEventType[T.School]                       -0.0240   0.1030 -0.2328 0.8159  -0.2261  0.1781            .
+shipley_vocab:recency                                      0.0000   0.0001  0.2110 0.8329  -0.0002  0.0003            .
+education_level[T.Doctoral]                                0.4014   1.9355  0.2074 0.8357  -3.3948  4.1977            .
+age:LifeEventType[T.Health]                               -0.0074   0.0368 -0.2020 0.8400  -0.0797  0.0648            .
+education_level[T.High]:valence                            0.0633   0.3218  0.1968 0.8440  -0.5679  0.6946            .
+education_level[T.Doctoral]:Intimacy                      -0.0751   0.3883 -0.1935 0.8466  -0.8368  0.6865            .
+conscientiousness:LifeEventType[T.School]                  0.1396   0.7527  0.1855 0.8529  -1.3368  1.6160            .
+psqi:Anticipation[T.Unanticipated]                         0.0039   0.0225  0.1748 0.8612  -0.0401  0.0480            .
+education_level[T.Doctoral]:LifeEventType[T.School]        0.1902   1.1380  0.1671 0.8673  -2.0418  2.4222            .
+education_level[T.High]:LifeEventType[T.Work]             -0.1714   1.0920 -0.1570 0.8753  -2.3132  1.9703            .
+gender[T.Male]:LifeEventType[T.Local]                      0.0767   0.4885  0.1570 0.8753  -0.8815  1.0348            .
+education_level[T.High]:recency                           -0.0007   0.0044 -0.1486 0.8819  -0.0093  0.0080            .
+extraversion:valence                                      -0.0067   0.0494 -0.1365 0.8914  -0.1036  0.0901            .
+openness:LifeEventType[T.Health]                           0.1152   0.8852  0.1301 0.8965  -1.6211  1.8515            .
+stai_trait:LifeEventType[T.School]                        -0.0201   0.1594 -0.1258 0.8999  -0.3327  0.2925            .
+conscientiousness:status[T.ended]                         -0.0213   0.1810 -0.1175 0.9065  -0.3762  0.3337            .
+shipley_vocab:LifeEventType[T.School]                      0.0267   0.2284  0.1171 0.9068  -0.4213  0.4748            .
+gender[T.Male]                                            -0.1011   0.8687 -0.1164 0.9074  -1.8050  1.6028            .
+conscientiousness:valence                                  0.0060   0.0522  0.1149 0.9085  -0.0965  0.1085            .
+shipley_abs                                               -0.0160   0.1465 -0.1095 0.9128  -0.3034  0.2713            .
+significance:type[T.Survey]                               -0.0175   0.1648 -0.1059 0.9156  -0.3407  0.3058            .
+age:LifeEventType[T.Work]                                  0.0037   0.0363  0.1025 0.9184  -0.0675  0.0750            .
+openness:LifeEventType[T.Work]                            -0.0887   0.8800 -0.1007 0.9198  -1.8148  1.6375            .
+psqi:LifeEventType[T.Work]                                -0.0077   0.0806 -0.0957 0.9238  -0.1658  0.1504            .
+neg_affect:status[T.Ongoing]                               0.0011   0.0142  0.0767 0.9388  -0.0267  0.0288            .
+shipley_abs:Intimacy                                      -0.0011   0.0149 -0.0708 0.9436  -0.0302  0.0281            .
+education_level[T.High]:Intimacy                           0.0237   0.4049  0.0585 0.9534  -0.7706  0.8179            .
+stai_trait:significance                                   -0.0007   0.0139 -0.0496 0.9605  -0.0279  0.0266            .
+openness:LifeEventType[T.Personal]                        -0.0387   0.8622 -0.0448 0.9642  -1.7298  1.6524            .
+shipley_vocab:Scope                                        0.0008   0.0197  0.0421 0.9665  -0.0378  0.0394            .
+conscientiousness:LifeEventType[T.Work]                   -0.0211   0.5113 -0.0412 0.9671  -1.0239  0.9818            .
+psqi:significance                                          0.0010   0.0286  0.0350 0.9721  -0.0550  0.0570            .
+conscientiousness:LifeEventType[T.Health]                 -0.0147   0.5539 -0.0266 0.9788  -1.1011  1.0717            .
+openness:Intimacy                                          0.0012   0.0791  0.0155 0.9877  -0.1538  0.1563            .
+neg_affect:Intimacy                                        0.0001   0.0155  0.0095 0.9925  -0.0302  0.0305            .
+agreeableness:LifeEventType[T.School]                     -0.0069   0.8497 -0.0081 0.9935  -1.6735  1.6597            .
+education_level[T.High]:status[T.ended]                   -0.0010   0.7420 -0.0014 0.9989  -1.4563  1.4543            .
+-----------------------------------------------------------------------------------------------------------------------
+Omnibus:                             97.938                     Durbin-Watson:                        1.102            
+Prob(Omnibus):                       0.000                      Jarque-Bera (JB):                     149.014          
+Skew:                                0.448                      Prob(JB):                             0.000            
+Kurtosis:                            4.059                      Condition No.:                        10055347257865402
+=======================================================================================================================
+* The condition number is large (1e+16). This might indicate             strong multicollinearity or other numerical
+problems.

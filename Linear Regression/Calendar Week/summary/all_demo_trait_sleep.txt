@@ -1,42 +1,37 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                  sleep   R-squared:                       0.371
-Model:                            OLS   Adj. R-squared:                  0.302
-Method:                 Least Squares   F-statistic:                     5.381
-Date:                Mon, 31 Oct 2022   Prob (F-statistic):           7.34e-09
-Time:                        13:16:44   Log-Likelihood:                -265.93
-No. Observations:                 163   AIC:                             565.9
-Df Residuals:                     146   BIC:                             618.5
-Df Model:                          16                                         
-Covariance Type:            nonrobust                                         
-===============================================================================================
-                                  coef    std err          t      P>|t|      [0.025      0.975]
------------------------------------------------------------------------------------------------
-Intercept                       3.8068      5.680      0.670      0.504      -7.420      15.033
-education_level[T.Doctoral]     2.2733      1.200      1.894      0.060      -0.099       4.646
-education_level[T.Graduate]     0.6397      0.491      1.302      0.195      -0.331       1.611
-education_level[T.High]        -0.5904      0.806     -0.732      0.465      -2.184       1.003
-gender[T.Male]                 -1.0168      0.582     -1.746      0.083      -2.167       0.134
-shipley_vocab                   0.1418      0.079      1.796      0.075      -0.014       0.298
-shipley_abs                    -0.1196      0.057     -2.083      0.039      -0.233      -0.006
-openness                       -0.2805      0.342     -0.819      0.414      -0.957       0.396
-conscientiousness              -0.1467      0.320     -0.458      0.648      -0.780       0.487
-extraversion                   -0.0826      0.337     -0.245      0.807      -0.750       0.584
-agreeableness                   0.1541      0.481      0.320      0.749      -0.796       1.105
-neuroticism                     0.2077      0.508      0.409      0.683      -0.796       1.211
-pos_affect                      0.0829      0.070      1.179      0.240      -0.056       0.222
-neg_affect                     -0.1700      0.076     -2.247      0.026      -0.320      -0.020
-stai_trait                      0.0883      0.045      1.978      0.050    7.88e-05       0.176
-psqi                           -0.1011      0.081     -1.247      0.215      -0.261       0.059
-age                            -0.0145      0.027     -0.544      0.587      -0.067       0.038
-==============================================================================
-Omnibus:                        0.078   Durbin-Watson:                   0.757
-Prob(Omnibus):                  0.962   Jarque-Bera (JB):                0.173
-Skew:                          -0.047   Prob(JB):                        0.917
-Kurtosis:                       2.871   Cond. No.                     4.37e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 4.37e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.
+                            Results: Ordinary least squares
+========================================================================================
+Model:                       OLS                     Adj. R-squared:            0.302   
+Dependent Variable:          sleep                   AIC:                       565.8657
+Date:                        2022-11-07 17:31        BIC:                       618.4594
+No. Observations:            163                     Log-Likelihood:            -265.93 
+Df Model:                    16                      F-statistic:               5.381   
+Df Residuals:                146                     Prob (F-statistic):        7.34e-09
+R-squared:                   0.371                   Scale:                     1.7079  
+----------------------------------------------------------------------------------------
+                             Coef.  Std.Err.    t    P>|t|   [0.025  0.975] significance
+----------------------------------------------------------------------------------------
+neg_affect                  -0.1700   0.0757 -2.2471 0.0261 -0.3195 -0.0205            *
+shipley_abs                 -0.1196   0.0574 -2.0831 0.0390 -0.2332 -0.0061            *
+stai_trait                   0.0883   0.0446  1.9781 0.0498  0.0001  0.1764            *
+education_level[T.Doctoral]  2.2733   1.2003  1.8939 0.0602 -0.0990  4.6455            .
+shipley_vocab                0.1418   0.0790  1.7961 0.0745 -0.0142  0.2979            .
+gender[T.Male]              -1.0168   0.5822 -1.7465 0.0828 -2.1674  0.1338            .
+education_level[T.Graduate]  0.6397   0.4913  1.3019 0.1950 -0.3314  1.6108            .
+psqi                        -0.1011   0.0811 -1.2466 0.2145 -0.2615  0.0592            .
+pos_affect                   0.0829   0.0703  1.1791 0.2403 -0.0560  0.2218            .
+openness                    -0.2805   0.3423 -0.8192 0.4140 -0.9570  0.3961            .
+education_level[T.High]     -0.5904   0.8063 -0.7323 0.4651 -2.1839  1.0030            .
+Intercept                    3.8068   5.6804  0.6702 0.5038 -7.4197 15.0333            .
+age                         -0.0145   0.0266 -0.5437 0.5875 -0.0671  0.0382            .
+conscientiousness           -0.1467   0.3205 -0.4576 0.6479 -0.7801  0.4868            .
+neuroticism                  0.2077   0.5078  0.4090 0.6832 -0.7959  1.2113            .
+agreeableness                0.1541   0.4810  0.3204 0.7491 -0.7965  1.1047            .
+extraversion                -0.0826   0.3375 -0.2446 0.8071 -0.7495  0.5844            .
+----------------------------------------------------------------------------------------
+Omnibus:                      0.078                Durbin-Watson:                  0.757
+Prob(Omnibus):                0.962                Jarque-Bera (JB):               0.173
+Skew:                         -0.047               Prob(JB):                       0.917
+Kurtosis:                     2.871                Condition No.:                  4366 
+========================================================================================
+* The condition number is large (4e+03). This might indicate             strong
+multicollinearity or other numerical problems.

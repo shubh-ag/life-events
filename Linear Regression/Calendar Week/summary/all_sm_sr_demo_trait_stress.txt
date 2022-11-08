@@ -1,65 +1,60 @@
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                 stress   R-squared:                       0.507
-Model:                            OLS   Adj. R-squared:                  0.383
-Method:                 Least Squares   F-statistic:                     4.109
-Date:                Mon, 31 Oct 2022   Prob (F-statistic):           1.60e-10
-Time:                        13:16:43   Log-Likelihood:                -204.71
-No. Observations:                 196   AIC:                             489.4
-Df Residuals:                     156   BIC:                             620.5
-Df Model:                          39                                         
-Covariance Type:            nonrobust                                         
-====================================================================================================
-                                       coef    std err          t      P>|t|      [0.025      0.975]
-----------------------------------------------------------------------------------------------------
-Intercept                            5.7792      4.686      1.233      0.219      -3.478      15.036
-education_level[T.Doctoral]         -0.9635      0.948     -1.017      0.311      -2.836       0.909
-education_level[T.Graduate]          1.0625      0.382      2.783      0.006       0.308       1.817
-education_level[T.High]             -0.5241      0.658     -0.796      0.427      -1.824       0.776
-gender[T.Male]                       0.4195      0.392      1.071      0.286      -0.354       1.194
-Anticipation_sr[T.Unanticipated]    -0.2699      0.349     -0.772      0.441      -0.960       0.420
-LifeEventType_sr[T.Health]          -0.7177      0.887     -0.809      0.420      -2.470       1.034
-LifeEventType_sr[T.Local]           -0.8207      0.903     -0.909      0.365      -2.605       0.963
-LifeEventType_sr[T.Personal]        -0.7991      0.643     -1.242      0.216      -2.070       0.472
-LifeEventType_sr[T.Work]            -0.4801      0.666     -0.720      0.472      -1.796       0.836
-status_sr[T.Ongoing]                 0.4623      0.602      0.768      0.443      -0.726       1.651
-Anticipation_sm[T.Unanticipated]     0.0528      0.181      0.292      0.771      -0.304       0.410
-LifeEventType_sm[T.Health]           0.1242      0.521      0.239      0.812      -0.904       1.153
-LifeEventType_sm[T.Local]           -1.7344      0.620     -2.796      0.006      -2.960      -0.509
-LifeEventType_sm[T.Personal]        -1.3382      0.397     -3.373      0.001      -2.122      -0.555
-LifeEventType_sm[T.School]          -1.3496      0.552     -2.443      0.016      -2.441      -0.258
-LifeEventType_sm[T.Work]            -0.5115      0.514     -0.995      0.321      -1.527       0.504
-status_sm[T.ended]                   0.8365      0.266      3.140      0.002       0.310       1.363
-shipley_vocab                       -0.0709      0.061     -1.157      0.249      -0.192       0.050
-shipley_abs                         -0.0283      0.042     -0.672      0.503      -0.112       0.055
-openness                             0.1615      0.236      0.683      0.495      -0.305       0.629
-conscientiousness                   -0.1097      0.302     -0.363      0.717      -0.706       0.487
-extraversion                        -0.1174      0.262     -0.448      0.655      -0.635       0.401
-agreeableness                        0.4748      0.402      1.181      0.239      -0.319       1.269
-neuroticism                         -0.3335      0.387     -0.861      0.391      -1.099       0.432
-pos_affect                          -0.0597      0.062     -0.956      0.341      -0.183       0.064
-neg_affect                           0.0650      0.051      1.274      0.205      -0.036       0.166
-stai_trait                           0.0064      0.032      0.198      0.843      -0.058       0.070
-psqi                                -0.0732      0.074     -0.992      0.322      -0.219       0.073
-age                                 -0.0368      0.026     -1.427      0.156      -0.088       0.014
-valence_sr                          -0.2818      0.208     -1.356      0.177      -0.692       0.129
-recency_sr                          -2.8943     14.441     -0.200      0.841     -31.420      25.631
-Intimacy_sr                         -0.5354      0.310     -1.727      0.086      -1.148       0.077
-Scope_sr                             0.4590      0.411      1.116      0.266      -0.353       1.271
-significance_sr                     -0.3212      0.466     -0.690      0.491      -1.241       0.598
-valence_sm                          -0.2517      0.126     -2.000      0.047      -0.500      -0.003
-recency_sm                           5.9977     12.708      0.472      0.638     -19.104      31.100
-Intimacy_sm                         -0.2541      0.182     -1.399      0.164      -0.613       0.105
-Scope_sm                            -0.0352      0.250     -0.141      0.888      -0.528       0.458
-significance_sm                      0.8409      0.328      2.563      0.011       0.193       1.489
-==============================================================================
-Omnibus:                        8.681   Durbin-Watson:                   0.900
-Prob(Omnibus):                  0.013   Jarque-Bera (JB):               16.996
-Skew:                          -0.037   Prob(JB):                     0.000204
-Kurtosis:                       4.441   Cond. No.                     2.73e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 2.73e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.
+                               Results: Ordinary least squares
+==============================================================================================
+Model:                         OLS                       Adj. R-squared:              0.383   
+Dependent Variable:            stress                    AIC:                         489.4178
+Date:                          2022-11-07 17:31          BIC:                         620.5424
+No. Observations:              196                       Log-Likelihood:              -204.71 
+Df Model:                      39                        F-statistic:                 4.109   
+Df Residuals:                  156                       Prob (F-statistic):          1.60e-10
+R-squared:                     0.507                     Scale:                       0.59407 
+----------------------------------------------------------------------------------------------
+                                  Coef.  Std.Err.    t    P>|t|   [0.025   0.975] significance
+----------------------------------------------------------------------------------------------
+LifeEventType_sm[T.Personal]     -1.3382   0.3967 -3.3731 0.0009  -2.1218 -0.5545          ***
+status_sm[T.ended]                0.8365   0.2664  3.1405 0.0020   0.3104  1.3627           **
+LifeEventType_sm[T.Local]        -1.7344   0.6203 -2.7959 0.0058  -2.9597 -0.5091           **
+education_level[T.Graduate]       1.0625   0.3818  2.7829 0.0061   0.3083  1.8167           **
+significance_sm                   0.8409   0.3281  2.5629 0.0113   0.1928  1.4890            *
+LifeEventType_sm[T.School]       -1.3496   0.5524 -2.4431 0.0157  -2.4408 -0.2584            *
+valence_sm                       -0.2517   0.1258 -2.0003 0.0472  -0.5003 -0.0032            *
+Intimacy_sr                      -0.5354   0.3100 -1.7272 0.0861  -1.1478  0.0769            .
+age                              -0.0368   0.0258 -1.4272 0.1555  -0.0877  0.0141            .
+Intimacy_sm                      -0.2541   0.1816 -1.3988 0.1639  -0.6128  0.1047            .
+valence_sr                       -0.2818   0.2078 -1.3562 0.1770  -0.6922  0.1286            .
+neg_affect                        0.0650   0.0510  1.2741 0.2045  -0.0358  0.1658            .
+LifeEventType_sr[T.Personal]     -0.7991   0.6434 -1.2421 0.2161  -2.0700  0.4717            .
+Intercept                         5.7792   4.6864  1.2332 0.2194  -3.4779 15.0363            .
+agreeableness                     0.4748   0.4019  1.1814 0.2392  -0.3191  1.2687            .
+shipley_vocab                    -0.0709   0.0613 -1.1571 0.2490  -0.1919  0.0501            .
+Scope_sr                          0.4590   0.4112  1.1164 0.2660  -0.3531  1.2712            .
+gender[T.Male]                    0.4195   0.3919  1.0706 0.2860  -0.3545  1.1936            .
+education_level[T.Doctoral]      -0.9635   0.9478 -1.0166 0.3109  -2.8356  0.9086            .
+LifeEventType_sm[T.Work]         -0.5115   0.5139 -0.9953 0.3212  -1.5267  0.5037            .
+psqi                             -0.0732   0.0738 -0.9925 0.3225  -0.2190  0.0725            .
+pos_affect                       -0.0597   0.0624 -0.9557 0.3407  -0.1830  0.0637            .
+LifeEventType_sr[T.Local]        -0.8207   0.9032 -0.9086 0.3649  -2.6048  0.9634            .
+neuroticism                      -0.3335   0.3873 -0.8609 0.3906  -1.0986  0.4316            .
+LifeEventType_sr[T.Health]       -0.7177   0.8869 -0.8092 0.4196  -2.4697  1.0343            .
+education_level[T.High]          -0.5241   0.6581 -0.7964 0.4270  -1.8239  0.7758            .
+Anticipation_sr[T.Unanticipated] -0.2699   0.3495 -0.7724 0.4411  -0.9602  0.4204            .
+status_sr[T.Ongoing]              0.4623   0.6016  0.7685 0.4434  -0.7261  1.6507            .
+LifeEventType_sr[T.Work]         -0.4801   0.6664 -0.7204 0.4723  -1.7964  0.8363            .
+significance_sr                  -0.3212   0.4656 -0.6899 0.4913  -1.2409  0.5984            .
+openness                          0.1615   0.2364  0.6832 0.4955  -0.3055  0.6286            .
+shipley_abs                      -0.0283   0.0422 -0.6719 0.5026  -0.1116  0.0550            .
+recency_sm                        5.9977  12.7080  0.4720 0.6376 -19.1043 31.0996            .
+extraversion                     -0.1174   0.2622 -0.4475 0.6551  -0.6354  0.4006            .
+conscientiousness                -0.1097   0.3020 -0.3631 0.7170  -0.7063  0.4870            .
+Anticipation_sm[T.Unanticipated]  0.0528   0.1808  0.2922 0.7705  -0.3043  0.4100            .
+LifeEventType_sm[T.Health]        0.1242   0.5207  0.2386 0.8117  -0.9043  1.1528            .
+recency_sr                       -2.8943  14.4412 -0.2004 0.8414 -31.4197 25.6311            .
+stai_trait                        0.0064   0.0324  0.1984 0.8430  -0.0575  0.0704            .
+Scope_sm                         -0.0352   0.2495 -0.1410 0.8881  -0.5280  0.4577            .
+----------------------------------------------------------------------------------------------
+Omnibus:                       8.681                  Durbin-Watson:                    0.900 
+Prob(Omnibus):                 0.013                  Jarque-Bera (JB):                 16.996
+Skew:                          -0.037                 Prob(JB):                         0.000 
+Kurtosis:                      4.441                  Condition No.:                    27324 
+==============================================================================================
+* The condition number is large (3e+04). This might indicate             strong
+multicollinearity or other numerical problems.

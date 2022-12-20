@@ -2,7 +2,7 @@
 ========================================================================================
 Model:                       OLS                     Adj. R-squared:            0.357   
 Dependent Variable:          anxiety                 AIC:                       283.0737
-Date:                        2022-12-20 09:12        BIC:                       334.0263
+Date:                        2022-12-20 09:51        BIC:                       334.0263
 No. Observations:            148                     Log-Likelihood:            -124.54 
 Df Model:                    16                      F-statistic:               6.105   
 Df Residuals:                131                     Prob (F-statistic):        6.62e-10

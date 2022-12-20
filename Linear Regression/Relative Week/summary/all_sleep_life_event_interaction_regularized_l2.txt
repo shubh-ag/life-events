@@ -2,7 +2,7 @@
 =============================================================================================================================
 Model:                                  OLS                                  Adj. R-squared:                         0.704   
 Dependent Variable:                     sleep                                AIC:                                    394.7170
-Date:                                   2022-12-20 09:11                     BIC:                                    688.4438
+Date:                                   2022-12-20 09:54                     BIC:                                    688.4438
 No. Observations:                       148                                  Log-Likelihood:                         -99.359 
 Df Model:                               97                                   F-statistic:                            4.607   
 Df Residuals:                           50                                   Prob (F-statistic):                     1.79e-08

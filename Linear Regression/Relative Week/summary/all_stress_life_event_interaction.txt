@@ -2,7 +2,7 @@
 ============================================================================================================================
 Model:                                   OLS                                 Adj. R-squared:                        0.728   
 Dependent Variable:                      stress                              AIC:                                   218.9994
-Date:                                    2022-12-20 09:11                    BIC:                                   512.7262
+Date:                                    2022-12-20 09:54                    BIC:                                   512.7262
 No. Observations:                        148                                 Log-Likelihood:                        -11.500 
 Df Model:                                97                                  F-statistic:                           5.060   
 Df Residuals:                            50                                  Prob (F-statistic):                    3.23e-09
